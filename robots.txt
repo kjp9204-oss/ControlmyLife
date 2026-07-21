@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kjp9204-oss.github.io/controlmylife/sitemap.xml
