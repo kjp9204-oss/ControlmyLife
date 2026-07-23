@@ -1,0 +1,8 @@
+여기에 이미지 파일을 넣으면 디자인이 바로 살아납니다.
+권장 파일명:
+- site-hero.jpg: 첫 화면 큰 배경
+- culture.jpg: 컬처 대표 이미지
+- handpt.jpg: HandPT 대표 이미지
+- esports.jpg: e스포츠 대표 이미지
+- post-default.jpg: 글 상세페이지 기본 이미지
+이미지가 없어도 CSS 배경색으로 화면은 깨지지 않습니다.
