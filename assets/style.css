@@ -43,6 +43,34 @@ body.magazine-home{min-height:100vh;background:#f4f0e8;color:#111}
 .cover-choice small{max-width:430px;margin-top:18px;font-size:1rem;line-height:1.72;color:rgba(255,255,255,.84)}
 .cover-choice em{width:max-content;margin-top:28px;border-top:2px solid #fff;padding-top:8px;font-size:.82rem;font-style:normal;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
 .magazine-footer{height:48px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 32px;background:#111;color:#f4f0e8;font-size:.78rem;font-weight:800;letter-spacing:.04em}
+.magazine-list-page{max-width:1240px;margin:0 auto;padding:0 22px 72px}
+.list-hero{min-height:420px;margin:0 -22px 42px;padding:76px 32px 34px;display:flex;flex-direction:column;justify-content:flex-end;border-bottom:1px solid #111;color:#fff;position:relative;overflow:hidden;background:#111}
+.list-hero:before{content:"";position:absolute;inset:0;background-size:cover;background-position:center;filter:saturate(.95) contrast(1.04)}
+.list-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.84),rgba(0,0,0,.34) 52%,rgba(0,0,0,.12))}
+.personal-list-hero:before{background-image:url('images/culture.png')}
+.hand-list-hero:before{background-image:url('images/handpt-archive.png')}
+.list-hero>*{position:relative;z-index:1}
+.list-hero h1{max-width:900px;margin:0 0 18px;font-size:clamp(2.8rem,7vw,6.8rem);line-height:.94;letter-spacing:0;font-weight:900}
+.list-hero p:not(.eyebrow){max-width:720px;margin:0;font-size:1.08rem;line-height:1.76;color:rgba(255,255,255,.86);font-weight:700}
+.archive-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.archive-meta span{border:1px solid rgba(255,255,255,.52);padding:7px 10px;font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.editorial-block{margin:48px 0}
+.editorial-block h2{font-size:1.7rem;line-height:1.2;margin:0 0 20px;border-top:3px solid #111;padding-top:14px}
+.feature-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.feature-grid .archive-card{min-height:380px}
+.feature-grid .card-art{height:190px}
+.compact-grid{grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:14px}
+.compact-grid .archive-card{min-height:270px}
+.compact-grid .card-art{height:104px}
+.archive-card .card-art{background-size:cover;background-position:center}
+.archive-card[data-section="문화"] .card-art{background-image:linear-gradient(145deg,rgba(21,20,18,.10),rgba(21,20,18,.68)),url('images/culture.png')}
+.archive-card[data-section="문화"]:nth-child(3n+2) .card-art{background-image:linear-gradient(145deg,rgba(21,20,18,.10),rgba(21,20,18,.70)),url('images/site-hero.png');background-position:left center}
+.archive-card[data-section="문화"]:nth-child(3n) .card-art{background-image:linear-gradient(145deg,rgba(21,20,18,.12),rgba(21,20,18,.74)),url('images/post-default.png')}
+.archive-card[data-section="손목"] .card-art{background-image:linear-gradient(145deg,rgba(18,31,27,.10),rgba(18,31,27,.72)),url('images/handpt-archive.png')}
+.archive-card[data-section="손목"]:nth-child(3n+2) .card-art{background-image:linear-gradient(145deg,rgba(18,31,27,.10),rgba(18,31,27,.74)),url('images/aion-library.png')}
+.archive-card[data-section="손목"]:nth-child(3n) .card-art{background-image:linear-gradient(145deg,rgba(18,31,27,.14),rgba(18,31,27,.76)),url('images/post-default.png')}
+.compact-grid .archive-card .card-art:after{font-size:.68rem;letter-spacing:.16em}
+.feature-grid .archive-card h3{font-size:1.22rem}
 .hero{position:relative;min-height:82vh;padding:42px 24px 58px;display:grid;grid-template-columns:minmax(0,.92fr) minmax(360px,1.08fr);gap:34px;align-items:center;overflow:hidden;background:
   linear-gradient(120deg,rgba(247,241,232,.90),rgba(247,241,232,.60)),
   repeating-linear-gradient(90deg,rgba(56,111,143,.08) 0 1px,transparent 1px 76px),
@@ -108,6 +136,12 @@ main{max-width:1180px;margin:0 auto;padding:42px 22px 74px;display:flex;flex-dir
 .card[data-section*="손목"] .card-art{background:linear-gradient(135deg,#45694d,#efe0bd)}
 .card[data-section*="e스포츠"] .card-art{background:linear-gradient(135deg,#2d4d76,#b35d6a)}
 .card[data-section*="영화"],.card[data-section*="드라마"] .card-art{background:linear-gradient(135deg,#191a1e,#c6923a)}
+.archive-card[data-section="문화"] .card-art{background:linear-gradient(145deg,rgba(21,20,18,.10),rgba(21,20,18,.68)),url('images/culture.png');background-size:cover;background-position:center}
+.archive-card[data-section="문화"]:nth-child(3n+2) .card-art{background:linear-gradient(145deg,rgba(21,20,18,.10),rgba(21,20,18,.70)),url('images/site-hero.png');background-size:cover;background-position:left center}
+.archive-card[data-section="문화"]:nth-child(3n) .card-art{background:linear-gradient(145deg,rgba(21,20,18,.12),rgba(21,20,18,.74)),url('images/post-default.png');background-size:cover;background-position:center}
+.archive-card[data-section="손목"] .card-art{background:linear-gradient(145deg,rgba(18,31,27,.10),rgba(18,31,27,.72)),url('images/handpt-archive.png');background-size:cover;background-position:center}
+.archive-card[data-section="손목"]:nth-child(3n+2) .card-art{background:linear-gradient(145deg,rgba(18,31,27,.10),rgba(18,31,27,.74)),url('images/aion-library.png');background-size:cover;background-position:center}
+.archive-card[data-section="손목"]:nth-child(3n) .card-art{background:linear-gradient(145deg,rgba(18,31,27,.14),rgba(18,31,27,.76)),url('images/post-default.png');background-size:cover;background-position:center}
 .card-content{padding:18px 18px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card-badges{display:flex;flex-wrap:wrap;gap:6px;min-height:0}
 .badge{display:inline-flex;align-items:center;padding:3px 8px;border:1px solid rgba(34,31,29,.16);font-size:.72rem;color:var(--muted);background:rgba(255,255,255,.42);font-weight:700}
@@ -150,6 +184,9 @@ hr.div:after{content:'CONTROLMYLIFE';color:#c9bdad;letter-spacing:.34em;font-siz
   .cover-choice{min-height:330px;border-right:none;border-bottom:1px solid #111;padding:24px 18px}
   .cover-choice strong{font-size:2.35rem}
   .magazine-footer{height:auto;align-items:flex-start;flex-direction:column;padding:16px 18px}
+  .magazine-list-page{padding:0 16px 56px}
+  .list-hero{min-height:360px;margin:0 -16px 34px;padding:56px 18px 26px}
+  .feature-grid{grid-template-columns:1fr}
   .hero{grid-template-columns:1fr;min-height:auto;padding:42px 18px}
   .hero:after{width:70vw;height:170px;opacity:.18}
   .hero-panel{min-height:280px}
