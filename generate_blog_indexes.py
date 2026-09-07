@@ -1,5 +1,7 @@
 from pathlib import Path
+import argparse
 import html
+import json
 import re
 
 
@@ -26,10 +28,16 @@ def card(item: dict[str, str], kicker: str, section: str) -> str:
     title = html.escape(item["title"], quote=True)
     subtitle = html.escape(item["subtitle"], quote=True)
     href = html.escape(item["href"], quote=True)
+    cover = item.get("cover", "")
+    art = f'<div class="card-art" data-kicker="{kicker}"></div>'
+    if cover:
+        art = f'<div class="card-art has-cover" data-kicker="{kicker}" style="background-image:linear-gradient(0deg,rgba(0,0,0,.6),transparent),url(&quot;{html.escape(cover, quote=True)}&quot;)"></div>'
+    published = item.get("published", "")
+    date = f'<time class="card-date" datetime="{published}">{published[:10]}</time>' if published else ""
     return (
         f'<a class="card archive-card" data-section="{section}" href="{href}">'
-        f'<div class="card-art" data-kicker="{kicker}"></div>'
-        f'<div class="card-content"><h3>{title}</h3>'
+        f'{art}'
+        f'<div class="card-content">{date}<h3>{title}</h3>'
         f'<p class="card-desc">{subtitle}</p></div></a>'
     )
 
@@ -54,6 +62,7 @@ def write_hobby(personal: list[dict[str, str]]) -> None:
 <meta property="og:site_name" content="Control My Life">
 <meta property="og:locale" content="ko_KR">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/naver-posts.css">
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Blog","name":"Control My Life 취미·일상·컨텐츠 블로그","description":"김재필의 취미·일상·컨텐츠 매거진 블로그입니다.","inLanguage":"ko","url":"https://kjp9204-oss.github.io/ControlmyLife/hobby-blog.html","author":{{"@type":"Person","name":"김재필"}}}}</script>
 </head>
 <body>
@@ -66,7 +75,8 @@ def write_hobby(personal: list[dict[str, str]]) -> None:
 <div class="archive-meta"><span>전체 {len(personal)}편</span><span>Culture · Daily · Contents</span></div>
 </section>
 <section class="editorial-block">
-<p class="eyebrow">Featured</p>
+<p class="eyebrow">Latest Stories</p>
+<h2>최근 올라온 글</h2>
 <div class="grid feature-grid">
 {featured}
 </div>
@@ -150,9 +160,24 @@ def write_hand(hand: list[dict[str, str]]) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--personal-only", action="store_true", help="Do not regenerate Hand team pages")
+    args = parser.parse_args()
     personal = [post_info(path, "posts/") for path in sorted((ROOT / "posts").glob("*.html"))]
-    hand = [post_info(path, "posts/handpt/") for path in sorted((ROOT / "posts" / "handpt").glob("*.html"))]
+    manifest = ROOT / "data/naver-posts.json"
+    if manifest.exists():
+        metadata = {item["href"]: item for item in json.loads(manifest.read_text(encoding="utf-8"))}
+        for item in personal:
+            if item["href"] in metadata:
+                details = metadata[item["href"]]
+                item.update(details)
+                item["subtitle"] = details["description"]
+        personal.sort(key=lambda item: item.get("published", ""), reverse=True)
     write_hobby(personal)
+    if args.personal_only:
+        print(f"WROTE hobby={len(personal)}; Hand pages unchanged")
+        return
+    hand = [post_info(path, "posts/handpt/") for path in sorted((ROOT / "posts" / "handpt").glob("*.html"))]
     write_hand(hand)
     public_count = sum(1 for item in hand if "public" in item["href"])
     pro_count = sum(1 for item in hand if "pro" in item["href"])

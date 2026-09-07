@@ -1,0 +1,31 @@
+/* Scoped to imported personal articles; existing Hand pages remain unchanged. */
+.imported-post:before{display:none}
+.imported-post h1{font-size:clamp(1.65rem,4.3vw,2.8rem);line-height:1.4;word-break:keep-all;overflow-wrap:anywhere}
+.naver-body{font-size:1rem;line-height:1.85;overflow-wrap:anywhere;color:#252321}
+.naver-body .se-component{margin:22px 0}
+.naver-body .se-text-paragraph{margin:10px 0;min-height:.5em}
+.naver-body .se-text-paragraph-align-center{text-align:center}
+.naver-body .se-text-paragraph-align-right{text-align:right}
+.naver-body img{display:block;max-width:100%;height:auto;margin:0 auto}
+.naver-body .se-module-image{min-width:0}
+.naver-body .se-imageStrip-container{display:flex;align-items:flex-start;gap:12px}
+.naver-body .se-imageStrip-container>.se-module-image{flex:1}
+.naver-body .se-imageGroup-container{display:grid;gap:16px}
+.naver-body .se-caption{font-size:.85rem;color:#666;text-align:center}
+.naver-body .imported-table{max-width:100%;overflow-x:auto}
+.naver-body table{width:100%;border-collapse:collapse;table-layout:fixed}
+.naver-body td,.naver-body th{padding:14px 16px;overflow-wrap:anywhere;vertical-align:top}
+.naver-body td p:first-child{margin-top:0}
+.naver-body td p:last-child{margin-bottom:0}
+.naver-body .se-fs-fs11,.naver-body .se-fs-fs12,.naver-body .se-fs-fs13{font-size:.85rem}
+.naver-body .se-fs-fs19{font-size:1.15rem}
+.naver-body .se-fs-fs24{font-size:1.35rem}
+.naver-body .se-fs-fs28,.naver-body .se-fs-fs30,.naver-body .se-fs-fs34{font-size:1.5rem}
+.source-video{display:block;margin:24px 0;padding:16px;background:#ede7db;border:1px solid #c7b995;text-align:center}
+.source-video img{max-height:360px;object-fit:contain}
+.source-video span{display:block;padding-top:14px;font-weight:700}
+.source-image{display:block;padding:24px;margin:18px 0;border:1px dashed #b9ab90;background:#f1ebe0;text-align:center}
+.archive-card .card-art.has-cover{background-size:cover;background-position:center}
+.personal-list-hero h1{font-size:clamp(2rem,5vw,4.5rem);line-height:1.2;word-break:keep-all;overflow-wrap:anywhere}
+.card-date{font-size:.78rem;color:var(--muted)}
+@media(max-width:560px){.naver-body td,.naver-body th{padding:10px 8px}.naver-body .se-imageStrip-container{gap:8px}.naver-body{font-size:.96rem}}
