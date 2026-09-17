@@ -51,12 +51,37 @@ def normalize(value):
     return re.sub(r'\s+', '', value).replace('\u200b', '').replace('\ufeff', '')
 
 
+def article_excerpt(body, fallback):
+    """Use an unchanged prose excerpt when RSS contains only tags/links."""
+    for paragraph in body.select('.se-text-paragraph'):
+        text = re.sub(r'\s+', ' ', paragraph.get_text('', strip=False)).strip()
+        if len(text) >= 50 and '.' in text and not re.search(r'#|https?://|CONTROL MY LIFE', text):
+            return text if len(text) <= 180 else text[:177].rstrip() + '…'
+    return fallback
+
+
+def image_extension(content, mime):
+    extension = {'image/jpeg': '.jpg', 'image/jpg': '.jpg', 'image/png': '.png', 'image/gif': '.gif',
+                 'image/webp': '.webp', 'image/avif': '.avif'}.get(mime)
+    # Some public image CDNs use a generic binary Content-Type. Accept only
+    # recognized raster signatures, never HTML/SVG/executable payloads.
+    if not extension and mime == 'application/octet-stream':
+        if content.startswith(b'\xff\xd8\xff'):
+            extension = '.jpg'
+        elif content.startswith(b'\x89PNG\r\n\x1a\n'):
+            extension = '.png'
+        elif content.startswith((b'GIF87a', b'GIF89a')):
+            extension = '.gif'
+        elif content[:4] == b'RIFF' and content[8:12] == b'WEBP':
+            extension = '.webp'
+    return extension
+
+
 def save_image(url):
     if not safe_url(url):
         raise ValueError('Invalid image URL')
     content, mime = fetch(url)
-    extension = {'image/jpeg': '.jpg', 'image/png': '.png', 'image/gif': '.gif',
-                 'image/webp': '.webp', 'image/avif': '.avif'}.get(mime)
+    extension = image_extension(content, mime)
     if not extension:
         raise ValueError(f'Unsupported image response: {mime}')
     relative = 'assets/images/naver/' + hashlib.sha256(content).hexdigest()[:24] + extension
@@ -79,6 +104,7 @@ def import_post(item, cache):
     body = soup.select_one('.se-main-container')
     if body is None:
         raise ValueError(f'No article body: {post_id}')
+    item = {**item, 'description': article_excerpt(body, item['description'])}
     # Gallery next/previous controls are platform UI, not the author's prose.
     for control in body.select('button, input, form'):
         control.decompose()
@@ -224,26 +250,61 @@ def import_post(item, cache):
     return result
 
 
+def select_new_items(feed, old, since):
+    """Use permanent post IDs, not titles/dates, as the idempotency key."""
+    known = {item['id'] for item in old}
+    if len(known) != len(old):
+        raise ValueError('Existing manifest contains duplicate post IDs')
+    items = {}
+    dates = []
+    for node in feed.findall('./channel/item'):
+        published = parsedate_to_datetime(node.findtext('pubDate')).isoformat()
+        dates.append(published[:10])
+        if published[:10] <= since:
+            continue
+        match = re.search(r'/(\d+)(?:\?|$)', node.findtext('link') or '')
+        if not match:
+            raise ValueError('Unrecognized public post URL')
+        post_id = match.group(1)
+        if post_id in known:
+            continue
+        description = BeautifulSoup(node.findtext('description') or '', 'html.parser').get_text(' ', strip=True)
+        item = {'id': post_id, 'title': html.unescape(node.findtext('title')).strip(),
+                'published': published, 'description': description[:180]}
+        if post_id in items and items[post_id] != item:
+            raise ValueError(f'Conflicting RSS entries: {post_id}')
+        items[post_id] = item
+    if dates and min(dates) > since:
+        raise ValueError('RSS does not cover the requested start date; compare the public post list before importing')
+    return list(items.values())
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--since', required=True, help='Exclusive ISO date of previous sync')
     parser.add_argument('--cache', required=True, type=Path, help='Cache directory outside the repository')
+    parser.add_argument('--dry-run', action='store_true', help='List missing IDs without writing posts or assets')
     args = parser.parse_args()
-    args.cache.mkdir(parents=True, exist_ok=True)
-    feed = ET.fromstring(fetch('https://rss.blog.naver.com/kjp9204.xml')[0])
-    items = []
-    for node in feed.findall('./channel/item'):
-        published = parsedate_to_datetime(node.findtext('pubDate')).isoformat()
-        if published[:10] <= args.since:
-            continue
-        post_id = re.search(r'/(\d+)(?:\?|$)', node.findtext('link')).group(1)
-        description = BeautifulSoup(node.findtext('description') or '', 'html.parser').get_text(' ', strip=True)
-        items.append({'id': post_id, 'title': html.unescape(node.findtext('title')).strip(),
-                      'published': published, 'description': description[:180]})
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        results = list(pool.map(lambda item: import_post(item, args.cache), items))
+    datetime.strptime(args.since, '%Y-%m-%d')
+    if args.cache.resolve().is_relative_to(ROOT.resolve()):
+        raise ValueError('Raw source cache must remain outside the public repository')
     manifest_path = ROOT / 'data/naver-posts.json'
     old = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else []
+    feed_bytes = fetch('https://rss.blog.naver.com/kjp9204.xml')[0]
+    items = select_new_items(ET.fromstring(feed_bytes), old, args.since)
+    if args.dry_run:
+        print(json.dumps({'new_posts': len(items), 'items': items}, ensure_ascii=False, indent=2))
+        return
+    if not items:
+        print('NO NEW POSTS; manifest and existing posts unchanged')
+        return
+    for item in items:
+        if (ROOT / ('posts/naver-' + item['id'] + '.html')).exists():
+            raise ValueError(f"Unindexed existing page must be reviewed first: {item['id']}")
+    args.cache.mkdir(parents=True, exist_ok=True)
+    (args.cache / 'rss-latest.xml').write_bytes(feed_bytes)
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        results = list(pool.map(lambda item: import_post(item, args.cache), items))
     merged = {item['id']: item for item in old + results}
     manifest_path.parent.mkdir(exist_ok=True)
     manifest_path.write_text(json.dumps(sorted(merged.values(), key=lambda x:x['published'], reverse=True), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
