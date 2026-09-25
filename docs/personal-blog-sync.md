@@ -26,6 +26,17 @@ Hand 팀 글과 미공개 로컬 문서, 댓글, 프로필 데이터는 동기�
 - 목록 미리보기는 신규 글 본문의 첫 긴 문단을 발췌하며, 본문 자체는 다시 쓰지 않는다.
 - 미공개 초안, 내부 협업 기록 및 Hand 팀 콘텐츠는 이번 변경에 포함하지 않는다.
 
+### 2026-09-25 반영 범위
+
+- 기준 커밋: `e24f1367182487ce200928d6c597f1feeb8249a7`.
+- 9월 18일~25일 공개된 새 글 26편을 추가했다. 기존 개인 글 57편을 보존해 총 83편이다.
+- 이전 동기화 당일 늦게 게시된 글의 누락을 막기 위해 `--since 2026-09-16`으로 조회하고, 영구 게시글 ID로 이미 수입한 글을 제외했다. RSS 최신 50편이 이 시작일까지 포함하는지 확인했다.
+- 게시글 ID, 정규화한 제목, 본문 해시와 7자 묶음 유사도(0.75 이상)를 대조했으며, 아카이브 내 중복 후보는 없었다.
+- 새 글의 이미지 356개 배치를 로컬 자산으로 제공한다. 접근이 차단되거나 사라진 외부 이미지 6개는 원문 확인 링크로 표시했다.
+- 새 글 26편의 전체 본문이 원문과 일치하고, 로컬 링크·메타데이터 및 중복 방지 회귀 검사 12건을 통과했다.
+- 기존 개인 글 57편은 기준 커밋과 동일하다. 이전에 확인한 기존 수입 글 6편의 원문 변경은 별도로 보고했으며, 저장본을 덮어쓰지 않았다.
+- 미공개 초안, 내부 협업 기록 및 Hand 팀 콘텐츠는 변경에 포함하지 않는다. 원문 캐시와 상세 검수 보고서는 저장소 밖에 보관한다.
+
 Python 3와 `scripts/requirements-sync.txt`의 의존성을 준비한다.
 원본 응답 캐시는 저장소 밖의 임시 경로를 사용한다.
 
@@ -33,7 +44,7 @@ Python 3와 `scripts/requirements-sync.txt`의 의존성을 준비한다.
 python scripts/import_naver_posts.py --since YYYY-MM-DD --cache <외부_캐시_경로> --dry-run
 python scripts/import_naver_posts.py --since YYYY-MM-DD --cache <외부_캐시_경로>
 python generate_blog_indexes.py --personal-only
-python scripts/verify_personal_sync.py --cache <외부_캐시_경로> --update-sitemap
+python scripts/verify_personal_sync.py --cache <외부_캐시_경로> --baseline-ref <동기화_전_40자리_커밋_SHA> --update-sitemap
 ```
 
 게시글 ID를 기준으로 이미 수입된 글은 건너뛴다. RSS의 날짜 범위가 부족하거나 같은 ID의 기존 파일과 목록이 충돌하면 중단한다. `python scripts/test_import_dedup.py`로 오프라인 회귀 검사를 실행한다.
