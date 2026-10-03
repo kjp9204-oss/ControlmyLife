@@ -1,0 +1,3 @@
+# Local Python runtime cache is not website content.
+__pycache__/
+*.pyc

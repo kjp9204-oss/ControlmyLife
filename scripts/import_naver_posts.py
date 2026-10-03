@@ -65,7 +65,7 @@ def image_extension(content, mime):
                  'image/webp': '.webp', 'image/avif': '.avif'}.get(mime)
     # Some public image CDNs use a generic binary Content-Type. Accept only
     # recognized raster signatures, never HTML/SVG/executable payloads.
-    if not extension and mime == 'application/octet-stream':
+    if not extension:
         if content.startswith(b'\xff\xd8\xff'):
             extension = '.jpg'
         elif content.startswith(b'\x89PNG\r\n\x1a\n'):
