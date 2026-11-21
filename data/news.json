@@ -11,7 +11,8 @@
    "presale": "2026-09-11T17:00",
    "general": "2026-09-14T17:00",
    "url": "https://m.ticket.yes24.com/Notice/18447",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -23,7 +24,8 @@
    "presale": "2026-09-11T17:00",
    "general": "2026-09-14T17:00",
    "url": "https://m.ticket.yes24.com/Notice/18447",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "송소희",
@@ -35,7 +37,8 @@
    "presale": "",
    "general": "2026-10-22T19:00",
    "url": "https://nol.yanolja.com/ticket/products/26015125",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "송소희",
@@ -47,7 +50,8 @@
    "presale": "",
    "general": "2026-10-22T19:00",
    "url": "https://nol.yanolja.com/ticket/products/26015125",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "Sunny Day Service",
@@ -55,11 +59,12 @@
    "title": "Sunny Day Service TOUR 2026 in SEOUL",
    "venue": "서울 무신사 개러지",
    "date": "2026-12-03",
-   "time": "",
+   "time": "20:00",
    "presale": "",
    "general": "",
-   "url": "https://www.livedot.co.kr/events",
-   "checked": "2026-11-21"
+   "url": "https://nol.yanolja.com/ticket/products/26011116",
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "매스 오브 더 퍼멘팅 드렉스",
@@ -71,7 +76,8 @@
    "presale": "",
    "general": "2026-09-11T18:00",
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12819",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "KANA-BOON",
@@ -83,7 +89,8 @@
    "presale": "",
    "general": "",
    "url": "https://www.livedot.co.kr/events",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": false
   },
   {
    "artist": "유우리",
@@ -94,8 +101,9 @@
    "time": "",
    "presale": "",
    "general": "",
-   "url": "https://duckcal.net/category/concert",
-   "checked": "2026-11-21"
+   "url": "https://nol.yanolja.com/ticket/products/26010352",
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -107,7 +115,8 @@
    "presale": "2026-09-11T18:00",
    "general": "2026-09-14T18:00",
    "url": "https://m.ticket.yes24.com/Notice/18448",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "유우리",
@@ -118,8 +127,9 @@
    "time": "",
    "presale": "",
    "general": "",
-   "url": "https://duckcal.net/category/concert",
-   "checked": "2026-11-21"
+   "url": "https://nol.yanolja.com/ticket/products/26010352",
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "자젠 보이즈",
@@ -131,7 +141,8 @@
    "presale": "",
    "general": "",
    "url": "https://www.livedot.co.kr/events",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": false
   },
   {
    "artist": "악뮤",
@@ -143,7 +154,8 @@
    "presale": "2026-09-11T18:00",
    "general": "2026-09-14T18:00",
    "url": "https://m.ticket.yes24.com/Notice/18448",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "슬로우다이브",
@@ -151,11 +163,12 @@
    "title": "SLOWDIVE Live 2026 in Seoul",
    "venue": "서울 KBS 아레나",
    "date": "2026-12-08",
-   "time": "",
+   "time": "20:00",
    "presale": "",
    "general": "",
-   "url": "https://www.livedot.co.kr/events",
-   "checked": "2026-11-21"
+   "url": "https://nol.yanolja.com/ticket/products/26012276",
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "안예은",
@@ -167,7 +180,8 @@
    "presale": "",
    "general": "2026-11-03T19:00",
    "url": "https://nol.yanolja.com/ticket/products/26015635",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "안예은",
@@ -179,7 +193,8 @@
    "presale": "",
    "general": "2026-11-03T19:00",
    "url": "https://nol.yanolja.com/ticket/products/26015635",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -191,7 +206,8 @@
    "presale": "2026-09-11T19:00",
    "general": "2026-09-14T19:00",
    "url": "https://m.ticket.yes24.com/Notice/18449",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "펜트하우스",
@@ -203,7 +219,8 @@
    "presale": "",
    "general": "",
    "url": "https://ticket.yes24.com/Perf/59886",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "카와사키 타카야",
@@ -215,7 +232,8 @@
    "presale": "",
    "general": "",
    "url": "https://duckcal.net/category/concert",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": false
   },
   {
    "artist": "악뮤",
@@ -227,7 +245,8 @@
    "presale": "2026-09-11T19:00",
    "general": "2026-09-14T19:00",
    "url": "https://m.ticket.yes24.com/Notice/18449",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "카즈미 타테이시 트리오",
@@ -235,11 +254,12 @@
    "title": "지브리, 재즈를 만나다 (서울)",
    "venue": "서울 영등포아트홀",
    "date": "2026-12-22",
-   "time": "",
+   "time": "19:30",
    "presale": "",
    "general": "",
-   "url": "https://duckcal.net/category/concert",
-   "checked": "2026-11-21"
+   "url": "https://nol.yanolja.com/ticket/products/26010060",
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -251,7 +271,8 @@
    "presale": "2026-09-11T20:00",
    "general": "2026-09-14T20:00",
    "url": "https://m.ticket.yes24.com/Notice/18450",
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -263,7 +284,8 @@
    "presale": "2026-11-09T20:00",
    "general": "2026-11-10T20:00",
    "url": "https://m.ticket.yes24.com/Notice/18794?order=1&type=1",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "악뮤",
@@ -275,7 +297,8 @@
    "presale": "2026-11-09T20:00",
    "general": "2026-11-10T20:00",
    "url": "https://m.ticket.yes24.com/Notice/18794?order=1&type=1",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "후지이 카제",
@@ -287,7 +310,8 @@
    "presale": "",
    "general": "2026-06-17T19:00",
    "url": "https://ticket.melon.com/performance/index.htm?prodId=213396",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "요네즈 켄시",
@@ -299,7 +323,8 @@
    "presale": "",
    "general": "2026-10-22T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26015024",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "요네즈 켄시",
@@ -311,7 +336,8 @@
    "presale": "",
    "general": "2026-10-22T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26015024",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "요네즈 켄시",
@@ -323,7 +349,8 @@
    "presale": "",
    "general": "2026-10-22T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26015024",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "Hump Back",
@@ -335,7 +362,8 @@
    "presale": "",
    "general": "2026-10-07T12:00",
    "url": "https://m.ticket.yes24.com/Notice/18427",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "초큐메이",
@@ -347,7 +375,8 @@
    "presale": "",
    "general": "2026-11-11T20:00",
    "url": "https://m.ticket.yes24.com/Notice/18766?order=1&type=1",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "마룬5",
@@ -359,7 +388,8 @@
    "presale": "2026-08-12T12:00",
    "general": "2026-08-14T12:00",
    "url": "https://tickets.interpark.com/contents/notice/detail/14796",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "KATSEYE",
@@ -371,7 +401,8 @@
    "presale": "",
    "general": "2026-11-12T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26015604",
-   "checked": "2026-11-21"
+   "checked": "2026-11-21",
+   "official": true
   },
   {
    "artist": "제프 버넷",
@@ -383,7 +414,8 @@
    "presale": "",
    "general": "2026-11-10T12:00",
    "url": "https://ticket.yes24.com/Perf/61043",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "요아소비",
@@ -395,7 +427,8 @@
    "presale": "",
    "general": "",
    "url": "https://www.yoasobi-music.jp/news/588376",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "결속밴드",
@@ -407,7 +440,8 @@
    "presale": "",
    "general": "",
    "url": "https://news.aniplex.co.jp/detail.html?id=71601",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -419,7 +453,8 @@
    "presale": "2026-09-11T12:00",
    "general": "2026-09-14T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -431,7 +466,8 @@
    "presale": "2026-09-11T12:00",
    "general": "2026-09-14T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -443,7 +479,8 @@
    "presale": "2026-09-11T12:00",
    "general": "2026-09-14T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -455,7 +492,8 @@
    "presale": "2026-09-11T12:00",
    "general": "2026-09-14T12:00",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -467,7 +505,8 @@
    "presale": "",
    "general": "",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -479,7 +518,8 @@
    "presale": "",
    "general": "",
    "url": "https://nol.yanolja.com/ticket/products/26012591",
-   "checked": "2026-11-12"
+   "checked": "2026-11-12",
+   "official": true
   }
  ],
  "anime": [
