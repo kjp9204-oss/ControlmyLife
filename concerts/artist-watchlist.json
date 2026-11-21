@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-22",
+  "pending": [],
+  "scope": "한국 개최 공연·티켓 일정",
+  "publicationStatus": "PUBLISHED",
+  "artists": [
+    {
+      "id": "yorushika",
+      "name": "요루시카",
+      "genre": "JPOP",
+      "aliases": [
+        "ヨルシカ",
+        "Yorushika"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "aimyon",
+      "name": "아이묭",
+      "genre": "JPOP",
+      "aliases": [
+        "あいみょん",
+        "Aimyon"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "kenshi-yonezu",
+      "name": "요네즈 켄시",
+      "genre": "JPOP",
+      "aliases": [
+        "요네즈켄시",
+        "米津玄師",
+        "Kenshi Yonezu"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "king-gnu",
+      "name": "킹누",
+      "genre": "JPOP",
+      "aliases": [
+        "킹 누",
+        "King Gnu",
+        "キングヌー"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "vaundy",
+      "name": "바운디",
+      "genre": "JPOP",
+      "aliases": [
+        "Vaundy",
+        "バウンディ"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "fujii-kaze",
+      "name": "후지이 카제",
+      "genre": "JPOP",
+      "aliases": [
+        "후지이카제",
+        "藤井風",
+        "Fujii Kaze"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "larc-en-ciel",
+      "name": "라르크엔시엘",
+      "genre": "JPOP",
+      "aliases": [
+        "라르크앙시엘",
+        "L'Arc-en-Ciel",
+        "L’Arc～en～Ciel",
+        "ラルクアンシエル"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "yoasobi",
+      "name": "요아소비",
+      "genre": "JPOP",
+      "aliases": [
+        "YOASOBI"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "tatsuya-kitani",
+      "name": "키타니 타츠야",
+      "genre": "JPOP",
+      "aliases": [
+        "키타니타츠야",
+        "キタニタツヤ",
+        "Tatsuya Kitani"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "rokudenashi",
+      "name": "로쿠데나시",
+      "genre": "JPOP",
+      "aliases": [
+        "ロクデナシ",
+        "Rokudenashi"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "tsuki-user-unresolved",
+      "name": "츠키",
+      "genre": "JPOP",
+      "aliases": [
+        "tuki.",
+        "tuki"
+      ],
+      "identityStatus": "user_confirmed"
+    },
+    {
+      "id": "ado",
+      "name": "Ado",
+      "genre": "JPOP",
+      "aliases": [
+        "ado",
+        "아도"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "lisa-jpop",
+      "name": "LiSA",
+      "genre": "JPOP",
+      "aliases": [
+        "LiSA（リサ）"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "aina-the-end",
+      "name": "아이나 디 엔드",
+      "genre": "JPOP",
+      "aliases": [
+        "아이나디앤드",
+        "아이나 디 앤드",
+        "아이나디엔드",
+        "AiNA THE END",
+        "アイナ・ジ・エンド"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "creepy-nuts",
+      "name": "Creepy Nuts",
+      "genre": "JPOP",
+      "aliases": [
+        "크리피넛츠",
+        "크리피 넛츠",
+        "クリーピーナッツ"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "one-ok-rock",
+      "name": "ONE OK ROCK",
+      "genre": "JPOP",
+      "aliases": [
+        "원오크록",
+        "원 오크 록",
+        "ワンオクロック"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "park-hyo-shin",
+      "name": "박효신",
+      "genre": "KPOP",
+      "aliases": [
+        "Park Hyo Shin"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "ahn-ye-eun",
+      "name": "안예은",
+      "genre": "KPOP",
+      "aliases": [
+        "Ahn Ye Eun"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "song-so-hee",
+      "name": "송소희",
+      "genre": "KPOP",
+      "aliases": [
+        "Song So Hee"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "younha",
+      "name": "윤하",
+      "genre": "KPOP",
+      "aliases": [
+        "YOUNHA"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "akmu",
+      "name": "악뮤",
+      "genre": "KPOP",
+      "aliases": [
+        "AKMU",
+        "악동뮤지션"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "shim-gyu-sun",
+      "name": "심규선",
+      "genre": "KPOP",
+      "aliases": [],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "bruno-mars",
+      "name": "브루노 마스",
+      "genre": "POP",
+      "aliases": [
+        "브루노마스",
+        "Bruno Mars"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "anne-marie",
+      "name": "앤마리",
+      "genre": "POP",
+      "aliases": [
+        "Anne-Marie",
+        "Anne Marie",
+        "마리"
+      ],
+      "identityStatus": "interpreted_from_user_clue"
+    },
+    {
+      "id": "ariana-grande",
+      "name": "아리아나 그란데",
+      "genre": "POP",
+      "aliases": [
+        "아리아나그란데",
+        "Ariana Grande"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "doja-cat",
+      "name": "도자 캣",
+      "genre": "POP",
+      "aliases": [
+        "도자캣",
+        "Doja Cat"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "olivia-rodrigo",
+      "name": "올리비아 로드리고",
+      "genre": "POP",
+      "aliases": [
+        "Olivia Rodrigo"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "the-weeknd",
+      "name": "위켄드",
+      "genre": "POP",
+      "aliases": [
+        "The Weeknd",
+        "더 위켄드"
+      ],
+      "identityStatus": "user_named"
+    },
+    {
+      "id": "charlie-puth",
+      "name": "찰리 푸스",
+      "genre": "POP",
+      "aliases": [
+        "찰리푸스",
+        "Charlie Puth"
+      ],
+      "identityStatus": "user_named"
+    }
+  ],
+  "discovery": {
+    "chartType": "weekly_streaming"
+  },
+  "concertSnapshot": {
+    "checkedAt": "2026-11-22",
+    "timezone": "Asia/Seoul",
+    "status": "LOCAL_REVIEW_ONLY",
+    "events": [
+      {
+        "id": "official-akmu-gangneung-2026-11-07",
+        "ticketGroup": "akmu-gangneung",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 강릉",
+        "venue": "강릉 스피드 스케이팅 경기장",
+        "startsAt": "2026-11-07T17:00",
+        "presaleAt": "2026-09-11T16:00",
+        "generalAt": "2026-09-14T16:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18446",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-song-so-hee-wonderlivet-2026-11-20",
+        "artist": "송소희",
+        "genre": "KPOP",
+        "title": "WONDERLIVET 2026 · 송소희",
+        "venue": "고양 킨텍스 제2전시장 · WONDER STAGE",
+        "startsAt": "2026-11-20T14:50",
+        "presaleAt": "",
+        "generalAt": "2026-09-01T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "sourceUrl": "https://www.wonderli.vet/home",
+        "ticketSourceUrl": "https://www.ticketlink.co.kr/help/notice/65702",
+        "ticketNote": "원더리벳 페스티벌의 송소희 출연 시간입니다. 공식 타임테이블 기준 14:50–15:30 KST."
+      },
+      {
+        "id": "official-akmu-daegu-2026-11-21",
+        "ticketGroup": "akmu-daegu",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 대구",
+        "venue": "엑스코 서관 1홀",
+        "startsAt": "2026-11-21T17:00",
+        "presaleAt": "2026-09-11T17:00",
+        "generalAt": "2026-09-14T17:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18447",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-akmu-daegu-2026-11-22",
+        "ticketGroup": "akmu-daegu",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 대구",
+        "venue": "엑스코 서관 1홀",
+        "startsAt": "2026-11-22T16:00",
+        "presaleAt": "2026-09-11T17:00",
+        "generalAt": "2026-09-14T17:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18447",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-song-so-hee-seoul-2026-11-28",
+        "ticketGroup": "song-so-hee-seoul",
+        "artist": "송소희",
+        "genre": "KPOP",
+        "title": "송소희 단독콘서트 · 푸른 바람이 춤추면 눈을 감고도 달린다",
+        "venue": "서울 NOL 씨어터 합정 동양생명홀",
+        "startsAt": "2026-11-28T18:00",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015125",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://tickets.interpark.com/gates/nol-redirect?from=%2Fcontents%2Fnotice%2Fdetail%2F13928",
+        "generalAtStatus": "needs_confirmation",
+        "generalAtNote": "일반예매 시각은 확인 전입니다. 공연 일시·장소는 별도로 확인했습니다."
+      },
+      {
+        "id": "official-song-so-hee-seoul-2026-11-29",
+        "ticketGroup": "song-so-hee-seoul",
+        "artist": "송소희",
+        "genre": "KPOP",
+        "title": "송소희 단독콘서트 · 푸른 바람이 춤추면 눈을 감고도 달린다",
+        "venue": "서울 NOL 씨어터 합정 동양생명홀",
+        "startsAt": "2026-11-29T17:00",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015125",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://tickets.interpark.com/gates/nol-redirect?from=%2Fcontents%2Fnotice%2Fdetail%2F13928",
+        "generalAtStatus": "needs_confirmation",
+        "generalAtNote": "일반예매 시각은 확인 전입니다. 공연 일시·장소는 별도로 확인했습니다."
+      },
+      {
+        "presaleAt": "",
+        "generalAt": "2026-09-11T18:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-mass-of-the-fermenting-dregs-seoul-2026-12-04",
+        "artist": "매스 오브 더 퍼멘팅 드렉스",
+        "genre": "JPOP",
+        "title": "Mass Of The Fermenting Dregs ‘World Tour’ Live in Seoul (with Dabda)",
+        "venue": "서울 KT&G 상상마당 홍대 라이브홀",
+        "startsAt": "2026-12-04T19:30",
+        "sourceUrl": "https://ticket.melon.com/csoon/detail.htm?csoonId=12819"
+      },
+      {
+        "id": "official-akmu-daejeon-2026-12-05",
+        "ticketGroup": "akmu-daejeon",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 대전",
+        "venue": "대전컨벤션센터 제2전시장",
+        "startsAt": "2026-12-05T17:00",
+        "presaleAt": "2026-09-11T18:00",
+        "generalAt": "2026-09-14T18:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18448",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-akmu-daejeon-2026-12-06",
+        "ticketGroup": "akmu-daejeon",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 대전",
+        "venue": "대전컨벤션센터 제2전시장",
+        "startsAt": "2026-12-06T16:00",
+        "presaleAt": "2026-09-11T18:00",
+        "generalAt": "2026-09-14T18:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18448",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-ahn-ye-eun-seoul-2026-12-12",
+        "ticketGroup": "ahn-ye-eun-seoul",
+        "artist": "안예은",
+        "genre": "KPOP",
+        "title": "안예은 단독공연 · 제10회 오타쿠리스마스",
+        "venue": "서울 NOL 씨어터 합정 동양생명홀",
+        "startsAt": "2026-12-12T18:00",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015635",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://nol.yanolja.com/ticket/products/26015635",
+        "generalAtStatus": "needs_confirmation",
+        "generalAtNote": "일반예매 시각은 확인 전입니다. 공연 일시·장소는 별도로 확인했습니다."
+      },
+      {
+        "id": "official-ahn-ye-eun-seoul-2026-12-13",
+        "ticketGroup": "ahn-ye-eun-seoul",
+        "artist": "안예은",
+        "genre": "KPOP",
+        "title": "안예은 단독공연 · 제10회 오타쿠리스마스",
+        "venue": "서울 NOL 씨어터 합정 동양생명홀",
+        "startsAt": "2026-12-13T16:00",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015635",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://nol.yanolja.com/ticket/products/26015635",
+        "generalAtStatus": "needs_confirmation",
+        "generalAtNote": "일반예매 시각은 확인 전입니다. 공연 일시·장소는 별도로 확인했습니다."
+      },
+      {
+        "id": "official-akmu-busan-2026-12-19",
+        "ticketGroup": "akmu-busan",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 부산",
+        "venue": "부산 벡스코 제1전시장",
+        "startsAt": "2026-12-19T17:00",
+        "presaleAt": "2026-09-11T19:00",
+        "generalAt": "2026-09-14T19:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18449",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-akmu-busan-2026-12-20",
+        "ticketGroup": "akmu-busan",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 부산",
+        "venue": "부산 벡스코 제1전시장",
+        "startsAt": "2026-12-20T16:00",
+        "presaleAt": "2026-09-11T19:00",
+        "generalAt": "2026-09-14T19:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18449",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "id": "official-akmu-gwangju-2026-12-25",
+        "ticketGroup": "akmu-gwangju",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 악뮤 소문의 낙원 투어 · 광주",
+        "venue": "김대중컨벤션센터",
+        "startsAt": "2026-12-25T16:00",
+        "presaleAt": "2026-09-11T20:00",
+        "generalAt": "2026-09-14T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18450",
+        "verifiedAt": "2026-11-04",
+        "presaleLabel": "팬클럽 선예매"
+      },
+      {
+        "presaleAt": "2026-11-09T20:00",
+        "generalAt": "2026-11-10T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-akmu-encore-2027-01-02",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 AKMU CONCERT 소문의 낙원 ENCORE",
+        "venue": "고양 킨텍스 제1전시장 3·4홀",
+        "startsAt": "2027-01-02T17:00",
+        "presaleLabel": "팬클럽 선예매",
+        "ticketGroup": "akmu-encore-goyang-2027-01",
+        "extraTicketPhases": [
+          {
+            "label": "휠체어석 예매",
+            "at": "2026-11-16T09:00"
+          }
+        ],
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18794?order=1&type=1"
+      },
+      {
+        "presaleAt": "2026-11-09T20:00",
+        "generalAt": "2026-11-10T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-akmu-encore-2027-01-03",
+        "artist": "악뮤",
+        "genre": "KPOP",
+        "title": "2026 AKMU CONCERT 소문의 낙원 ENCORE",
+        "venue": "고양 킨텍스 제1전시장 3·4홀",
+        "startsAt": "2027-01-03T16:00",
+        "presaleLabel": "팬클럽 선예매",
+        "ticketGroup": "akmu-encore-goyang-2027-01",
+        "extraTicketPhases": [
+          {
+            "label": "휠체어석 예매",
+            "at": "2026-11-16T09:00"
+          }
+        ],
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18794?order=1&type=1"
+      },
+      {
+        "id": "official-fujii-kaze-seoul-2027-01-09",
+        "ticketGroup": "fujii-kaze-seoul",
+        "artist": "후지이 카제",
+        "genre": "JPOP",
+        "title": "후지이 카제 Prema 월드 투어 · 서울",
+        "venue": "서울 고척스카이돔",
+        "startsAt": "2027-01-09T18:00",
+        "presaleAt": "",
+        "generalAt": "2026-06-17T19:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://ticket.melon.com/performance/index.htm?prodId=213396",
+        "verifiedAt": "2026-11-12",
+        "generalLabel": "국내 일반예매",
+        "ticketSourceUrl": "https://hehn.fujiikaze.com/pwt/en/",
+        "extraTicketPhases": [
+          {
+            "label": "글로벌 예매",
+            "at": "2026-06-18T19:00"
+          }
+        ]
+      },
+      {
+        "id": "official-kenshi-yonezu-incheon-2027-01-14",
+        "ticketGroup": "kenshi-yonezu-incheon",
+        "artist": "요네즈 켄시",
+        "genre": "JPOP",
+        "title": "요네즈 켄시 GHOST 월드 투어",
+        "venue": "인천 인스파이어 아레나",
+        "startsAt": "2027-01-14T19:30",
+        "presaleAt": "",
+        "generalAt": "2026-10-22T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015024",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://tickets.interpark.com/gates/nol-redirect?from=%2Fcontents%2Fnotice%2Fdetail%2F14734"
+      },
+      {
+        "id": "official-kenshi-yonezu-incheon-2027-01-16",
+        "ticketGroup": "kenshi-yonezu-incheon",
+        "artist": "요네즈 켄시",
+        "genre": "JPOP",
+        "title": "요네즈 켄시 GHOST 월드 투어",
+        "venue": "인천 인스파이어 아레나",
+        "startsAt": "2027-01-16T19:00",
+        "presaleAt": "",
+        "generalAt": "2026-10-22T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015024",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://tickets.interpark.com/gates/nol-redirect?from=%2Fcontents%2Fnotice%2Fdetail%2F14734"
+      },
+      {
+        "id": "official-kenshi-yonezu-incheon-2027-01-17",
+        "ticketGroup": "kenshi-yonezu-incheon",
+        "artist": "요네즈 켄시",
+        "genre": "JPOP",
+        "title": "요네즈 켄시 GHOST 월드 투어",
+        "venue": "인천 인스파이어 아레나",
+        "startsAt": "2027-01-17T19:00",
+        "presaleAt": "",
+        "generalAt": "2026-10-22T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015024",
+        "verifiedAt": "2026-11-12",
+        "ticketSourceUrl": "https://tickets.interpark.com/gates/nol-redirect?from=%2Fcontents%2Fnotice%2Fdetail%2F14734"
+      },
+      {
+        "presaleAt": "",
+        "generalAt": "2026-10-07T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-hump-back-seoul-2027-01-23",
+        "artist": "Hump Back",
+        "genre": "JPOP",
+        "title": "Hump Back 내한공연",
+        "venue": "서울 YES24 라이브홀",
+        "startsAt": "2027-01-23T18:00",
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18427",
+        "announcementUrl": "https://humpback.jp/contents/1073598"
+      },
+      {
+        "presaleAt": "",
+        "generalAt": "2026-11-11T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-cho-q-may-seoul-2027-01-23",
+        "artist": "초큐메이",
+        "genre": "JPOP",
+        "title": "Cho Q May 「Starlight Map Tour」",
+        "venue": "서울 YES24 원더로크홀",
+        "startsAt": "2027-01-23T19:00",
+        "sourceUrl": "https://m.ticket.yes24.com/Notice/18766?order=1&type=1"
+      },
+      {
+        "id": "official-katseye-seoul-2027-02-04",
+        "artist": "KATSEYE",
+        "genre": "POP",
+        "title": "KATSEYE: THE WILDWORLD TOUR · 캣츠아이 첫 단독 내한공연",
+        "venue": "서울 KSPO DOME",
+        "startsAt": "2027-02-04T20:00",
+        "presaleAt": "2026-11-10T12:00",
+        "presaleLabel": "위버스 선예매",
+        "generalAt": "2026-11-12T12:00",
+        "extraTicketPhases": [
+          {
+            "label": "아티스트 코드 선예매",
+            "at": "2026-11-11T12:00"
+          }
+        ],
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26015604",
+        "ticketSourceUrl": "https://www.livenation.kr/event/katseye-the-wildworld-tour-seoul-tickets-edp1708663"
+      },
+      {
+        "presaleAt": "",
+        "generalAt": "2026-11-10T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-jeff-bernat-seoul-2027-02-18",
+        "artist": "제프 버넷",
+        "genre": "POP",
+        "title": "Jeff Bernat Live: Luv Language Tour 2027 in Seoul",
+        "venue": "서울 YES24 원더로크홀",
+        "startsAt": "2027-02-18T20:00",
+        "sourceUrl": "https://ticket.yes24.com/Perf/61043",
+        "ticketSourceUrl": "https://m.ticket.yes24.com/Notice/18783?order=1&type=1",
+        "announcementUrl": "https://eventimliveasia.com/jeffbernat"
+      },
+      {
+        "presaleAt": "2026-11-30T18:00",
+        "generalAt": "2026-11-30T20:00",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-22",
+        "id": "official-yoasobi-korea-2027-04-17",
+        "artist": "요아소비",
+        "genre": "JPOP",
+        "title": "YOASOBI 11-CITY ASIA-OCEANIA TOUR 2026–2027 “超惑星”",
+        "venue": "고양종합운동장",
+        "startsAt": "2027-04-17T19:30",
+        "ticketStatus": "announced",
+        "ticketNote": "모든 시각은 KST. YOASOBI GLOBAL MEMBERSHIP 회원 중 사전 인증 완료자 선예매: 11월 30일 18:00~18:59:59. 사전 인증은 11월 16일 20:00~11월 30일 18:59:59. 일반예매는 11월 30일 20:00부터. 예매처는 멜론티켓입니다.",
+        "sourceUrl": "https://weverse.io/yoasobi/notice/40746?hl=ko",
+        "announcementUrl": "https://weverse.io/yoasobi/notice/40840",
+        "presaleEndsAt": "2026-11-30T18:59:59",
+        "ticketProvider": "멜론티켓",
+        "ticketCheckedAt": "2026-11-22",
+        "ticketSourceUrl": "https://weverse.io/yoasobi/notice/40746?hl=ko"
+      },
+      {
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "verifiedAt": "2026-11-12",
+        "id": "official-kessoku-band-goyang-2027-05-08",
+        "artist": "결속밴드",
+        "genre": "JPOP",
+        "title": "결속밴드 ASIA TOUR 2027 “To Asia.”",
+        "venue": "고양 킨텍스 · 홀 추후 발표",
+        "startsAt": "2027-05-08",
+        "ticketStatus": "awaiting_announcement",
+        "ticketNote": "공식 투어의 ‘서울’ 회차입니다. 공연 시간·홀·국내 티켓 판매 정보는 발표 대기입니다.",
+        "sourceUrl": "https://news.aniplex.co.jp/detail.html?id=71601",
+        "announcementUrl": "https://x.com/LIVET_KR/status/2116862825591115822"
+      },
+      {
+        "id": "official-bruno-mars-original-2027-05-21",
+        "ticketGroup": "bruno-mars-original",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-21T19:45",
+        "presaleAt": "2026-09-11T12:00",
+        "generalAt": "2026-09-14T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "presaleLabel": "아티스트·주최사 선예매",
+        "ticketNote": "최초 4회차 선예매는 15:00까지였습니다.",
+        "ticketSourceUrl": "https://world.nol.com/en/content/festas/01a041c7-df6b-7f5f-9ea9-7d70b66bb5ff"
+      },
+      {
+        "id": "official-bruno-mars-original-2027-05-22",
+        "ticketGroup": "bruno-mars-original",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-22T19:45",
+        "presaleAt": "2026-09-11T12:00",
+        "generalAt": "2026-09-14T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "presaleLabel": "아티스트·주최사 선예매",
+        "ticketNote": "최초 4회차 선예매는 15:00까지였습니다.",
+        "ticketSourceUrl": "https://world.nol.com/en/content/festas/01a041c7-df6b-7f5f-9ea9-7d70b66bb5ff"
+      },
+      {
+        "id": "official-bruno-mars-original-2027-05-25",
+        "ticketGroup": "bruno-mars-original",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-25T19:45",
+        "presaleAt": "2026-09-11T12:00",
+        "generalAt": "2026-09-14T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "presaleLabel": "아티스트·주최사 선예매",
+        "ticketNote": "최초 4회차 선예매는 15:00까지였습니다.",
+        "ticketSourceUrl": "https://world.nol.com/en/content/festas/01a041c7-df6b-7f5f-9ea9-7d70b66bb5ff"
+      },
+      {
+        "id": "official-bruno-mars-original-2027-05-26",
+        "ticketGroup": "bruno-mars-original",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-26T19:45",
+        "presaleAt": "2026-09-11T12:00",
+        "generalAt": "2026-09-14T12:00",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "presaleLabel": "아티스트·주최사 선예매",
+        "ticketNote": "최초 4회차 선예매는 15:00까지였습니다.",
+        "ticketSourceUrl": "https://world.nol.com/en/content/festas/01a041c7-df6b-7f5f-9ea9-7d70b66bb5ff"
+      },
+      {
+        "id": "official-bruno-mars-extra-2027-05-29",
+        "ticketGroup": "bruno-mars-extra",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양 · 추가 회차",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-29T19:45",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "ticketNote": "공식 예매 상품에서 추가 회차의 공연 일시를 확인했습니다. 추가 회차별 예매 오픈 시각은 공식 원문 대조가 더 필요합니다."
+      },
+      {
+        "id": "official-bruno-mars-extra-2027-05-30",
+        "ticketGroup": "bruno-mars-extra",
+        "artist": "브루노 마스",
+        "genre": "POP",
+        "title": "브루노 마스 The Romantic Tour · 고양 · 추가 회차",
+        "venue": "고양종합운동장 주경기장",
+        "startsAt": "2027-05-30T19:45",
+        "presaleAt": "",
+        "generalAt": "",
+        "status": "scheduled",
+        "verified": true,
+        "sourceUrl": "https://nol.yanolja.com/ticket/products/26012591",
+        "verifiedAt": "2026-11-12",
+        "ticketNote": "공식 예매 상품에서 추가 회차의 공연 일시를 확인했습니다. 추가 회차별 예매 오픈 시각은 공식 원문 대조가 더 필요합니다."
+      }
+    ],
+    "watchNotes": []
+  }
+}

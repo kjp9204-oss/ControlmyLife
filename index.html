@@ -66,7 +66,7 @@
 <a href="#view" class="skip-link">본문 바로가기</a>
 <header>
   <div class="utility">
-    <nav aria-label="연결 사이트"><a href="https://kjp9204-oss.github.io/grand-library/" target="_blank" rel="noopener noreferrer">대도서관</a><span>/</span><a href="https://kjp9204-oss.github.io/handphysio/" target="_blank" rel="noopener noreferrer">HandPhysio</a><span>/</span><a href="#concert" aria-current="page">Control Mylife</a></nav>
+    <nav aria-label="연결 사이트"><a href="https://kjp9204-oss.github.io/grand-library/" target="_blank" rel="noopener noreferrer">대도서관</a><span>/</span><a href="https://kjp9204-oss.github.io/handphysio/" target="_blank" rel="noopener noreferrer">HandPhysio</a><span>/</span><a href="#concert" aria-current="page">Control Mylife</a><span>/</span><a href="./concerts/">공연 전광판</a></nav>
     <p>좋아하는 걸 더 오래, 더 깊이.<span id="today"></span></p>
   </div>
   <div class="masthead">
@@ -133,6 +133,7 @@ function start(D){
   }
   function renderConcert(v){
     heading(v,'LIVE IN KOREA','공연 소식','해외 아티스트 내한 공연과 관심 가수 공연입니다. 예매 오픈이 남은 공연은 노란 표시로 알려 드립니다.');
+    var dashboard=el('div','book');var dashboardLink=el('a',null,'공연·티켓팅 전광판 열기');dashboardLink.href='./concerts/';dashboard.appendChild(dashboardLink);v.appendChild(dashboard);
     var f=el('div','filters');['전체','JPOP','POP','KPOP'].forEach(function(g){var x=el('button',null,g==='KPOP'?'국내':g);x.type='button';x.setAttribute('aria-pressed',String(g===genre));x.addEventListener('click',function(){genre=g;render();});f.appendChild(x);});v.appendChild(f);
     grouped(v,concerts.filter(function(c){return genre==='전체'||c.genre===genre;}),concertCard);
   }
