@@ -143,12 +143,12 @@ function start(D){
   }
   var q='';
   function renderPosts(v){
-    heading(v,'ARCHIVE','지난 글','그동안 쓴 문화·취미 글입니다. 제목을 누르면 네이버 블로그 원문으로 이동합니다.');
+    heading(v,'ARCHIVE','지난 글','그동안 쓴 문화·취미 글입니다. 제목을 누르면 네이버 블로그로 이동합니다. 「최근 글」은 블로그 안 검색으로 그 글을 찾아 줍니다.');
     var s=el('div','searchbar');var i=el('input');i.type='search';i.id='post-search';i.placeholder='제목으로 찾기 (예: 귀멸, 공연, 나루토)';i.value=q;i.setAttribute('aria-label','지난 글 제목 검색');s.appendChild(i);v.appendChild(s);
     var box=el('div','post-list');v.appendChild(box);
     function fill(){box.textContent='';var k=q.trim().toLowerCase();var rows=D.posts.filter(function(p){return !k||p.t.toLowerCase().indexOf(k)>=0;});
       if(!rows.length){box.appendChild(el('p','empty','찾는 제목이 없습니다.'));return;}
-      rows.forEach(function(p){var a=link(p.u,null,'post-row');if(p.d){var tm=el('time',null,p.d.replace(/-/g,'.'));tm.dateTime=p.d;a.appendChild(tm);}else a.appendChild(el('span','site','사이트 글'));a.appendChild(el('span','pt',p.t));var ar=el('span');ar.innerHTML=ARROW;a.appendChild(ar);box.appendChild(a);});}
+      rows.forEach(function(p){var a=link(p.u,null,'post-row');if(p.d){var tm=el('time',null,p.d.replace(/-/g,'.'));tm.dateTime=p.d;a.appendChild(tm);}else a.appendChild(el('span','site',p.r?'최근 글':'사이트 글'));a.appendChild(el('span','pt',p.t));var ar=el('span');ar.innerHTML=ARROW;a.appendChild(ar);box.appendChild(a);});}
     i.addEventListener('input',function(){q=i.value;fill();});fill();
   }
   var view='concert';
