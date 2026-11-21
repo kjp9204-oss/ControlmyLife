@@ -59,6 +59,25 @@
 .foot{border-top:1px solid #414147;color:#999;font-size:13px;line-height:1.7;padding:20px 0 40px}
 @media(max-width:900px){.news-list{grid-template-columns:1fr}.news-head h1{font-size:34px}}
 @media(max-width:700px){.category-nav{grid-template-columns:1fr 1fr 1fr 1fr}.category-cell .nav-note,.category-cell .cnt{display:none}.category-cell.posts strong{font-size:5.4vw}.post-row{grid-template-columns:84px 1fr}.post-row svg{display:none}.dbox{width:56px}.dbox .d{font-size:28px}}
+
+.anime-period-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:24px 0 14px}
+.anime-period-head h2{font-size:26px;line-height:1.3}
+.anime-period-head p{color:var(--muted);font-size:14px;margin-top:6px}
+.anime-year{display:grid;gap:5px;min-width:130px;font-size:13px;color:#ccc}
+.anime-year select{width:100%;min-height:44px;padding:8px 12px;background:#17171b;color:#fff;border:1px solid #777;font:inherit}
+.anime-quarters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.anime-quarter{display:flex;flex-direction:column;align-items:start;gap:6px;min-height:112px;padding:16px;border:1px solid #53535b;background:#151518;color:#eee;text-align:left;font:inherit;cursor:pointer}
+.anime-quarter strong{font-size:22px;font-weight:800}
+.anime-quarter span{font-size:13px;color:#bdbdc5}
+.anime-quarter small{font-size:13px;color:#bdbdc5}
+.anime-quarter[aria-pressed="true"]{border-color:#fa676d;background:#341a1e}
+.anime-quarter[aria-pressed="true"] strong{color:#ff858b}
+.anime-quarter:focus-visible,.anime-year select:focus-visible{outline:3px solid #ff858b;outline-offset:3px}
+.anime-unannounced{margin-top:32px;padding-top:22px;border-top:1px solid #53535b}
+.anime-unannounced>h2{font-size:25px;margin-bottom:6px}
+.anime-unannounced>p{color:var(--muted);font-size:14px;margin-bottom:12px}
+@media(max-width:700px){.anime-period-head{align-items:center;gap:12px}.anime-period-head h2{font-size:22px}.anime-year{min-width:112px}.anime-quarters{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.anime-quarter{min-height:105px;padding:13px}.anime-quarter strong{font-size:20px}}
+
 </style>
 </head>
 <body>
@@ -126,7 +145,7 @@ function start(D){
     var a=el('article','news-item');a.appendChild(dbox(w.date));var b=el('div');
     var t=el('div','tags');if(w.theater)t.appendChild(el('span','category-tag only',w.theater));if(w.kind&&w.kind!=='개봉')t.appendChild(el('span','category-tag kind',w.kind));
     if(t.childNodes.length)b.appendChild(t);b.appendChild(el('h3',null,w.title));if(w.note)b.appendChild(el('p','sub',w.note));
-    var noBook=/일본 개봉|배우 내한|날짜 발표 전/.test(w.kind||'');
+    var noBook=/일본 개봉|배우 내한|날짜 발표 전|방영|TV|OTT|온라인 공개|스트리밍/.test(w.kind||'');
     if(!noBook){var k=el('div','book');var only=null;Object.keys(THEATERS).forEach(function(n){if((w.theater||'').indexOf(n)===0)only=n;});
       (only?[only]:Object.keys(THEATERS)).forEach(function(n,i){k.appendChild(link(THEATERS[n],n+' 예매',only||i===0?'':'ghost'));});b.appendChild(k);}
     a.appendChild(b);return a;
@@ -142,6 +161,56 @@ function start(D){
     var rc=recent(arr);if(rc.length){var l=monthBlock(v,'최근 개봉 · 3주 안');rc.forEach(function(w){l.appendChild(workCard(w));});}
     grouped(v,upcoming(arr).sort(function(a,b){return (a.date||'9999').localeCompare(b.date||'9999');}),workCard);
   }
+
+  var animeYear=Number(TODAY.slice(0,4));
+  var animeQuarter=Math.floor((Number(TODAY.slice(5,7))-1)/3)+1;
+  function animePeriod(work){
+    var match=/^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/.exec(work.date||'');
+    if(!match)return {year:null,quarter:null};
+    var year=Number(match[1]),month=Number(match[2]);
+    if(!match[2]||month<1||month>12)return {year:year,quarter:null};
+    if(match[3]){
+      var stamp=new Date(Date.UTC(year,month-1,Number(match[3])));
+      if(stamp.getUTCFullYear()!==year||stamp.getUTCMonth()!==month-1||stamp.getUTCDate()!==Number(match[3]))return {year:year,quarter:null};
+    }
+    return {year:year,quarter:Math.floor((month-1)/3)+1};
+  }
+  function renderAnime(v){
+    heading(v,'ANIME','분기별 애니 소식','TV·온라인 방영 소식과 극장판 개봉·재개봉을 연도와 분기로 모아 봅니다.');
+    var years=Array.from(new Set([Number(TODAY.slice(0,4)),animeYear].concat(D.anime.map(function(w){return animePeriod(w).year;}).filter(function(y){return y!==null;})))).sort(function(a,b){return b-a;});
+    var periodHead=el('div','anime-period-head');
+    var summary=el('div');
+    var selected=D.anime.filter(function(w){var p=animePeriod(w);return p.year===animeYear&&p.quarter===animeQuarter;}).sort(function(a,b){return a.date.localeCompare(b.date);});
+    var startMonth=(animeQuarter-1)*3+1;
+    summary.appendChild(el('h2',null,animeYear+'년 '+animeQuarter+'분기'));
+    summary.appendChild(el('p',null,startMonth+'~'+(startMonth+2)+'월 · 등록된 소식 '+selected.length+'건'));
+    periodHead.appendChild(summary);
+    var yearLabel=el('label','anime-year','연도');
+    var yearSelect=el('select');yearSelect.id='anime-year';yearSelect.setAttribute('aria-label','애니 소식 연도');
+    years.forEach(function(y){var option=el('option',null,y+'년');option.value=String(y);yearSelect.appendChild(option);});
+    yearSelect.value=String(animeYear);
+    yearSelect.addEventListener('change',function(){animeYear=Number(yearSelect.value);render();});
+    yearLabel.appendChild(yearSelect);periodHead.appendChild(yearLabel);v.appendChild(periodHead);
+    var quarters=el('nav','anime-quarters');quarters.setAttribute('aria-label','애니 소식 분기');
+    [1,2,3,4].forEach(function(quarter){
+      var button=el('button','anime-quarter');button.type='button';button.setAttribute('aria-pressed',String(animeQuarter===quarter));
+      button.appendChild(el('strong',null,quarter+'분기'));
+      button.appendChild(el('span',null,((quarter-1)*3+1)+'~'+(quarter*3)+'월'));
+      var count=D.anime.filter(function(w){var p=animePeriod(w);return p.year===animeYear&&p.quarter===quarter;}).length;
+      button.appendChild(el('small',null,count+'건'));
+      button.addEventListener('click',function(){animeQuarter=quarter;render();});quarters.appendChild(button);
+    });v.appendChild(quarters);
+    if(selected.length)grouped(v,selected,workCard);
+    else v.appendChild(el('p','empty',animeYear+'년 '+animeQuarter+'분기에 등록된 애니 소식이 없습니다.'));
+    var unknown=D.anime.filter(function(w){var p=animePeriod(w);return p.quarter===null&&(p.year===null||p.year===animeYear);});
+    if(unknown.length){
+      var pending=el('section','anime-unannounced');
+      pending.appendChild(el('h2',null,'일정 미정'));
+      pending.appendChild(el('p',null,'방영·개봉 시기가 발표되면 해당 분기에 표시합니다.'));
+      var list=el('div','news-list');unknown.forEach(function(w){var item=Object.assign({},w,{date:''});list.appendChild(workCard(item));});pending.appendChild(list);v.appendChild(pending);
+    }
+  }
+
   var q='';
   function renderPosts(v){
     heading(v,'ARCHIVE','지난 글','그동안 쓴 문화·취미 글입니다. 제목을 누르면 네이버 블로그로 이동합니다. 「최근 글」은 블로그 안 검색으로 그 글을 찾아 줍니다.');
@@ -157,13 +226,13 @@ function start(D){
     document.querySelectorAll('.category-cell').forEach(function(t){t.setAttribute('aria-selected',String(t.dataset.v===view));});
     var v=document.getElementById('view');v.textContent='';
     if(view==='concert')renderConcert(v);
-    else if(view==='anime')renderWorks(v,D.anime,'ANIME','애니 소식','국내 극장 개봉·재개봉 애니와 새로 방영하는 작품입니다.');
+    else if(view==='anime')renderAnime(v);
     else if(view==='movie')renderWorks(v,D.movies,'MOVIE','영화 소식','국내 극장 개봉작입니다. 한 극장에서만 거는 작품은 빨간 표시로 알려 드립니다.');
     else renderPosts(v);
   }
   function fromHash(){var h=location.hash.replace('#','');if(['concert','anime','movie','posts'].indexOf(h)>=0)view=h;}
   document.getElementById('n-concert').textContent=concerts.length;
-  document.getElementById('n-anime').textContent=upcoming(D.anime).length+recent(D.anime).length;
+  document.getElementById('n-anime').textContent=D.anime.length;
   document.getElementById('n-movie').textContent=upcoming(D.movies).length+recent(D.movies).length;
   document.getElementById('n-posts').textContent=D.posts.length;
   document.getElementById('upd').textContent='소식 갱신 '+D.updated.replace(/-/g,'.');
