@@ -278,7 +278,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "고양 킨텍스 제1전시장 1~5홀",
-      "note": "애니메이션·게임 합동 축제입니다. 패스트 티켓은 09:30 입장입니다.",
+      "note": "일반 1일권 29,000원 · 3일권 65,000원(12/4 16:59까지 온라인 예매). 패스트 티켓 입장은 09:30부터입니다.",
       "source": {
         "label": "AGF 공식 행사",
         "url": "https://www.agfkorea.com/event?idx=1"
@@ -286,16 +286,20 @@
       "timing": "일반 입장 10:00–18:00 KST",
       "links": [
         {
-          "label": "12/4 예매 상품",
+          "label": "12/4 1일권 예매",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213888"
         },
         {
-          "label": "12/5 예매 상품",
+          "label": "12/5 1일권 예매",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213889"
         },
         {
-          "label": "12/6 예매 상품",
+          "label": "12/6 1일권 예매",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213890"
+        },
+        {
+          "label": "3일권 예매",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213887"
         }
       ]
     },
