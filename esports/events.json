@@ -59,7 +59,7 @@
       "links": [
         {
           "label": "부산시 운영 안내",
-          "url": "https://www.busan.go.kr/eng/index/bsnews01/1571415"
+          "url": "https://www.busan.go.kr/bige/daily-busan/view?bbsNo=10&dataNo=73566&srchCl=Daily+Busan"
         }
       ]
     },
@@ -79,6 +79,24 @@
         "url": "https://supercell.com/brawlstars/en/blog/esports/your-guide-to-the-biggest-brawl-stars-world-finals-ever-/"
       },
       "timing": "매일 12:00 KST"
+    },
+    {
+      "id": "predator-kr-finals27",
+      "categories": [
+        "lol",
+        "valorant"
+      ],
+      "title": "프레데터 리그 2027 한국 대표 선발전 결선",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "region": "kr",
+      "location": "서울 상암 · SOOP 콜로세움",
+      "note": "11/21 LoL, 11/22 발로란트 한국 대표 결정전입니다.",
+      "source": {
+        "label": "에이서 공식 대회 안내",
+        "url": "https://www.newswire.co.kr/newsRead.php?no=1047479"
+      },
+      "timing": "양일 15:00 KST"
     },
     {
       "id": "school-online",
@@ -346,7 +364,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불 · Turkcell Basketbol Gelişim Merkezi",
-      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요.",
+      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. 판매처 안내상 12/12 결승 2일차 얼리버드 1등급 티켓의 추가 상품입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -355,6 +373,57 @@
         {
           "label": "모바일 결승 예매 상품",
           "url": "https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship"
+        },
+        {
+          "label": "12/12 결승 2일차 행사 안내",
+          "url": "https://www.biletix.com/performance/5PGC2/001/TURKIYE/en"
+        }
+      ]
+    },
+    {
+      "id": "vq-jp-finals",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 킥오프 일본 예선 파이널",
+      "start": "2026-12-11",
+      "end": "2026-12-12",
+      "region": "global",
+      "location": "일본 도쿄 · 도쿄돔시티 시어터 G롯소",
+      "note": "우승 팀이 VCT 퍼시픽 킥오프로 진출합니다. 12/11 승자·패자조 결승, 12/12 그랜드 파이널입니다.",
+      "source": {
+        "label": "공식 경기 일정",
+        "url": "https://vctjp-open.com/2027-kickoff-finals/"
+      },
+      "timing": "경기 예정 12/11 13:00·17:00, 12/12 14:00 KST",
+      "links": [
+        {
+          "label": "로손티켓 양일 예매 상품",
+          "url": "https://l-tike.com/sports/mevent/?mid=799559",
+          "opensAt": "2026-11-21T12:00:00+09:00",
+          "saleState": "open"
+        }
+      ]
+    },
+    {
+      "id": "maplestory-selection26",
+      "categories": [
+        "festival"
+      ],
+      "title": "메이플스토리 2026 윈터 쇼케이스 SELECTION",
+      "start": "2026-12-12",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 9A홀",
+      "note": "현장 관람 예매에는 쇼케이스 멤버십 코드가 필요합니다.",
+      "source": {
+        "label": "넥슨 공식 쇼케이스 안내",
+        "url": "https://maplestory.nexon.com/promotion/event/2026/20261112/event01"
+      },
+      "links": [
+        {
+          "label": "티켓링크 예매 상품",
+          "url": "https://www.ticketlink.co.kr/product/66925",
+          "opensAt": "2026-12-02T20:00:00+09:00"
         }
       ]
     },
@@ -368,7 +437,7 @@
       "end": "2026-12-20",
       "region": "kr",
       "location": "고양 킨텍스 제2전시장 10홀",
-      "note": "12월 18일 업데이트 발표, 19~20일 현장 체험 행사입니다.",
+      "note": "12월 18일 업데이트 발표, 19~20일 현장 체험 행사입니다. 모험단 코드 사전 등록은 11/25 10:00 KST부터입니다.",
       "source": {
         "label": "넥슨 공식 행사",
         "url": "https://df.nexon.com/pr/dnffestival26"
@@ -395,6 +464,45 @@
           "url": "https://df.nexon.com/customer/faq?cat1=70&cat2=1010"
         }
       ]
+    },
+    {
+      "id": "beaver-rocks26",
+      "categories": [
+        "festival"
+      ],
+      "title": "비버롹스 2026 인디게임·컬처 페스티벌",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "region": "kr",
+      "location": "서울 SETEC 제1·2전시장",
+      "note": "전시장 1일권은 12/17까지 얼리버드 기간입니다. STOVE 온라인 전시는 12/1~31 예정입니다.",
+      "source": {
+        "label": "주최사 행사·티켓 안내",
+        "url": "https://beaverrocks.com/visitor/ticket"
+      },
+      "timing": "매일 10:00–18:00 KST · 입장 마감 17:00",
+      "links": [
+        {
+          "label": "NOL 1일권 예매 상품",
+          "url": "https://nol.yanolja.com/ticket/products/26014698"
+        }
+      ]
+    },
+    {
+      "id": "predator-apac27",
+      "categories": [
+        "lol",
+        "valorant"
+      ],
+      "title": "아시아·태평양 프레데터 리그 2027 본선",
+      "start": "2027-01",
+      "region": "global",
+      "location": "베트남 호찌민",
+      "note": "LoL·발로란트 지역 대표 본선입니다. 공식 세부 일자는 발표 대기입니다.",
+      "source": {
+        "label": "주최사 공식 본선 안내",
+        "url": "https://www.predator-league.com/about?region=en"
+      }
     },
     {
       "id": "vct-bangkok",
