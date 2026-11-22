@@ -78,6 +78,8 @@
 .news-unannounced>p{color:var(--muted);font-size:14px;margin-bottom:12px}
 @media(max-width:700px){.news-period-head{align-items:center;gap:12px}.news-period-head h2{font-size:22px}.news-year{min-width:112px}.news-quarters{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.news-quarter{min-height:105px;padding:13px}.news-quarter strong{font-size:20px}}
 
+.esports-entry{display:inline-flex;align-items:center;gap:.4rem;margin:10px 0;padding:6px 10px;border:1px solid #555;color:var(--white);font-size:13px;font-weight:700}
+.esports-entry:hover,.esports-entry:focus-visible{border-color:var(--red)}
 </style>
 </head>
 <body>
@@ -92,6 +94,7 @@
     <a class="mast-logo" href="#concert" aria-label="Control Mylife 홈"><div class="wordmark"><span>CONTROL</span> <span>MYLIFE</span><img class="brush" alt="" src="./assets/brush-underline.png"></div><span class="zine">MANGA<br>CLUB<br>ZINE</span></a>
     <div class="mast-story"><div><img alt="좋아하는 것이 나를 만든다." src="./assets/slogan.png"><small>LIVE / ANIME / MOVIE<br>A BETTER ME</small></div><p>공연과<br>애니, 영화<br>소식판.</p></div>
   </div>
+  <a class="esports-entry" href="./esports/">e스포츠 전광판 <span aria-hidden="true">↗</span></a>
   <nav class="category-nav" role="tablist" aria-label="소식 종류">
     <button class="category-cell" role="tab" data-v="concert"><strong>공연</strong><span class="nav-note">내한·관심<br>가수 공연<span class="cnt" id="n-concert"></span></span><img alt="" src="./assets/nav-hobby.png"></button>
     <button class="category-cell anime-cell" role="tab" data-v="anime"><strong>애니</strong><span class="nav-note">극장판·<br>방영 소식<span class="cnt" id="n-anime"></span></span><img alt="" src="./assets/images/naver/7399579f87e0d906acc31832.png"></button>

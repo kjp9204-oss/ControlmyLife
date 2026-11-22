@@ -1,0 +1,716 @@
+{
+  "checked": "2026.11.22",
+  "events": [
+    {
+      "id": "pubgm-asian-games",
+      "categories": [
+        "pubgm"
+      ],
+      "title": "PUBG MOBILE 아시안게임 버전",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "region": "global",
+      "location": "일본 도코나메 · 아이치 스카이 엑스포",
+      "note": "아이치·나고야 아시안게임 e스포츠 종목입니다.",
+      "source": {
+        "label": "퍼블리셔 종목 발표",
+        "url": "https://press.levelinfinite.com/THE-COUNTDOWN-IS-ON-AS-NATIONS-PREPARE-FOR-THE-2026-ASIAN-GAMES-ESPORT"
+      }
+    },
+    {
+      "id": "pmps-s2",
+      "categories": [
+        "pubgm"
+      ],
+      "title": "PMPS 2026 시즌 2 결승",
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "region": "kr",
+      "location": "대한민국",
+      "note": "PUBG MOBILE 프로 시리즈 국내 시즌 결승입니다.",
+      "source": {
+        "label": "공식 경기 일정",
+        "url": "https://esports.pubgmobile.kr/ko/schedule"
+      },
+      "timing": "매일 15:00 KST",
+      "links": [
+        {
+          "label": "시즌 공지",
+          "url": "https://esports.pubgmobile.kr/ko/news/208"
+        }
+      ]
+    },
+    {
+      "id": "gstar26",
+      "categories": [
+        "festival"
+      ],
+      "title": "지스타 2026",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "region": "kr",
+      "location": "부산 벡스코",
+      "note": "일반 관람은 11월 19일 11:00부터, 20~22일 10:00부터입니다.",
+      "source": {
+        "label": "공식 전시 개요",
+        "url": "https://www.gstar.or.kr/part/gstar_part_info.do"
+      },
+      "timing": "매일 18:00 종료 KST",
+      "links": [
+        {
+          "label": "부산시 운영 안내",
+          "url": "https://www.busan.go.kr/eng/index/bsnews01/1571415"
+        }
+      ]
+    },
+    {
+      "id": "brawl26",
+      "categories": [
+        "other"
+      ],
+      "title": "브롤스타즈 월드 파이널 2026",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "region": "global",
+      "location": "일본 도쿄 · 도쿄체육관",
+      "note": "브롤스타즈 시즌 최종 대회입니다.",
+      "source": {
+        "label": "슈퍼셀 대회 안내",
+        "url": "https://supercell.com/brawlstars/en/blog/esports/your-guide-to-the-biggest-brawl-stars-world-finals-ever-/"
+      },
+      "timing": "매일 12:00 KST"
+    },
+    {
+      "id": "school-online",
+      "categories": [
+        "lol",
+        "valorant"
+      ],
+      "title": "전국중고교이스포츠대회 전국본선",
+      "start": "2026-11-22",
+      "region": "online",
+      "location": "온라인",
+      "note": "LoL과 발로란트 본선 일정입니다. 21일에는 PC 배틀그라운드 종목을 진행합니다.",
+      "source": {
+        "label": "KeSPA 공식 일정",
+        "url": "https://www.e-sports.or.kr/news/media_view?brd_id=3BYG5YO90001"
+      },
+      "timing": "11:00 KST"
+    },
+    {
+      "id": "vq-open",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 킥오프 한국 오픈 예선",
+      "start": "2026-11-25",
+      "end": "2026-11-26",
+      "region": "online",
+      "location": "온라인",
+      "note": "비방송 예선입니다. 세부 경기 시각은 공지에서 확인하세요.",
+      "source": {
+        "label": "라이엇 공식 일정",
+        "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
+      },
+      "links": [
+        {
+          "label": "한국 예선 운영 안내",
+          "url": "https://vctkrqualifier.com/"
+        }
+      ]
+    },
+    {
+      "id": "pmgc26",
+      "categories": [
+        "pubgm"
+      ],
+      "title": "PUBG MOBILE 글로벌 챔피언십 2026",
+      "start": "2026-11-26",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "튀르키예 이스탄불",
+      "note": "월드 챔피언십 기간입니다. 결승은 12월 11~13일에 열립니다.",
+      "source": {
+        "label": "PUBG UNITED 공식 일정",
+        "url": "https://www.pubg.com/en/events/pubgunited2026"
+      },
+      "timing": "개막 11/26 21:00 KST",
+      "links": [
+        {
+          "label": "공식 개막 시각",
+          "url": "https://x.com/EsportsPUBGM/status/2121819985580532174"
+        }
+      ]
+    },
+    {
+      "id": "ief26",
+      "categories": [
+        "valorant",
+        "festival",
+        "other"
+      ],
+      "title": "청주국제e스포츠페스티벌 IEF 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "region": "kr",
+      "location": "청주 석우문화체육관",
+      "note": "발로란트·FC 온라인·이터널 리턴 경기와 일러스타 행사가 열립니다.",
+      "source": {
+        "label": "IEF 공식 일정",
+        "url": "https://ief2026.org/"
+      }
+    },
+    {
+      "id": "uni26",
+      "categories": [
+        "lol",
+        "valorant",
+        "other"
+      ],
+      "title": "2026 이스포츠 대학리그 전국결선",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "region": "kr",
+      "location": "부산이스포츠경기장",
+      "note": "경기장 일정표에 표시된 결선 경기일입니다.",
+      "source": {
+        "label": "경기장 공식 일정",
+        "url": "https://brena.or.kr/brena/index.do"
+      },
+      "links": [
+        {
+          "label": "결선 공지",
+          "url": "https://brena.or.kr/brena/notice.do?articleNo=3202&mode=view"
+        }
+      ]
+    },
+    {
+      "id": "vq-online",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 한국 예선 온라인 플레이오프",
+      "start": "2026-11-30",
+      "end": "2026-12-03",
+      "region": "online",
+      "location": "온라인",
+      "note": "한국 예선 플레이오프의 온라인 경기 기간입니다.",
+      "source": {
+        "label": "라이엇 공식 일정",
+        "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
+      },
+      "links": [
+        {
+          "label": "한국 예선 운영 안내",
+          "url": "https://vctkrqualifier.com/"
+        }
+      ]
+    },
+    {
+      "id": "pgc26",
+      "categories": [
+        "other"
+      ],
+      "title": "PC 배틀그라운드 글로벌 챔피언십 2026",
+      "start": "2026-12-01",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "튀르키예 이스탄불",
+      "note": "PC 배틀그라운드 세계대회입니다. 결승은 12월 11~13일입니다.",
+      "source": {
+        "label": "PUBG Esports 공식 일정",
+        "url": "https://pubgesports.com/en/news/11393"
+      },
+      "links": [
+        {
+          "label": "PC 결승 예매 상품",
+          "url": "https://www.biletix.com/etkinlik-grup/5669521108/TURKIYE/en/pubg-global-championship-2026"
+        }
+      ]
+    },
+    {
+      "id": "vq-offline",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 한국 예선 오프라인 플레이오프",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "region": "kr",
+      "location": "서울 · WDG 스튜디오 홍대",
+      "note": "경기별 시작 시각과 관람 안내는 공개되는 대회 공지를 확인하세요.",
+      "source": {
+        "label": "라이엇 공식 일정",
+        "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
+      },
+      "links": [
+        {
+          "label": "한국 예선 운영 안내",
+          "url": "https://vctkrqualifier.com/"
+        }
+      ]
+    },
+    {
+      "id": "agf26",
+      "categories": [
+        "festival"
+      ],
+      "title": "AGF Korea 2026",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "region": "kr",
+      "location": "고양 킨텍스 제1전시장 1~5홀",
+      "note": "애니메이션·게임 합동 축제입니다. 패스트 티켓은 09:30 입장입니다.",
+      "source": {
+        "label": "AGF 공식 행사",
+        "url": "https://www.agfkorea.com/event?idx=1"
+      },
+      "timing": "일반 입장 10:00–18:00 KST",
+      "links": [
+        {
+          "label": "12/4 예매 상품",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213888"
+        },
+        {
+          "label": "12/5 예매 상품",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213889"
+        },
+        {
+          "label": "12/6 예매 상품",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213890"
+        }
+      ]
+    },
+    {
+      "id": "league-own26",
+      "categories": [
+        "lol"
+      ],
+      "title": "Red Bull League of Its Own 2026",
+      "start": "2026-12-05",
+      "region": "global",
+      "location": "스페인 바달로나 · 올림픽 아레나",
+      "note": "T1·G2·Karmine Corp·Movistar KOI가 참가하는 LoL 쇼매치입니다.",
+      "source": {
+        "label": "Red Bull 공식 행사",
+        "url": "https://www.redbull.com/gb-en/events/red-bull-league-of-its-own"
+      },
+      "timing": "23:00 KST"
+    },
+    {
+      "id": "school-final",
+      "categories": [
+        "lol",
+        "valorant"
+      ],
+      "title": "전국중고교이스포츠대회 전국결선",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "region": "kr",
+      "location": "부산이스포츠경기장",
+      "note": "전국결선 전체 기간입니다. 종목별 시각은 세부 공지를 확인하세요.",
+      "source": {
+        "label": "KeSPA 공식 일정",
+        "url": "https://www.e-sports.or.kr/news/media_view?brd_id=3BYG5YO90001"
+      }
+    },
+    {
+      "id": "home-ground26",
+      "categories": [
+        "valorant"
+      ],
+      "title": "Red Bull Home Ground 월드 파이널",
+      "start": "2026-12-10",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "미국 로스앤젤레스",
+      "note": "T1 출전. 그룹 12/10~11 WePlay Studios, 파이널 12/12~13 Shrine Auditorium입니다.",
+      "source": {
+        "label": "Red Bull 공식 행사",
+        "url": "https://www.redbull.com/int-en/events/red-bull-home-ground"
+      },
+      "links": [
+        {
+          "label": "파이널 예매 상품",
+          "url": "https://www.axs.com/series/34394/red-bull-home-ground-world-finals-2026-tickets?skin=shrinela"
+        }
+      ]
+    },
+    {
+      "id": "pmgc-final26",
+      "categories": [
+        "pubgm"
+      ],
+      "title": "PUBG MOBILE 글로벌 챔피언십 결승",
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "튀르키예 이스탄불 · Turkcell Basketbol Gelişim Merkezi",
+      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요.",
+      "source": {
+        "label": "PUBG UNITED 공식 일정",
+        "url": "https://www.pubg.com/en/events/pubgunited2026"
+      },
+      "links": [
+        {
+          "label": "모바일 결승 예매 상품",
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship"
+        }
+      ]
+    },
+    {
+      "id": "df26",
+      "categories": [
+        "festival"
+      ],
+      "title": "2026 던파 페스티벌",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 10홀",
+      "note": "12월 18일 업데이트 발표, 19~20일 현장 체험 행사입니다.",
+      "source": {
+        "label": "넥슨 공식 행사",
+        "url": "https://df.nexon.com/pr/dnffestival26"
+      },
+      "timing": "12/18 발표 20:00 KST",
+      "links": [
+        {
+          "label": "12/18 예매 상품",
+          "url": "https://www.ticketlink.co.kr/product/67174",
+          "opensAt": "2026-11-26T19:00:00+09:00"
+        },
+        {
+          "label": "12/19 예매 상품",
+          "url": "https://www.ticketlink.co.kr/product/67175",
+          "opensAt": "2026-11-26T20:00:00+09:00"
+        },
+        {
+          "label": "12/20 예매 상품",
+          "url": "https://www.ticketlink.co.kr/product/67176",
+          "opensAt": "2026-11-26T21:00:00+09:00"
+        },
+        {
+          "label": "넥슨 예매 시간 안내",
+          "url": "https://df.nexon.com/customer/faq?cat1=70&cat2=1010"
+        }
+      ]
+    },
+    {
+      "id": "vct-bangkok",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 킥오프",
+      "start": "2027-01-11",
+      "end": "2027-01-31",
+      "region": "global",
+      "location": "태국 방콕",
+      "note": "퍼시픽 시즌 개막 대회입니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "lec27",
+      "categories": [
+        "lol"
+      ],
+      "title": "LEC 2027 윈터 개막",
+      "start": "2027-01-15",
+      "region": "global",
+      "location": "유럽 · 경기별 장소 공지 대기",
+      "note": "개막일입니다. 경기별 시작 시각과 라인업은 일정표를 확인하세요.",
+      "source": {
+        "label": "Riot 공식 리그 안내",
+        "url": "https://lolesports.com/en-GB/news/2027-lec-a-look-at-the-year-ahead"
+      }
+    },
+    {
+      "id": "masters-seoul",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 마스터스 서울",
+      "start": "2027-02-20",
+      "end": "2027-03-07",
+      "region": "kr",
+      "location": "서울 · 경기장 공지 대기",
+      "note": "VCT 퍼시픽 정정 발표에 따라 종료일을 3월 7일로 반영했습니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "vct-cup1",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 컵 1",
+      "start": "2027-05-06",
+      "end": "2027-05-23",
+      "region": "global",
+      "location": "필리핀 마닐라",
+      "note": "퍼시픽 지역 대회입니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "masters-valencia",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 마스터스 발렌시아",
+      "start": "2027-06-05",
+      "end": "2027-06-20",
+      "region": "global",
+      "location": "스페인 발렌시아",
+      "note": "마스터스 국제 대회입니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "road-msi",
+      "categories": [
+        "lol"
+      ],
+      "title": "LCK Road to MSI 2027",
+      "start": "2027-06-16",
+      "end": "2027-06-20",
+      "region": "kr",
+      "location": "대한민국 · 개최 도시 공지 대기",
+      "note": "한국e스포츠협회 개최지 공모에 나온 대회 기간안입니다.",
+      "source": {
+        "label": "KeSPA 개최지 공모",
+        "url": "https://www.e-sports.or.kr/news/notice_view?brd_id=3BWXDZ8J0001"
+      },
+      "planned": true
+    },
+    {
+      "id": "msi27",
+      "categories": [
+        "lol"
+      ],
+      "title": "LoL 미드 시즌 인비테이셔널 2027",
+      "start": "2027-06",
+      "region": "global",
+      "location": "스페인 발렌시아 · Feria de Valencia",
+      "note": "KeSPA 공고상 6월 말 예정입니다. 라이엇 세부 날짜는 발표 대기입니다.",
+      "source": {
+        "label": "라이엇 개최지 발표",
+        "url": "https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"
+      },
+      "links": [
+        {
+          "label": "KeSPA 일정 공고",
+          "url": "https://www.e-sports.or.kr/news/notice_view?brd_id=3BWXDZ8J0001"
+        }
+      ],
+      "planned": true
+    },
+    {
+      "id": "ewc27",
+      "categories": [
+        "lol",
+        "other"
+      ],
+      "title": "Esports World Cup 2027",
+      "start": "2027-07",
+      "end": "2027-08",
+      "region": "global",
+      "location": "사우디아라비아 리야드",
+      "note": "대회 전체 개최 월입니다. LoL 참가 종목은 확정됐으며 종목별 날짜를 발표할 예정입니다.",
+      "source": {
+        "label": "EWC LoL 종목 발표",
+        "url": "https://ewc-web.prod.esf-systems.com/en/press-releases/league-of-legends-returns-to-ewc2027"
+      },
+      "links": [
+        {
+          "label": "EWC 전체 일정 발표",
+          "url": "https://ewc-web.prod.esf-systems.com/en/press-releases/ewc-opens-new-global-pathways-to-ewc-2027"
+        }
+      ]
+    },
+    {
+      "id": "vct-cup2",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 컵 2",
+      "start": "2027-08-12",
+      "end": "2027-08-29",
+      "region": "global",
+      "location": "일본 도쿄",
+      "note": "퍼시픽 지역 대회입니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "vct-champs",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 챔피언스 오스틴",
+      "start": "2027-09-16",
+      "end": "2027-10-10",
+      "region": "global",
+      "location": "미국 오스틴",
+      "note": "시즌 최종 대회입니다. 개최 기간이 3·4분기에 걸칩니다.",
+      "source": {
+        "label": "공식 정정 발표",
+        "url": "https://x.com/vctpacific/status/2115726818649190850"
+      },
+      "links": [
+        {
+          "label": "시즌 공식 개요",
+          "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "enc27",
+      "categories": [
+        "other"
+      ],
+      "title": "Esports Nations Cup 2027",
+      "start": "2027-11",
+      "region": "global",
+      "location": "사우디아라비아 리야드",
+      "note": "국가대표 e스포츠 대회입니다. 최신 주최사 발표에 따른 개최 월이며 종목별 일정은 공지 대기입니다.",
+      "source": {
+        "label": "ENC 공식 로드맵",
+        "url": "https://www.esportsnationscup.com/en/press-releases/road-to-esports-nations-cup-2027"
+      },
+      "planned": true
+    },
+    {
+      "id": "worlds27-seoul",
+      "categories": [
+        "lol"
+      ],
+      "title": "LoL 월드 챔피언십 2027 서울 결승",
+      "start": "2027-11-13",
+      "region": "kr",
+      "location": "서울아레나",
+      "note": "서울시 발표의 결승 예정일입니다. 팬 페스타는 11월 10~13일 예정입니다.",
+      "source": {
+        "label": "서울시 개최 안내",
+        "url": "https://news.seoul.go.kr/economy/archives/575236"
+      },
+      "links": [
+        {
+          "label": "라이엇 개최지 발표",
+          "url": "https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"
+        }
+      ],
+      "planned": true
+    },
+    {
+      "id": "gstar27",
+      "categories": [
+        "festival"
+      ],
+      "title": "지스타 2027",
+      "start": "2027-11-18",
+      "end": "2027-11-21",
+      "region": "kr",
+      "location": "대한민국 · 행사 세부 공지 대기",
+      "note": "주최사가 공지한 전시 일정입니다. 세부 관람 안내는 후속 공지에서 확인하세요.",
+      "source": {
+        "label": "지스타 주최사 공지",
+        "url": "https://www.gstar.or.kr/board/board_user_view.do?bd_idx=1192&bmt_idx=1"
+      }
+    },
+    {
+      "id": "first-stand27",
+      "categories": [
+        "lol"
+      ],
+      "title": "LoL 퍼스트 스탠드 2027",
+      "start": "2027",
+      "region": "global",
+      "location": "중국 · 개최 도시 공지 대기",
+      "note": "라이엇이 개최국을 발표했습니다. 도시와 대회 기간은 후속 공지에서 확인하세요.",
+      "source": {
+        "label": "라이엇 개최국 발표",
+        "url": "https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"
+      }
+    },
+    {
+      "id": "worlds27-swiss",
+      "categories": [
+        "lol"
+      ],
+      "title": "LoL 월드 챔피언십 2027 스위스 스테이지",
+      "start": "2027",
+      "region": "global",
+      "location": "일본 나고야",
+      "note": "라이엇이 발표한 스위스 스테이지 개최 도시입니다. 경기 일자는 공지 대기입니다.",
+      "source": {
+        "label": "라이엇 개최지 발표",
+        "url": "https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"
+      }
+    },
+    {
+      "id": "worlds27-suwon",
+      "categories": [
+        "lol"
+      ],
+      "title": "LoL 월드 챔피언십 2027 8강·4강",
+      "start": "2027-11-02",
+      "end": "2027-11-07",
+      "region": "kr",
+      "location": "수원컨벤션센터",
+      "note": "라이엇이 발표한 8강·4강 경기장입니다. 기간은 개최지 공모에 나온 일정안입니다.",
+      "source": {
+        "label": "라이엇 개최지 발표",
+        "url": "https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"
+      },
+      "links": [
+        {
+          "label": "개최지 공모",
+          "url": "https://www.a-esc.com/user2/board/view/board_cd/notice/wr_no/36"
+        }
+      ],
+      "planned": true
+    }
+  ]
+}
