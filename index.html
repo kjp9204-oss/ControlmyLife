@@ -113,6 +113,25 @@ function el(tag,cls,txt){var n=document.createElement(tag);if(cls)n.className=cl
 function link(href,txt,cls){var a=el('a',cls||'',txt);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a;}
 var TODAY=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 document.getElementById('today').textContent=TODAY.replace(/-/g,'.');
+function concertSourceLink(concert){
+  var url;
+  try{url=new URL(concert.url);}catch(e){return null;}
+  if(url.protocol!=='https:')return null;
+  if(concert.official===false)return link(url.href,'공연 정보 보기','ghost');
+
+  var host=url.hostname,path=url.pathname;
+  var isYes24=host==='ticket.yes24.com'||host==='m.ticket.yes24.com';
+  var isMelon=host==='ticket.melon.com';
+  var isBookingProduct=(host==='nol.yanolja.com'&&/^\/ticket\/products\/\d+\/?$/.test(path))
+    ||(isYes24&&/^\/Perf\/\d+\/?$/i.test(path))
+    ||(isMelon&&path==='/performance/index.htm'&&/^\d+$/.test(url.searchParams.get('prodId')||''));
+  if(isBookingProduct)return link(url.href,'예매하기');
+
+  var isTicketNotice=(isYes24&&/^\/Notice\//i.test(path))
+    ||(isMelon&&path==='/csoon/detail.htm')
+    ||(host==='tickets.interpark.com'&&path.startsWith('/contents/notice/'));
+  return link(url.href,isTicketNotice?'예매 공지 보기':'공식 공연 공지','ghost');
+}
 function start(D){
   function monthLabel(d){if(!d)return '날짜 발표 전';return d.slice(0,4)+'년 '+Number(d.slice(5,7))+'월';}
   function dbox(d){
@@ -138,7 +157,8 @@ function start(D){
     [['선예매',c.presale],['일반예매',c.general]].forEach(function(p){if(p[1]&&p[1].slice(0,10)>=TODAY)t.appendChild(el('span','opentag',p[0]+' '+fmtOpen(p[1])));});
     b.appendChild(t);b.appendChild(el('h3',null,c.artist));b.appendChild(el('p','sub',c.title));
     b.appendChild(el('small',null,c.venue+(c.time?' · '+c.time:'')));
-    var k=el('div','book');k.appendChild(link(c.url,c.official===false?'공연 정보 보기':'예매하기',c.official===false?'ghost':''));b.appendChild(k);
+    var source=concertSourceLink(c);
+    if(source){var k=el('div','book');k.appendChild(source);b.appendChild(k);}
     a.appendChild(b);return a;
   }
   function workCard(w){
