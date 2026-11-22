@@ -190,6 +190,8 @@ function dateLabel(event) {
 }
 const dayDiff = (from, to) => Math.round((Date.parse(to) - Date.parse(from)) / 86400000);
 function status(event) {
+  if (event.eventState === "cancelled") return ["취소", "past"];
+  if (event.eventState === "postponed") return ["연기", "planned"];
   if (event.planned) return [precise(event.start) ? "일정안" : "개최 예정", "planned"];
   if (!precise(event.start)) return ["날짜 미정", "planned"];
   const [start, end] = bounds(event);
@@ -291,7 +293,7 @@ function render() {
 }
 function renderNext() {
   const upcoming = rows.filter(event => {
-    if (event.planned || !precise(event.start)) return false;
+    if (event.eventState || event.planned || !precise(event.start)) return false;
     const [start, end] = bounds(event);
     return end >= today && dayDiff(today, start) <= 14;
   }).sort((a, b) => Number(a.start <= today) - Number(b.start <= today) || sortEvents(a, b)).slice(0, 3);
