@@ -409,6 +409,28 @@
       }
     },
     {
+      "id": "vct-radiant-invitational26",
+      "categories": [
+        "valorant"
+      ],
+      "title": "발로란트 레디언트 국제 인비테이셔널 2026",
+      "start": "2026-12-06",
+      "end": "2026-12-12",
+      "region": "global",
+      "location": "중국 샤먼 · 바이샹 컨벤션·전시센터",
+      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다.",
+      "source": {
+        "label": "VCT 중국 공식 대회 공지",
+        "url": "https://www.sina.cn/news/detail/5367359143151301.html"
+      },
+      "links": [
+        {
+          "label": "공식 예매 공지",
+          "url": "https://www.weibo.com/ttarticle/p/show?id=2309405367359144853539"
+        }
+      ]
+    },
+    {
       "id": "home-ground26",
       "categories": [
         "valorant"
