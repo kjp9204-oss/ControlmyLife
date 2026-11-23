@@ -1,5 +1,5 @@
 {
-  "checked": "2026.11.22",
+  "checked": "2026.11.23",
   "events": [
     {
       "id": "pubgm-asian-games",
@@ -428,6 +428,33 @@
           "label": "티켓링크 예매 상품",
           "url": "https://www.ticketlink.co.kr/product/66925",
           "opensAt": "2026-12-02T20:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "iesf-wec26",
+      "categories": [
+        "pubgm",
+        "other"
+      ],
+      "title": "IESF 월드 e스포츠 챔피언십 2026",
+      "start": "2026-12-15",
+      "end": "2026-12-20",
+      "region": "global",
+      "location": "인도네시아 반텐 · ICE BSD City",
+      "note": "대회 전체 개최 기간입니다. PUBG MOBILE 국가대표 16개국이 결선에 참가합니다. 종목별 경기 시간은 확인 전입니다.",
+      "source": {
+        "label": "IESF 공식 대회 안내",
+        "url": "https://wec.iesf.org/ko/editions/wec-2026"
+      },
+      "links": [
+        {
+          "label": "개최지·종목 공식 발표",
+          "url": "https://wec.iesf.org/editions/wec-2026/news/banten-wec26-host-city"
+        },
+        {
+          "label": "경기장 행사 안내",
+          "url": "https://ice-indonesia.com/en/event/event_list/world-esports-championship-2026"
         }
       ]
     },
