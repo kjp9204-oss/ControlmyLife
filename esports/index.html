@@ -457,7 +457,7 @@ function loadRosters(data) {
         return item;
       }));
       const sources = make("div", "roster-sources");
-      sources.append(...team.sources.map(source => external(source.label + " ↗", source.url)));
+      sources.append(...team.sources.map(source => external(source.label, source.url)));
       card.append(
         make("p", "muted", gameLabels[team.game] + " · " + team.scope),
         make("h3", "", team.name),
