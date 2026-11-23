@@ -183,6 +183,16 @@ footer p { margin-bottom: .5rem; }
   .event .subject { grid-column: 1 / -1; grid-row: 1; }
   .event .links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .38rem .7rem; }
 }
+
+.roster { margin-block: 2.3rem; scroll-margin-top: 1rem; }
+.roster .pills { margin-block: .8rem; }
+.roster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr)); gap: .75rem; }
+.roster-card { min-width: 0; padding: .8rem; border: 1px solid var(--rule); background: var(--surface); }
+.roster-card h3 { margin-block: .25rem; font-size: 1.05rem; }
+.roster-players { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: .65rem 0; }
+.roster-players li { max-width: 100%; overflow-wrap: anywhere; border: 1px solid var(--rule); padding: .16rem .44rem; }
+.roster-sources { display: flex; flex-wrap: wrap; gap: .35rem .7rem; }
+.roster-card a, .roster-card .muted { font-size: .9rem; }
 </style>
 </head>
 <body>
@@ -193,6 +203,8 @@ footer p { margin-bottom: .5rem; }
         <a href="../">← 소식판</a>
         <span aria-hidden="true">/</span>
         <a href="../concerts/">공연 전광판</a>
+        <span aria-hidden="true">/</span>
+        <a href="#roster">선수 목록</a>
       </nav>
       <p class="asof" id="checked"></p>
     </div>
@@ -239,6 +251,14 @@ footer p { margin-bottom: .5rem; }
     <div class="schedule-title" aria-hidden="true"><span>날짜 · 상태</span><span>대회 · 행사</span><span>개최지</span><span>공식 링크</span></div>
     <div id="events"></div>
   </div>
+  <section id="roster" class="roster" aria-labelledby="roster-heading">
+    <div class="section-title">
+      <h2 id="roster-heading">선수 목록</h2>
+      <p class="muted" id="roster-status" role="status">공식 명단 확인 중</p>
+    </div>
+    <div class="pills" id="roster-filters" role="group" aria-label="선수 목록 종목"></div>
+    <div class="roster-grid" id="roster-teams"></div>
+  </section>
 </main>
 <footer class="wrap">
   <p>공개된 공식 일정을 수록했습니다. 해외 행사 기간은 개최지 날짜를 따르고, 확인된 시작 시각은 KST로 표시합니다.</p>
@@ -418,12 +438,59 @@ function renderNext() {
 function quarterButtons() {
   buttons($("quarters"), quarterLabels, quarter, value => {quarter = value;});
 }
+
+function loadRosters(data) {
+  const gameLabels = {all: categories.all, lol: categories.lol, valorant: categories.valorant, pubgm: categories.pubgm};
+  function renderRosters() {
+    const selected = $("roster-filters").querySelector('[aria-pressed="true"]')?.dataset.value || "all";
+    const teams = data.teams.filter(team => selected === "all" || selected === team.game);
+    $("roster-teams").replaceChildren(...teams.map(team => {
+      const card = make("article", "roster-card");
+      const players = make("ul", "roster-players");
+      players.append(...team.players.map(player => make("li", "", player)));
+      const sources = make("div", "roster-sources");
+      sources.append(...team.sources.map(source => external(source.label + " ↗", source.url)));
+      card.append(
+        make("p", "muted", gameLabels[team.game] + " · " + team.scope),
+        make("h3", "", team.name),
+        players,
+        sources
+      );
+      return card;
+    }));
+    if (!teams.length) $("roster-teams").append(make("p", "empty", "공식 출처에서 확인한 선수 목록이 없습니다."));
+    $("roster-status").textContent = "공식 출처 확인 " + data.checked + " · " + teams.length + "개 목록";
+  }
+  const controls = Object.entries(gameLabels).map(([value, label]) => {
+    const button = make("button", "", label);
+    button.type = "button";
+    button.dataset.value = value;
+    button.setAttribute("aria-pressed", String(value === "all"));
+    button.addEventListener("click", () => {
+      controls.forEach(control => control.setAttribute("aria-pressed", String(control === button)));
+      renderRosters();
+    });
+    return button;
+  });
+  $("roster-filters").replaceChildren(...controls);
+  renderRosters();
+}
+function fetchRosters() {
+  fetch("./rosters.json", {cache:"no-cache"})
+    .then(response => {
+      if (!response.ok) throw new Error("Roster unavailable");
+      return response.json();
+    })
+    .then(loadRosters)
+    .catch(() => { $("roster-status").textContent = "선수 목록을 불러오지 못했습니다. 잠시 후 새로고침하세요."; });
+}
 year.addEventListener("change", () => {quarter = "all"; quarterButtons(); render();});
 $("query").addEventListener("input", render);
 $("area").addEventListener("change", render);
 buttons($("categories"), categories, category, value => {category = value;});
 loadData(initialData);
 if (location.protocol === "https:" || location.protocol === "http:") {
+  fetchRosters();
   fetch("./events.json", {cache:"no-cache"})
     .then(response => response.ok ? response.json() : null)
     .then(data => {
