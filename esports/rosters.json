@@ -1,0 +1,124 @@
+{
+  "checked": "2026-11-24",
+  "teams": [
+    {
+      "id": "lol-bnk-fearx-2027",
+      "game": "lol",
+      "name": "BNK FEARX",
+      "scope": "2027 시즌 · 구단 발표 3인",
+      "players": [
+        "Vincenzo",
+        "VicLa",
+        "Noah"
+      ],
+      "sources": [
+        {
+          "label": "Vincenzo 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2122963019109945538"
+        },
+        {
+          "label": "VicLa 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2122487767267721678"
+        },
+        {
+          "label": "Noah 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2123687797978497254"
+        }
+      ]
+    },
+    {
+      "id": "lol-t1",
+      "game": "lol",
+      "name": "T1",
+      "scope": "구단 페이지 · 포지션별 5인",
+      "players": [
+        "Doran",
+        "Oner",
+        "Faker",
+        "Peyz",
+        "Keria"
+      ],
+      "sources": [
+        {
+          "label": "T1 공식 팀 페이지",
+          "url": "https://www.t1.gg/teams/leagueoflegends"
+        }
+      ]
+    },
+    {
+      "id": "val-geng",
+      "game": "valorant",
+      "name": "Gen.G",
+      "scope": "VCT 퍼시픽 · 공식 팀 페이지",
+      "players": [
+        "Ash",
+        "Efina",
+        "Karon",
+        "Raxcal",
+        "t3xture"
+      ],
+      "sources": [
+        {
+          "label": "라이엇 공식 명단",
+          "url": "https://valorantesports.com/en-US/teams/geng-esports"
+        }
+      ]
+    },
+    {
+      "id": "val-t1",
+      "game": "valorant",
+      "name": "T1",
+      "scope": "VCT 퍼시픽 · 공식 팀 페이지",
+      "players": [
+        "BuZz",
+        "DH",
+        "iZu",
+        "Meteor",
+        "Munchkin",
+        "stax"
+      ],
+      "sources": [
+        {
+          "label": "라이엇 공식 명단",
+          "url": "https://valorantesports.com/en-US/teams/t1"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-ns",
+      "game": "pubgm",
+      "name": "농심 레드포스",
+      "scope": "한국 리그 · 크래프톤 팀 등록 명단",
+      "players": [
+        "NS_HYUNBIN",
+        "NS_SOEZ",
+        "NS_TIZ1",
+        "NS_XZY"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/52"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-drx",
+      "game": "pubgm",
+      "name": "키움 DRX",
+      "scope": "한국 리그 · 크래프톤 팀 등록 명단",
+      "players": [
+        "KRX_BINI",
+        "KRX_Hoxy",
+        "KRX_Qxzzz",
+        "KRX_TRE"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/3"
+        }
+      ]
+    }
+  ]
+}
