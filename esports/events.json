@@ -139,6 +139,22 @@
       ]
     },
     {
+      "id": "vq-sea-2027",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 킥오프 동남아시아 예선",
+      "start": "2026-11-24",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "동남아시아",
+      "note": "공개 예선 1차 11/24~28, 2차 12/1~5, 플레이오프 12/7~13입니다. Team Secret과 Sharper Esports는 플레이오프에 직행합니다. 우승 팀은 킥오프, 준우승 팀은 최종 선발전에 진출합니다.",
+      "source": {
+        "label": "라이엇 공식 예선 일정",
+        "url": "https://valorantesports.com/en-SG/news/introducing-vct-pacific-kickoff-southeast-asia-qualifier"
+      }
+    },
+    {
       "id": "vq-open",
       "categories": [
         "valorant"
@@ -170,7 +186,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "농심 레드포스는 11/26~27 가운틀렛에 출전합니다. 그룹 스테이지 11/29~30·12/2~3, 라스트 찬스 12/5~6, 결승 12/11~13입니다.",
+      "note": "농심 레드포스는 11/26~27 가운틀렛에 출전합니다. 그룹 스테이지 11/29~30·12/2~3, 라스트 찬스 12/5~6, 결승 12/11~13입니다. 한국어 치지직 중계는 각 경기일 20:00 KST에 편성되어 있습니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -184,6 +200,10 @@
         {
           "label": "단계별 일정·출전팀 공식 발표",
           "url": "https://press.levelinfinite.com/FINAL-PREPARATIONS-UNDERWAY-AS-2026-PUBG-MOBILE-GLOBAL-CHAMPIONSHIP-GE"
+        },
+        {
+          "label": "공식 한국어 중계·편성",
+          "url": "https://chzzk.naver.com/live/de445eefe5915a0d7e9cbf98da6c9041"
         }
       ]
     },
@@ -199,11 +219,18 @@
       "end": "2026-11-29",
       "region": "kr",
       "location": "청주 석우문화체육관",
-      "note": "발로란트·FC 온라인·이터널 리턴 경기와 일러스타 행사가 열립니다.",
+      "note": "발로란트·FC 온라인·이터널 리턴과 일러스타 행사가 열립니다. 발로란트 11/28 15:00 준결승, 11/29 09:00 결승. 같은 날 FC 온라인 결승 10:00, 이터널 리턴 결승 14:00입니다.",
       "source": {
         "label": "IEF 공식 일정",
         "url": "https://ief2026.org/"
-      }
+      },
+      "timing": "11/27 개막식 16:00 KST",
+      "links": [
+        {
+          "label": "종목별 공식 경기 시간표",
+          "url": "https://ief2026.org/#schedule"
+        }
+      ]
     },
     {
       "id": "uni26",
@@ -239,7 +266,7 @@
       "end": "2026-12-03",
       "region": "online",
       "location": "온라인",
-      "note": "한국 예선 플레이오프의 온라인 경기 기간입니다.",
+      "note": "시드 팀 키움 DRX·농심 레드포스·VARREL·ONSIDE GAMING과 오픈 예선 통과 4팀이 플레이오프에서 맞붙습니다.",
       "source": {
         "label": "라이엇 공식 일정",
         "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
@@ -248,6 +275,10 @@
         {
           "label": "한국 예선 운영 안내",
           "url": "https://vctkrqualifier.com/"
+        },
+        {
+          "label": "라이엇 한국 예선 일정·결과",
+          "url": "https://valorantesports.com/ko-KR/season/117246370678200773/kickoff-oq/korea"
         }
       ]
     },
@@ -283,7 +314,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "서울 · WDG 스튜디오 홍대",
-      "note": "경기별 시작 시각과 관람 안내는 공개되는 대회 공지를 확인하세요.",
+      "note": "오프라인 플레이오프 최종 우승 팀 한 곳이 2027 VCT 퍼시픽 킥오프에 진출합니다. 경기별 시작 시각과 관람 안내는 공식 공지를 확인하세요.",
       "source": {
         "label": "라이엇 공식 일정",
         "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
@@ -292,6 +323,10 @@
         {
           "label": "한국 예선 운영 안내",
           "url": "https://vctkrqualifier.com/"
+        },
+        {
+          "label": "라이엇 한국 예선 일정·결과",
+          "url": "https://valorantesports.com/ko-KR/season/117246370678200773/kickoff-oq/korea"
         }
       ]
     },
@@ -344,7 +379,17 @@
         "label": "Red Bull 공식 행사",
         "url": "https://www.redbull.com/gb-en/events/red-bull-league-of-its-own"
       },
-      "timing": "23:00 KST"
+      "timing": "현장 행사 안내 22:00 KST",
+      "links": [
+        {
+          "label": "12/5 현장 관람 예매 상품",
+          "url": "https://www.entradas.com/event/red-bull-league-of-its-own-olimpic-arena-badalona-barcelona-22131733/"
+        },
+        {
+          "label": "경기장 현장 일정",
+          "url": "https://www.olimpicarena.com/en/agenda/red-bull-league-of-its-own/"
+        }
+      ]
     },
     {
       "id": "school-final",
@@ -373,7 +418,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "미국 로스앤젤레스",
-      "note": "T1 출전. 그룹 12/10~11 WePlay Studios, 파이널 12/12~13 Shrine Auditorium입니다.",
+      "note": "T1·LOUD·100 Thieves·G2·NRG·Sentinels·ZETA·Fnatic과 예선 통과 팀이 참가합니다. 그룹 12/10~11 WePlay Studios, 파이널 12/12~13 Shrine Auditorium. 파이널 현장에서 2027 VCT 킥오프 대진을 공개합니다.",
       "source": {
         "label": "Red Bull 공식 행사",
         "url": "https://www.redbull.com/int-en/events/red-bull-home-ground"
@@ -382,8 +427,17 @@
         {
           "label": "파이널 예매 상품",
           "url": "https://www.axs.com/series/34394/red-bull-home-ground-world-finals-2026-tickets?skin=shrinela"
+        },
+        {
+          "label": "12/12 LA 현지 회차 예매 상품",
+          "url": "https://www.axs.com/events/1597291/red-bull-home-ground-world-finals-2026-tickets"
+        },
+        {
+          "label": "12/13 LA 현지 회차 예매 상품",
+          "url": "https://www.axs.com/events/1597468/red-bull-home-ground-world-finals-2026-tickets"
         }
-      ]
+      ],
+      "timing": "파이널 관람 12/13 06:30 · 12/14 08:00 KST"
     },
     {
       "id": "pmgc-final26",
@@ -459,6 +513,38 @@
       ]
     },
     {
+      "id": "jecheon-open26",
+      "categories": [
+        "lol",
+        "valorant",
+        "other"
+      ],
+      "title": "제천시장배 전국 e스포츠 대회 · 온라인 예선",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "region": "online",
+      "location": "온라인",
+      "note": "전국 아마추어 대회입니다. 12/12 LoL, 12/13 발로란트·브롤스타즈 예선이 열립니다. 참가 접수는 12/7 23:59 KST까지입니다.",
+      "source": {
+        "label": "제천문화관광재단 대회 안내",
+        "url": "https://www.bnu.kr/kor/CMS/Board/Board.do?board_seq=1512109&mCode=MN095&mgr_seq=3&mode=view"
+      },
+      "links": [
+        {
+          "label": "LoL 참가 신청",
+          "url": "https://fe.lvup.gg/arena/6ae986838ad48f0007bc5881"
+        },
+        {
+          "label": "발로란트 참가 신청",
+          "url": "https://fe.lvup.gg/arena/6ae9884119328a00078a6b71"
+        },
+        {
+          "label": "브롤스타즈 참가 신청",
+          "url": "https://lvup.gg/arena/6ae988ef19328a00078a6bcd"
+        }
+      ]
+    },
+    {
       "id": "iesf-wec26",
       "categories": [
         "pubgm",
@@ -482,6 +568,10 @@
         {
           "label": "경기장 행사 안내",
           "url": "https://ice-indonesia.com/en/event/event_list/world-esports-championship-2026"
+        },
+        {
+          "label": "PUBG MOBILE 국가별 등록 선수",
+          "url": "https://wec.iesf.org/editions/wec-2026/teams?title=5"
         }
       ]
     },
@@ -547,6 +637,30 @@
       ]
     },
     {
+      "id": "jecheon-finals26",
+      "categories": [
+        "lol",
+        "valorant",
+        "other"
+      ],
+      "title": "제천시장배 전국 e스포츠 대회 · 오프라인 본선",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "region": "kr",
+      "location": "충북 제천 · 제천체육관",
+      "note": "LoL·발로란트·브롤스타즈. 12/19 32강~16강, 12/20 8강~결승을 진행합니다.",
+      "source": {
+        "label": "제천문화관광재단 대회 안내",
+        "url": "https://www.bnu.kr/kor/CMS/Board/Board.do?board_seq=1512109&mCode=MN095&mgr_seq=3&mode=view"
+      },
+      "links": [
+        {
+          "label": "본선 경기 일정",
+          "url": "https://fe.lvup.gg/arena/6ae986838ad48f0007bc5881"
+        }
+      ]
+    },
+    {
       "id": "predator-apac27",
       "categories": [
         "lol",
@@ -561,6 +675,22 @@
         "label": "주최사 공식 본선 안내",
         "url": "https://www.predator-league.com/about?region=en"
       }
+    },
+    {
+      "id": "ljl27-open",
+      "categories": [
+        "lol"
+      ],
+      "title": "LJL 2027 ELITE·RISING 오픈 예선",
+      "start": "2027-01",
+      "region": "global",
+      "location": "일본 · 세부 개최 안내 대기",
+      "note": "1월 초 개최 예정입니다. ELITE 예선에 이어 다음 주에 RISING 예선이 열리며 세부 안내는 12월 초까지 발표 예정입니다.",
+      "source": {
+        "label": "라이엇 일본 공식 발표",
+        "url": "https://lolesports.com/ja-JP/news/ljl2027-announcement"
+      },
+      "planned": true
     },
     {
       "id": "endfield-anniv27-kr",
