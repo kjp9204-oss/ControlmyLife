@@ -5,11 +5,21 @@
       "id": "lol-bnk-fearx-2027",
       "game": "lol",
       "name": "BNK FEARX",
-      "scope": "2027 시즌 · 구단 발표 3인",
+      "scope": "2027 시즌 · 선수 3명·코칭스태프 2명",
       "players": [
         "Vincenzo",
         "VicLa",
         "Noah"
+      ],
+      "playerRoles": {
+        "Vincenzo": "정글",
+        "VicLa": "미드 · 주장",
+        "Noah": "원딜"
+      },
+      "pendingPositions": ["탑", "서포터"],
+      "staff": [
+        { "handle": "Rather", "role": "감독" },
+        { "handle": "Edo", "role": "2·3군 총괄" }
       ],
       "sources": [
         {
@@ -23,6 +33,14 @@
         {
           "label": "Noah 발표",
           "url": "https://x.com/BNKFEARXLoL/status/2123687797978497254"
+        },
+        {
+          "label": "Rather 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2121876104214401138"
+        },
+        {
+          "label": "Edo 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2121875851620823265"
         }
       ]
     },

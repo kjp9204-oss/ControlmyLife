@@ -191,6 +191,8 @@ footer p { margin-bottom: .5rem; }
 .roster-card h3 { margin-block: .25rem; font-size: 1.05rem; }
 .roster-players { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: .65rem 0; }
 .roster-players li { max-width: 100%; overflow-wrap: anywhere; border: 1px solid var(--rule); padding: .16rem .44rem; }
+.roster-players small { margin-right: .35rem; color: var(--muted); font-size: .78rem; }
+.roster-card .roster-pending { margin: .2rem 0 .55rem; }
 .roster-sources { display: flex; flex-wrap: wrap; gap: .35rem .7rem; }
 .roster-card a, .roster-card .muted { font-size: .9rem; }
 </style>
@@ -447,15 +449,34 @@ function loadRosters(data) {
     $("roster-teams").replaceChildren(...teams.map(team => {
       const card = make("article", "roster-card");
       const players = make("ul", "roster-players");
-      players.append(...team.players.map(player => make("li", "", player)));
+      players.append(...team.players.map(player => {
+        const item = make("li", "");
+        const role = team.playerRoles?.[player];
+        if (role) item.append(make("small", "", role));
+        item.append(player);
+        return item;
+      }));
       const sources = make("div", "roster-sources");
       sources.append(...team.sources.map(source => external(source.label + " ↗", source.url)));
       card.append(
         make("p", "muted", gameLabels[team.game] + " · " + team.scope),
         make("h3", "", team.name),
-        players,
-        sources
+        players
       );
+      if (team.pendingPositions?.length) {
+        card.append(make("p", "muted roster-pending", "공식 발표 확인 대기 · " + team.pendingPositions.join(" · ")));
+      }
+      if (team.staff?.length) {
+        const staff = make("ul", "roster-players");
+        staff.setAttribute("aria-label", "코칭스태프");
+        staff.append(...team.staff.map(member => {
+          const item = make("li", "");
+          item.append(make("small", "", member.role), member.handle);
+          return item;
+        }));
+        card.append(staff);
+      }
+      card.append(sources);
       return card;
     }));
     if (!teams.length) $("roster-teams").append(make("p", "empty", "공식 출처에서 확인한 선수 목록이 없습니다."));
