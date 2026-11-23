@@ -16,10 +16,19 @@
         "VicLa": "미드 · 주장",
         "Noah": "원딜"
       },
-      "pendingPositions": ["탑", "서포터"],
+      "pendingPositions": [
+        "탑",
+        "서포터"
+      ],
       "staff": [
-        { "handle": "Rather", "role": "감독" },
-        { "handle": "Edo", "role": "2·3군 총괄" }
+        {
+          "handle": "Rather",
+          "role": "감독"
+        },
+        {
+          "handle": "Edo",
+          "role": "2·3군 총괄"
+        }
       ],
       "sources": [
         {
@@ -48,9 +57,8 @@
       "id": "lol-t1",
       "game": "lol",
       "name": "T1",
-      "scope": "구단 페이지 · 포지션별 5인",
+      "scope": "구단 공개 선수 4명 · Doran 결별 반영",
       "players": [
-        "Doran",
         "Oner",
         "Faker",
         "Peyz",
@@ -60,6 +68,181 @@
         {
           "label": "T1 공식 팀 페이지",
           "url": "https://www.t1.gg/teams/leagueoflegends"
+        },
+        {
+          "label": "Doran 결별 구단 발표",
+          "url": "https://x.com/T1LoL/status/2123340508978454951"
+        },
+        {
+          "label": "Keria 잔류 구단 발표",
+          "url": "https://www.youtube.com/watch?v=Tz0WpJdvLMA"
+        }
+      ],
+      "playerRoles": {
+        "Oner": "정글",
+        "Faker": "미드",
+        "Peyz": "원딜",
+        "Keria": "서포터"
+      },
+      "pendingPositions": [
+        "탑"
+      ]
+    },
+    {
+      "id": "lol-ns-2027",
+      "game": "lol",
+      "name": "농심 레드포스",
+      "scope": "LCK 2027 · 구단 발표 선수 5명",
+      "players": [
+        "Kingen",
+        "Pyosik",
+        "Calix",
+        "Deft",
+        "Andil"
+      ],
+      "playerRoles": {
+        "Kingen": "탑",
+        "Pyosik": "정글",
+        "Calix": "미드",
+        "Deft": "원딜",
+        "Andil": "서포터"
+      },
+      "sources": [
+        {
+          "label": "Kingen 발표",
+          "url": "https://x.com/NS_RedForce/status/2122965531816841534"
+        },
+        {
+          "label": "Pyosik 발표",
+          "url": "https://x.com/NS_RedForce/status/2123373218912444889"
+        },
+        {
+          "label": "Calix 발표",
+          "url": "https://x.com/NS_RedForce/status/2122963016899580079"
+        },
+        {
+          "label": "Deft 발표",
+          "url": "https://x.com/NS_RedForce/status/2123357741892678032"
+        },
+        {
+          "label": "Andil 발표",
+          "url": "https://x.com/NS_RedForce/status/2123370715185639699"
+        }
+      ]
+    },
+    {
+      "id": "lol-bro-2027",
+      "game": "lol",
+      "name": "한진 브리온",
+      "scope": "LCK 2027 · 구단 발표 선수 6명",
+      "players": [
+        "Casting",
+        "GIDEON",
+        "Roamer",
+        "SeTab",
+        "Teddy",
+        "Namgung"
+      ],
+      "playerRoles": {
+        "Casting": "탑",
+        "GIDEON": "정글",
+        "Roamer": "미드",
+        "SeTab": "미드",
+        "Teddy": "원딜",
+        "Namgung": "서포터"
+      },
+      "sources": [
+        {
+          "label": "기존 선수 5명 잔류 발표",
+          "url": "https://x.com/Brionesports/status/2113925129373978690"
+        },
+        {
+          "label": "SeTab 영입 발표",
+          "url": "https://x.com/Brionesports/status/2122887537018442057"
+        }
+      ]
+    },
+    {
+      "id": "lol-dk-2027",
+      "game": "lol",
+      "name": "디플러스 기아",
+      "scope": "LCK 2027 · 최근 구단 발표 선수 5명",
+      "players": [
+        "Doran",
+        "Kanavi",
+        "ShowMaker",
+        "Smash",
+        "Delight"
+      ],
+      "playerRoles": {
+        "Doran": "탑",
+        "Kanavi": "정글",
+        "ShowMaker": "미드",
+        "Smash": "원딜",
+        "Delight": "서포터"
+      },
+      "sources": [
+        {
+          "label": "Doran 구단 발표",
+          "url": "https://x.com/DplusKia/status/2123745977987473551"
+        },
+        {
+          "label": "Kanavi 구단 발표",
+          "url": "https://x.com/DplusKia/status/2123746641744482355"
+        },
+        {
+          "label": "ShowMaker 구단 발표",
+          "url": "https://x.com/DplusKia/status/2123408492333842753"
+        },
+        {
+          "label": "Smash 구단 발표",
+          "url": "https://x.com/DplusKia/status/2123408943422828942"
+        },
+        {
+          "label": "Delight 구단 발표",
+          "url": "https://x.com/DplusKia/status/2124829090662523220"
+        }
+      ]
+    },
+    {
+      "id": "lol-dns-2027",
+      "game": "lol",
+      "name": "DN 수퍼스",
+      "scope": "LCK 2027 · 구단 발표에서 확인한 선수 5명",
+      "players": [
+        "DuDu",
+        "Cuzz",
+        "Ucal",
+        "deokdam",
+        "Bluffing"
+      ],
+      "playerRoles": {
+        "DuDu": "탑",
+        "Cuzz": "정글",
+        "Ucal": "미드",
+        "deokdam": "원딜",
+        "Bluffing": "서포터"
+      },
+      "sources": [
+        {
+          "label": "DuDu 구단 발표",
+          "url": "https://x.com/SOOPers_LoL/status/2122291109628117480"
+        },
+        {
+          "label": "Cuzz 구단 발표",
+          "url": "https://x.com/SOOPers_LoL/status/2122645987386864037"
+        },
+        {
+          "label": "Ucal 구단 발표",
+          "url": "https://x.com/SOOPers_LoL/status/2123008346878013600"
+        },
+        {
+          "label": "Bluffing 구단 발표",
+          "url": "https://x.com/SOOPers_LoL/status/2123355631793180874"
+        },
+        {
+          "label": "deokdam 구단 발표",
+          "url": "https://www.youtube.com/watch?v=egyLkpD927g"
         }
       ]
     },
@@ -67,18 +250,34 @@
       "id": "val-geng",
       "game": "valorant",
       "name": "Gen.G",
-      "scope": "VCT 퍼시픽 · 공식 팀 페이지",
+      "scope": "VCT 퍼시픽 2027 · 구단 발표 선수 5명",
       "players": [
-        "Ash",
-        "Efina",
+        "Dambi",
+        "MaKo",
         "Karon",
-        "Raxcal",
-        "t3xture"
+        "t3xture",
+        "Ray"
       ],
       "sources": [
         {
-          "label": "라이엇 공식 명단",
-          "url": "https://valorantesports.com/en-US/teams/geng-esports"
+          "label": "Dambi 영입",
+          "url": "https://x.com/geng_gold/status/2118652361430426012"
+        },
+        {
+          "label": "MaKo 영입",
+          "url": "https://x.com/geng_gold/status/2118652613197701426"
+        },
+        {
+          "label": "Karon 잔류",
+          "url": "https://x.com/geng_gold/status/2118652111298920801"
+        },
+        {
+          "label": "t3xture 구단 발표",
+          "url": "https://www.youtube.com/watch?v=e0tpkVc_ABM"
+        },
+        {
+          "label": "Ray 영입",
+          "url": "https://x.com/geng_gold/status/2121181288828948616"
         }
       ]
     },
@@ -86,19 +285,72 @@
       "id": "val-t1",
       "game": "valorant",
       "name": "T1",
-      "scope": "VCT 퍼시픽 · 공식 팀 페이지",
+      "scope": "VCT 퍼시픽 2027 · 공개 선수 5명",
       "players": [
         "BuZz",
-        "DH",
         "iZu",
-        "Meteor",
-        "Munchkin",
-        "stax"
+        "stax",
+        "crashies",
+        "TenZ"
       ],
       "sources": [
         {
-          "label": "라이엇 공식 명단",
-          "url": "https://valorantesports.com/en-US/teams/t1"
+          "label": "TenZ 구단 발표",
+          "url": "https://x.com/T1/status/2120713200475750401"
+        },
+        {
+          "label": "crashies 구단 발표",
+          "url": "https://x.com/T1/status/2120350808248397831"
+        },
+        {
+          "label": "주최사 선수 5명 확인",
+          "url": "https://www.redbull.com/au-en/tenz-joins-t1-valorant-2027"
+        }
+      ]
+    },
+    {
+      "id": "val-ns-2027",
+      "game": "valorant",
+      "name": "농심 레드포스",
+      "scope": "2027 시즌 준비 · 구단 잔류·영입 발표",
+      "players": [
+        "Ivy",
+        "Francis",
+        "Rb",
+        "Xross",
+        "UdoTan"
+      ],
+      "sources": [
+        {
+          "label": "농심 구단 잔류 발표",
+          "url": "https://www.ns-esports.com/theme/responsive_ns-esports/skin/board/basic_gallery/print.skin.php?bo_table=51&wr_id=171"
+        },
+        {
+          "label": "UdoTan 영입 발표",
+          "url": "https://x.com/nsr_valorant/status/2117814095525109930"
+        }
+      ]
+    },
+    {
+      "id": "val-paper-rex-2027",
+      "game": "valorant",
+      "name": "Paper Rex",
+      "scope": "VCT 퍼시픽 2027 · 구단 공개 선수 5명",
+      "players": [
+        "f0rsakeN",
+        "something",
+        "invy",
+        "PatMen",
+        "Primmie"
+      ],
+      "sources": [
+        {
+          "label": "Paper Rex 2027 구단 명단",
+          "url": "https://x.com/pprxteam/status/2124080388750651406"
+        },
+        {
+          "label": "구단 공식 소식",
+          "url": "https://pprx.team/news"
         }
       ]
     },
@@ -135,6 +387,269 @@
         {
           "label": "크래프톤 공식 명단",
           "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/3"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-94",
+      "game": "pubgm",
+      "name": "5Hz",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "5Hz_Atomic",
+        "5Hz_KaKaoK",
+        "5Hz_Razit",
+        "5Hz_Sabyuk",
+        "5Hz_v1nz1nA"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/94"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-73",
+      "game": "pubgm",
+      "name": "Chungnam CNJ esports",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "CNJ_Maktoob",
+        "CNJ_Marco",
+        "CNJ_SIxTa",
+        "CNJ_Twoherz"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/73"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-1",
+      "game": "pubgm",
+      "name": "디플러스 기아",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "DK_Auto",
+        "DK_chpz",
+        "DK_Cyxae",
+        "DK_FAVIAN",
+        "DK_Nolbu",
+        "DK_Porico"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/1"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-49",
+      "game": "pubgm",
+      "name": "FOCUS",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "FS_Hyde",
+        "FS_Mahito",
+        "FS_Mammoth",
+        "FS_Newjeans",
+        "FS_Rizzz"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/49"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-84",
+      "game": "pubgm",
+      "name": "GyeongBuk Ascenders",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "GBA_Cat7",
+        "GBA_Jake",
+        "GBA_Kelra",
+        "GBA_KZL",
+        "GBA_M1ng",
+        "GBA_Xeno"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/84"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-13",
+      "game": "pubgm",
+      "name": "Jeonnam Esports",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "JNE_Buzz",
+        "JNE_Tom",
+        "JNE_Woody",
+        "JNE_zZz"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/13"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-87",
+      "game": "pubgm",
+      "name": "KX GAMING",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "KX_RyuTz",
+        "KX_Steady",
+        "KX_Valley",
+        "KX_xly"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/87"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-82",
+      "game": "pubgm",
+      "name": "Re Mind",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "RM_Hxho",
+        "RM_Ness",
+        "RM_SyZen",
+        "RM_xhen",
+        "RM_Yehun",
+        "RM_Yxshi"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/82"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-93",
+      "game": "pubgm",
+      "name": "APEX",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "AX_APEX",
+        "AX_Bye",
+        "AX_HADES",
+        "AX_HYUNJUN",
+        "AX_Shakey"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/93"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-66",
+      "game": "pubgm",
+      "name": "DAEJEON GAME PT",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "DGP_AaRon",
+        "DGP_JAEMIN",
+        "DGP_JAESUK",
+        "DGP_Sentinel"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/66"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-67",
+      "game": "pubgm",
+      "name": "FN SEJONG",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "FN_Crazy",
+        "FN_FINAL",
+        "FN_Ghost",
+        "FN_OSAL",
+        "FN_SAEWOO"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/67"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-85",
+      "game": "pubgm",
+      "name": "G.N. Revenant NOVA",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "GRN_Heart",
+        "GRN_Hollywood",
+        "GRN_StayCool",
+        "GRN_YoRoRong",
+        "GRN_ZIYXL"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/85"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-90",
+      "game": "pubgm",
+      "name": "INCHEON WAVE",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "INW_Jerry",
+        "INW_KKaeBi",
+        "INW_Pumbaa",
+        "INW_Tigger"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/90"
+        }
+      ]
+    },
+    {
+      "id": "pubgm-krafton-92",
+      "game": "pubgm",
+      "name": "TEAM CG",
+      "scope": "한국 리그 · 크래프톤 팀/선수 공개 명단",
+      "players": [
+        "CG_Clutch",
+        "CG_GuSok",
+        "CG_Shun",
+        "CG_YUCA"
+      ],
+      "sources": [
+        {
+          "label": "크래프톤 공식 팀 명단",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/92"
         }
       ]
     }
