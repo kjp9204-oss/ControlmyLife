@@ -21,6 +21,7 @@
 
 
 @media(max-width:620px){.quarters{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.quarter-button{min-height:88px;padding:11px}}
+.filter-state{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:0 0 18px}.filter-chips{display:flex;gap:7px;flex-wrap:wrap;min-width:0}.filter-chip{max-width:100%;min-height:36px;padding:5px 10px;font-size:13px;overflow-wrap:anywhere;text-align:left}.filter-state .actions{margin-left:auto}.filter-state .actions button{font-size:13px}.search-help{margin:-12px 0 15px;font-size:12px;color:var(--muted)}@media(max-width:620px){.filter-state{align-items:stretch}.filter-state .actions{margin-left:0;flex-wrap:wrap;width:100%}.filter-state .actions button{flex:1;min-width:130px}}
 .site-home{display:inline-flex;align-items:center;min-height:42px;padding:8px 12px;color:var(--ink);border:1px solid var(--line);border-radius:3px;text-decoration:none}.site-home:hover{border-color:#999}
 @media(max-width:620px){.mast{flex-direction:column;align-items:stretch}.mast h1{word-break:keep-all}.mast .actions{max-width:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.mast .actions>*{min-width:0;justify-content:center;text-align:center}}</style><meta name="description" content="관심 아티스트의 한국 공연과 티켓 오픈을 연도·분기별로 확인하는 Control Mylife 공연 전광판.">
 <link rel="canonical" href="https://kjp9204-oss.github.io/ControlmyLife/concerts/">
@@ -36,15 +37,56 @@
   <button class="quarter-button" type="button" data-quarter="4" aria-pressed="false"><strong>4분기</strong><span>10–12월</span><span id="qCount4"></span></button>
 </nav>
 </section>
-<section class="toolbar"><nav class="tabs" aria-label="일정 기준"><button id="performanceTab" aria-pressed="true">공연 일정</button><button id="ticketTab" aria-pressed="false">티켓 오픈</button></nav><label><span>대상</span><select id="scope"><option value="all">한국 공연 전체</option><option value="visiting">내한 공연만</option><option value="favorite">선택한 아티스트만</option></select></label><label class="search"><span>찾기</span><input id="search" type="search" placeholder="아티스트·공연명·장소 검색"></label></section><div class="layout"><section><div class="heading"><h2 id="listHeading">분기 공연 일정</h2><span id="count" class="muted tiny"></span></div><div id="rows" class="rows"></div><section class="subsection" id="watchNotes" hidden><h2>확인 중인 내한</h2><div id="watchRows"></div></section><section class="subsection"><h2>일정 미정 · TBA</h2><p class="muted tiny">날짜가 없는 정보는 분기별 확정 일정과 나누어 표시합니다.</p><div id="tba"></div></section></section><aside><section class="panel" id="detail"><h2>공지를 선택하세요</h2><p class="muted">왼쪽 일정에서 공식 링크·확인일·선예매와 일반예매를 확인할 수 있습니다.</p></section><section class="subsection"><h2>내 관심 아티스트</h2><button type="button" id="loadPreset" style="margin:5px 0 10px">내가 정한 목록 불러오기</button><p class="muted tiny">체크를 해제해도 이름은 남습니다. 선택한 목록은 이 브라우저에만 저장됩니다.</p><div id="favorites" class="favorites"></div><form id="artistForm" class="addArtist"><input id="artistName" required maxlength="100" placeholder="아티스트 이름" aria-label="아티스트 이름"><select id="artistGenre" aria-label="장르"><option>JPOP</option><option>POP</option><option>KPOP</option><option>미분류</option></select><button type="submit">관심 등록</button></form></section><section class="subsection"><h2>이름 확인 중</h2><div id="pendingArtists" class="info">명단을 불러오면 확인이 필요한 이름을 따로 표시합니다.</div></section><section class="subsection"><h2>오리콘 발견 후보</h2><p class="muted tiny">새 아티스트 후보를 살펴볼 기준입니다. 정식 관심 목록과 별도로 관리하며 실제 순위 수집·자동 갱신은 연결되지 않았습니다.</p><label style="display:block;margin-top:10px">주간 순위 기준<select id="oriconType"><option value="">기준 미정</option><option value="streaming">스트리밍</option><option value="single">싱글</option><option value="combined-single">합산 싱글</option></select></label><p id="oriconState" class="muted tiny" style="margin-top:8px">기준 미정 · 추천 후보 없음</p></section></aside></div><footer class="foot">한국에서 개최하는 공연을 대상으로 준비하는 Control Mylife 전광판입니다. 날짜 변경·취소는 공식 예매처에서 다시 확인하세요. 개인정보·예매번호·QR·API 키를 등록하지 마세요.</footer></main><dialog id="eventDialog"><form id="eventForm"><div class="dialogHead"><h2 id="formTitle">공식 공지 등록</h2><button id="closeDialog" type="button">닫기</button></div><p class="muted tiny" style="margin-bottom:18px">직접 확인한 공지를 이 브라우저에 저장합니다. 공개 공연 목록은 공식 공지 기준으로 별도 갱신합니다. 날짜 미정은 비워두세요.</p><div class="grid"><label>아티스트<input name="artist" maxlength="100" required></label><label>장르<select name="genre"><option>JPOP</option><option>POP</option><option>KPOP</option><option>미분류</option></select></label><label class="wide">공연명<input name="title" maxlength="180" required></label><label class="wide">한국 공연 장소<input name="venue" maxlength="180" required></label><label>공연 일시 · KST<input name="startsAt" type="datetime-local"></label><label>상태<select name="status"><option value="scheduled">예정</option><option value="changed">변경</option><option value="cancelled">취소</option></select></label><label>선예매 오픈 · KST<input name="presaleAt" type="datetime-local"></label><label>일반예매 오픈 · KST<input name="generalAt" type="datetime-local"></label><label class="wide">공식 공지 또는 예매 링크<input name="sourceUrl" type="url" required placeholder="https://"></label><label>공식 공지 확인일<input name="verifiedAt" type="date"></label><label class="check"><input name="verified" type="checkbox"><span>공식 공지의 날짜·장소를 직접 확인했습니다.</span></label></div><p id="formError" class="error" role="alert" hidden></p><div class="formActions"><button id="cancelDialog" type="button">취소</button><button type="submit" class="red">이 브라우저에 저장</button></div></form></dialog><script>
+<section class="toolbar"><nav class="tabs" aria-label="일정 기준"><button id="performanceTab" aria-pressed="true">공연 일정</button><button id="ticketTab" aria-pressed="false">티켓 오픈</button></nav><label><span>대상</span><select id="scope"><option value="all">한국 공연 전체</option><option value="visiting">내한 공연만</option><option value="favorite">선택한 아티스트만</option></select></label><label class="search"><span>찾기</span><input id="search" type="search" maxlength="300" aria-label="아티스트·공연명·장소 검색" placeholder="아티스트·공연명·장소 검색"></label></section><p class="search-help">여러 단어를 띄어 쓰면 가수·별칭·공연명·장소에서 모든 단어가 있는 일정을 찾습니다.</p><section id="filterState" class="filter-state" aria-label="적용된 검색 조건"><div id="filterChips" class="filter-chips"></div><div class="actions"><button id="resetFilters" type="button">조건 초기화</button><button id="copyFilters" type="button">검색 조건 링크 복사</button></div></section><div id="dataStatus" class="info" role="status">공식 일정을 불러오는 중입니다. 이 브라우저에 저장된 자료는 유지됩니다.</div><div class="layout"><section><div class="heading"><h2 id="listHeading">분기 공연 일정</h2><span id="count" class="muted tiny"></span></div><div id="rows" class="rows"></div><section class="subsection" id="watchNotes" hidden><h2>확인 중인 내한</h2><div id="watchRows"></div></section><section class="subsection"><h2>일정 미정 · TBA</h2><p class="muted tiny">날짜가 없는 정보는 분기별 확정 일정과 나누어 표시합니다.</p><div id="tba"></div></section></section><aside><section class="panel" id="detail"><h2>공지를 선택하세요</h2><p class="muted">왼쪽 일정에서 공식 링크·확인일·선예매와 일반예매를 확인할 수 있습니다.</p></section><section class="subsection"><h2>내 관심 아티스트</h2><button type="button" id="loadPreset" style="margin:5px 0 10px">내가 정한 목록 불러오기</button><p class="muted tiny">체크를 해제해도 이름은 남습니다. 선택한 목록은 이 브라우저에만 저장됩니다.</p><div id="favorites" class="favorites"></div><form id="artistForm" class="addArtist"><input id="artistName" required maxlength="100" placeholder="아티스트 이름" aria-label="아티스트 이름"><select id="artistGenre" aria-label="장르"><option>JPOP</option><option>POP</option><option>KPOP</option><option>미분류</option></select><button type="submit">관심 등록</button></form></section><section class="subsection"><h2>이름 확인 중</h2><div id="pendingArtists" class="info">명단을 불러오면 확인이 필요한 이름을 따로 표시합니다.</div></section><section class="subsection"><h2>오리콘 발견 후보</h2><p class="muted tiny">새 아티스트 후보를 살펴볼 기준입니다. 정식 관심 목록과 별도로 관리하며 실제 순위 수집·자동 갱신은 연결되지 않았습니다.</p><label style="display:block;margin-top:10px">주간 순위 기준<select id="oriconType"><option value="">기준 미정</option><option value="streaming">스트리밍</option><option value="single">싱글</option><option value="combined-single">합산 싱글</option></select></label><p id="oriconState" class="muted tiny" style="margin-top:8px">기준 미정 · 추천 후보 없음</p></section></aside></div><footer class="foot">한국에서 개최하는 공연을 대상으로 준비하는 Control Mylife 전광판입니다. 날짜 변경·취소는 공식 예매처에서 다시 확인하세요. 개인정보·예매번호·QR·API 키를 등록하지 마세요.</footer></main><dialog id="eventDialog"><form id="eventForm"><div class="dialogHead"><h2 id="formTitle">공식 공지 등록</h2><button id="closeDialog" type="button">닫기</button></div><p class="muted tiny" style="margin-bottom:18px">직접 확인한 공지를 이 브라우저에 저장합니다. 공개 공연 목록은 공식 공지 기준으로 별도 갱신합니다. 날짜 미정은 비워두세요.</p><div class="grid"><label>아티스트<input name="artist" maxlength="100" required></label><label>장르<select name="genre"><option>JPOP</option><option>POP</option><option>KPOP</option><option>미분류</option></select></label><label class="wide">공연명<input name="title" maxlength="180" required></label><label class="wide">한국 공연 장소<input name="venue" maxlength="180" required></label><label>공연 일시 · KST<input name="startsAt" type="datetime-local"></label><label>상태<select name="status"><option value="scheduled">예정</option><option value="changed">변경</option><option value="cancelled">취소</option></select></label><label>선예매 오픈 · KST<input name="presaleAt" type="datetime-local"></label><label>일반예매 오픈 · KST<input name="generalAt" type="datetime-local"></label><label class="wide">공식 공지 또는 예매 링크<input name="sourceUrl" type="url" required placeholder="https://"></label><label>공식 공지 확인일<input name="verifiedAt" type="date"></label><label class="check"><input name="verified" type="checkbox"><span>공식 공지의 날짜·장소를 직접 확인했습니다.</span></label></div><p id="formError" class="error" role="alert" hidden></p><div class="formActions"><button id="cancelDialog" type="button">취소</button><button type="submit" class="red">이 브라우저에 저장</button></div></form></dialog><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),KEY='cml-live-board-v1',GENRES=['JPOP','POP','KPOP','미분류'];
 let data={artists:[],events:[]},mode='performance',sample=false,editing=null,selected=null;
-let preset=null,hadSaved=false,officialEvents=[];
+let preset=null,hadSaved=false,officialEvents=[],loadingOfficial=true,officialLoadFailed=false;
 const nowDate=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const quarterOf=month=>Math.floor((Number(month.slice(5,7))-1)/3)+1;
 let activeYear=nowDate().slice(0,4),activeQuarter=quarterOf(nowDate());
 let periodBeforeSample=null;
+const defaultFilters=()=>({year:nowDate().slice(0,4),quarter:quarterOf(nowDate()),view:'performance',scope:'all',q:'',example:false});
+function parseFilters(search){
+  const p=new URLSearchParams(search),defaults=defaultFilters(),year=p.get('year'),quarter=Number(p.get('quarter'));
+  return {year:/^\d{4}$/.test(year||'')&&Number(year)>=2000&&Number(year)<=2100?year:defaults.year,
+    quarter:Number.isInteger(quarter)&&quarter>=1&&quarter<=4?quarter:defaults.quarter,
+    view:p.get('view')==='ticket'?'ticket':'performance',
+    scope:['all','visiting','favorite'].includes(p.get('scope'))?p.get('scope'):'all',
+    q:(p.get('q')||'').slice(0,300),example:p.get('example')==='1'};
+}
+function currentFilters(){return {year:activeYear,quarter:activeQuarter,view:mode,scope:$('scope').value,q:$('search').value.slice(0,300),example:sample};}
+function filtersURL(state=currentFilters()){
+  const url=new URL(location.href);
+  for(const name of ['year','quarter','view','scope','q','example'])url.searchParams.delete(name);
+  url.searchParams.set('year',state.year);url.searchParams.set('quarter',String(state.quarter));
+  if(state.view!=='performance')url.searchParams.set('view',state.view);
+  if(state.scope!=='all')url.searchParams.set('scope',state.scope);
+  if(state.q)url.searchParams.set('q',state.q);
+  if(state.example)url.searchParams.set('example','1');
+  return url;
+}
+function writeFilters(kind='replace'){
+  const url=filtersURL();
+  if(url.href===location.href)return;
+  try{history[kind==='push'?'pushState':'replaceState'](null,'',url);}catch{}
+}
+function applyFilters(state){activeYear=state.year;activeQuarter=state.quarter;mode=state.view;sample=state.example;$('scope').value=state.scope;$('search').value=state.q;}
+function renderFilterChips(){
+  const state=currentFilters(),defaults=defaultFilters(),host=$('filterChips');
+  host.replaceChildren();
+  const labels={year:state.year+'년',quarter:state.quarter+'분기',view:'티켓 오픈',scope:state.scope==='visiting'?'내한 공연만':'선택한 아티스트만',q:'검색: '+state.q,example:'가상 예시'};
+  for(const name of ['q','year','quarter','view','scope','example']){
+    if(state[name]===defaults[name])continue;
+    const chip=el('button','filter-chip',labels[name]+' ×');chip.type='button';
+    chip.setAttribute('aria-label',labels[name]+' 조건 해제');
+    chip.addEventListener('click',()=>{const state=currentFilters();state[name]=defaultFilters()[name];applyFilters(state);periodBeforeSample=null;changeView('push');});
+    host.append(chip);
+  }
+  $('resetFilters').disabled=!host.children.length;
+}
+applyFilters(parseFilters(location.search));writeFilters();
+window.addEventListener('popstate',()=>{applyFilters(parseFilters(location.search));periodBeforeSample=null;resetDetail();writeFilters();renderRows();});
 const demo=[{id:'example-only',artist:'가상 아티스트 A',genre:'JPOP',title:'가상 아티스트 A · 한국 공연 예시',venue:'예시 공연장 · 서울',startsAt:'2026-11-15T19:00',presaleAt:'',generalAt:'2026-11-10T20:00',status:'scheduled',verified:false,sourceUrl:'https://example.com/',verifiedAt:'',demo:true},{id:'example-tba',artist:'가상 아티스트 B',genre:'POP',title:'티켓 오픈 미정 예시',venue:'예시 공연장 · 부산',startsAt:'2026-11-22T18:00',presaleAt:'',generalAt:'',status:'scheduled',verified:false,sourceUrl:'https://example.com/',verifiedAt:'',demo:true}];
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=String(text);return n;};
 function notice(text){$('notice').textContent=text;$('notice').hidden=!text;}
@@ -71,7 +113,15 @@ const normArtist=x=>String(x||'').normalize('NFKC').toLocaleLowerCase().replace(
 function presetFor(name){const key=normArtist(name);return preset?.artists?.find(a=>[a.name,...(a.aliases||[])].some(n=>normArtist(n)===key));}
 function sameArtist(a,b){const direct=normArtist(a)===normArtist(b);if(direct)return true;const pa=presetFor(a),pb=presetFor(b);return !!(pa&&pb&&pa.id===pb.id&&pa.identityStatus!=='needs_confirmation');}
 function pendingName(name){return presetFor(name)?.identityStatus==='needs_confirmation'||!!preset?.pending?.some(p=>normArtist(p.label)===normArtist(name));}
-function matched(e){const q=$('search').value.trim().toLocaleLowerCase();const scope=$('scope').value;if(scope==='visiting'&&!isVisiting(e))return false;const fav=scope!=='favorite'||data.artists.some(a=>a.active&&!pendingName(a.name)&&sameArtist(a.name,e.artist));return fav&&(!q||[e.artist,e.title,e.venue].some(x=>x.toLocaleLowerCase().includes(q)));}
+const normalizeSearch=value=>String(value||'').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+function matched(e){
+  const scope=$('scope').value;
+  if(scope==='visiting'&&!isVisiting(e))return false;
+  if(scope==='favorite'&&!data.artists.some(a=>a.active&&!pendingName(a.name)&&sameArtist(a.name,e.artist)))return false;
+  const artist=presetFor(e.artist),aliases=artist&&artist.identityStatus!=='needs_confirmation'?[artist.name,...(artist.aliases||[])]:[];
+  const haystack=normalizeSearch([e.artist,e.title,e.venue,...aliases].join(' '));
+  return normalizeSearch($('search').value).split(' ').filter(Boolean).every(word=>haystack.includes(word));
+}
 function formatDate(x){return x?x.length===10?x+' · 시간 미공개':x.replace('T',' ')+' KST':'미정 · TBA';}
 function ticketPhases(e){
   return [
@@ -178,7 +228,7 @@ function renderRows(){
     const count=yearRows.filter(item=>quarterOf(item.at)===quarter).length;
     $('qCount'+quarter).textContent=count+'건';
   }
-  $('count').textContent=rows.length+'건'+(sample?' · 가상 예시':'');
+  $('count').textContent=sample?rows.length+'건 · 가상 예시':loadingOfficial?rows.length+'건 · 저장 자료 / 공식 일정 불러오는 중':officialLoadFailed?rows.length+'건 · 브라우저 저장 자료':rows.length+'건';
   $('listHeading').textContent=activeYear+'년 '+activeQuarter+'분기 '+(mode==='performance'?'공연':'티켓 오픈');
   const host=$('rows');
   host.replaceChildren();
@@ -189,7 +239,7 @@ function renderRows(){
     heading.append(el('h3','',Number(month.slice(5))+'월'),el('span','tiny muted',group.length+'건'));
     section.append(heading);
     if(group.length)group.forEach(item=>section.append(row(item)));
-    else section.append(el('p','muted month-empty','이 달에 해당하는 일정이 없습니다.'));
+    else section.append(el('p','muted month-empty',!sample&&loadingOfficial?'공식 일정을 불러오는 중입니다.':!sample&&officialLoadFailed?'공식 일정 연결을 확인하지 못했습니다.':'이 달에 해당하는 일정이 없습니다.'));
     host.append(section);
   }
   const tba=$('tba');
@@ -197,10 +247,11 @@ function renderRows(){
   const unknown=records().filter(matched).filter(e=>mode==='performance'?!e.startsAt:
     !ticketPhases(e).some(phase=>phase.at)&&(!e.startsAt||months.includes(e.startsAt.slice(0,7))));
   if(unknown.length)unknown.forEach(e=>tba.append(row({e,at:'',phase:mode==='performance'?'공연일 미정':'티켓 오픈 미정'})));
-  else tba.append(el('p','muted tiny','등록된 미정 정보가 없습니다.'));
+  else tba.append(el('p','muted tiny',!sample&&loadingOfficial?'공식 일정을 불러오는 중입니다.':!sample&&officialLoadFailed?'공식 미정 정보는 연결 복구 후 확인할 수 있습니다.':'등록된 미정 정보가 없습니다.'));
   $('performanceTab').setAttribute('aria-pressed',String(mode==='performance'));
   $('ticketTab').setAttribute('aria-pressed',String(mode==='ticket'));
   $('sample').textContent=sample?'실제 등록 목록 보기':'예시 보기';
+  renderFilterChips();writeFilters();
 }
 function renderArtists(){const host=$('favorites');host.replaceChildren();if(!data.artists.length)host.append(el('p','muted tiny','아티스트 이름을 등록해 주세요.'));for(const a of data.artists){const label=el('label','favorite');const c=el('input');c.type='checkbox';c.checked=!!a.active;c.addEventListener('change',()=>{a.active=c.checked;persist();renderRows();});label.append(c,document.createTextNode(a.name+' · '+a.genre+(presetFor(a.name)?.identityStatus==='needs_confirmation'?' · 이름 확인 필요':presetFor(a.name)?.identityStatus==='interpreted_from_user_clue'?' · 곡 단서로 해석':'')));host.append(label);}}
 function openForm(e){editing=e?.id||null;const f=$('eventForm');f.reset();for(const key of ['artist','genre','title','venue','startsAt','presaleAt','generalAt','status','sourceUrl','verifiedAt'])f.elements[key].value=e?.[key]??(key==='genre'?'JPOP':key==='status'?'scheduled':key==='verifiedAt'?nowDate():'');f.elements.verified.checked=!!e?.verified;$('formTitle').textContent=e?'공식 공지 수정':'공식 공지 등록';$('formError').hidden=true;$('eventDialog').showModal();}
@@ -211,25 +262,25 @@ $('eventForm').addEventListener('submit',ev=>{ev.preventDefault();try{const f=$(
 $('artistForm').addEventListener('submit',ev=>{ev.preventDefault();const name=$('artistName').value.trim();if(!name)return;const old=data.artists.find(a=>sameArtist(a.name,name));if(old){old.active=true;old.genre=$('artistGenre').value;}else data.artists.push({name,genre:$('artistGenre').value,active:true});persist();$('artistName').value='';renderArtists();renderRows();});
 function download(name,text,type){const blob=new Blob([text],{type});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
 $('exportJson').addEventListener('click',()=>{download('concerts.local-review.json',JSON.stringify({schemaVersion:1,timezone:'Asia/Seoul',scope:'Korea performances',publicationStatus:'USER_EXPORT',exportedAt:new Date().toISOString(),events:allRecords()},null,2),'application/json;charset=utf-8');notice('일정만 JSON으로 내보냈습니다. 내 관심 아티스트 목록은 포함하지 않았으며 공연 일정은 이 파일로 보관할 수 있습니다.');});
-function changeView(){
-  resetDetail();
-  
-  renderRows();
+function changeView(historyMode='replace'){
+  resetDetail();writeFilters(historyMode);renderRows();
 }
-$('performanceTab').addEventListener('click',()=>{mode='performance';changeView();});
-$('ticketTab').addEventListener('click',()=>{mode='ticket';changeView();});
+$('performanceTab').addEventListener('click',()=>{mode='performance';changeView('push');});
+$('ticketTab').addEventListener('click',()=>{mode='ticket';changeView('push');});
 $('year').addEventListener('change',()=>{
   setPeriod($('year').value,activeQuarter);
-  changeView();
+  changeView('push');
 });
 $('quarters').addEventListener('click',event=>{
   const button=event.target.closest('button[data-quarter]');
   if(!button)return;
   setPeriod(activeYear,Number(button.dataset.quarter));
-  changeView();
+  changeView('push');
 });
-$('scope').addEventListener('change',changeView);
-$('search').addEventListener('input',changeView);
+$('scope').addEventListener('change',()=>changeView('push'));
+$('search').addEventListener('input',()=>changeView());
+$('resetFilters').addEventListener('click',()=>{applyFilters(defaultFilters());periodBeforeSample=null;changeView('push');});
+$('copyFilters').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(filtersURL().href);notice('검색 조건 링크를 복사했습니다. 관심 아티스트와 직접 등록한 일정은 공유되지 않으며 선택한 아티스트만 보기는 받는 브라우저의 관심 목록을 사용합니다.');}catch{notice('링크를 복사하지 못했습니다. 브라우저 주소를 복사하면 현재 검색 조건을 공유할 수 있습니다.');}});
 $('sample').addEventListener('click',()=>{
   if(!sample){
     periodBeforeSample={year:activeYear,quarter:activeQuarter};
@@ -240,7 +291,7 @@ $('sample').addEventListener('click',()=>{
     if(periodBeforeSample)setPeriod(periodBeforeSample.year,periodBeforeSample.quarter);
     periodBeforeSample=null;
   }
-  changeView();
+  changeView('push');
 });
 $('register').addEventListener('click',()=>openForm(null));
 for(const id of ['closeDialog','cancelDialog'])$(id).addEventListener('click',()=>$('eventDialog').close());
@@ -259,10 +310,21 @@ function mergePreset(silent=false){
  let added=0;for(const a of preset.artists){if(!a.name||pendingName(a.name)||!GENRES.includes(a.genre))continue;if(data.artists.some(existing=>sameArtist(existing.name,a.name)))continue;data.artists.push({name:a.name,genre:a.genre,active:true});added++;}
  const stored=persist();renderArtists();renderRows();if(!silent)notice(added+'명 추가. 기존 아티스트의 선택/해제 상태와 일정은 유지했습니다.'+(stored?'':' 브라우저 저장은 실패해 현재 화면에만 남아 있습니다.'));
 }
-async function loadPreset(){try{const response=await fetch('./artist-watchlist.json',{cache:'no-store'});if(!response.ok)throw Error();const incoming=await response.json();if(!Array.isArray(incoming.artists)||!Array.isArray(incoming.pending))throw Error();preset=incoming;loadOfficialSnapshot(incoming.concertSnapshot);renderPresetNotes();if(!hadSaved&&!data.artists.length&&!data.events.length)mergePreset(true);else renderRows();}catch{$('pendingArtists').textContent='사용자 명단을 읽지 못했습니다. 기존 브라우저 자료는 유지됩니다.';notice('사용자 아티스트 명단 연결을 확인해야 합니다. 기존 관심 목록과 일정은 변경하지 않았습니다.');}}
+async function loadPreset(){try{
+  const response=await fetch('./artist-watchlist.json',{cache:'no-store'});if(!response.ok)throw Error();
+  const incoming=await response.json();if(!Array.isArray(incoming.artists)||!Array.isArray(incoming.pending))throw Error();
+  preset=incoming;loadingOfficial=false;officialLoadFailed=!loadOfficialSnapshot(incoming.concertSnapshot);
+  $('dataStatus').textContent=officialLoadFailed?'공개 일정 스냅샷을 읽지 못했습니다. 브라우저 저장 자료만 표시합니다.':'공개 일정 '+officialEvents.length+'회를 불러왔습니다. 최근 갱신일과 항목별 확인일을 함께 확인하세요.';
+  renderPresetNotes();if(!hadSaved&&!data.artists.length&&!data.events.length)mergePreset(true);else renderRows();
+}catch{
+  loadingOfficial=false;officialLoadFailed=true;
+  $('dataStatus').textContent='공식 일정 연결을 확인하지 못했습니다. 브라우저 저장 자료만 표시하며 공개 일정 유무는 확인할 수 없습니다.';
+  $('pendingArtists').textContent='사용자 명단을 읽지 못했습니다. 기존 브라우저 자료는 유지됩니다.';
+  notice('사용자 아티스트 명단 연결을 확인해야 합니다. 기존 관심 목록과 일정은 변경하지 않았습니다.');renderRows();
+}}
 $('loadPreset').addEventListener('click',()=>mergePreset(false));$('oriconType').addEventListener('change',()=>{data.oriconChartType=$('oriconType').value;persist();renderOricon();});
 function loadOfficialSnapshot(snapshot){
-  if(!snapshot||!Array.isArray(snapshot.events))return;
+  if(!snapshot||!Array.isArray(snapshot.events))return false;
   officialEvents=snapshot.events.map(e=>({...e,officialBatch:true}));
   const visiting=officialEvents.filter(isVisiting).length;
   $('snapshotText').textContent='최근 갱신 '+snapshot.checkedAt+' · 내한 '+visiting+'회 · 국내 '+(officialEvents.length-visiting)+'회 · 공지 기준이며 잔여석은 예매처에서 확인';
@@ -282,6 +344,7 @@ function loadOfficialSnapshot(snapshot){
     notes.append(block);
   }
   $('watchNotes').hidden=!notes.children.length;
+  return true;
 }
 function nextVisit(){
   return officialEvents.filter(e=>isVisiting(e)&&e.status!=='cancelled'&&e.startsAt>=nowDate())
