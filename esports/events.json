@@ -409,6 +409,30 @@
       }
     },
     {
+      "id": "riftbound-origins-kr-major26",
+      "categories": [
+        "other"
+      ],
+      "title": "리프트바운드 오리진 코리아 메이저",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "region": "kr",
+      "location": "서울 양재 · aT센터 제2전시장",
+      "note": "LoL 세계관의 실물 트레이딩 카드 게임 대회입니다. 메인 대회 일반 참가권은 선착순 500명입니다. 일반 방문은 12/5 10:30부터 가능하며, 12/6은 자유 입장입니다.",
+      "timing": "12/5 메인 대회 1라운드 10:00 KST",
+      "source": {
+        "label": "라이엇 공식 대회 일정",
+        "url": "https://playriftbound.com/ko-kr/news/announcements/riftbound-origin-kr-major-tournament/"
+      },
+      "links": [
+        {
+          "label": "메인 대회 참가권 예매 상품",
+          "url": "https://nol.yanolja.com/ticket/products/26016835",
+          "opensAt": "2026-11-24T21:00:00+09:00"
+        }
+      ]
+    },
+    {
       "id": "vct-radiant-invitational26",
       "categories": [
         "valorant"
@@ -1079,6 +1103,36 @@
         }
       ],
       "planned": true
+    },
+    {
+      "id": "brawl-cup-kr27",
+      "categories": [
+        "other"
+      ],
+      "title": "브롤스타즈 브롤컵 2027 한국",
+      "start": "2027",
+      "region": "kr",
+      "location": "대한민국 · 도시·경기장 발표 대기",
+      "note": "브롤스타즈 상반기 상위 팀이 참가하는 국제 오프라인 대회입니다. 세부 날짜와 예매 정보는 추후 발표됩니다.",
+      "source": {
+        "label": "BLAST·슈퍼셀 개최지 발표",
+        "url": "https://blast.tv/gaming/news/brawl-esports-2027-heads-to-korea-and-paris"
+      }
+    },
+    {
+      "id": "brawl-world-finals27",
+      "categories": [
+        "other"
+      ],
+      "title": "브롤스타즈 월드 파이널 2027",
+      "start": "2027",
+      "region": "global",
+      "location": "프랑스 파리 · 경기장 발표 대기",
+      "note": "2027 시즌 최종 대회 개최 도시가 파리로 확정됐습니다. 세부 날짜와 예매 정보는 추후 발표됩니다.",
+      "source": {
+        "label": "BLAST·슈퍼셀 개최지 발표",
+        "url": "https://blast.tv/gaming/news/brawl-esports-2027-heads-to-korea-and-paris"
+      }
     }
   ]
 }
