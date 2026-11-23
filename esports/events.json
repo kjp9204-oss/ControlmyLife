@@ -147,7 +147,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "월드 챔피언십 기간입니다. 결승은 12월 11~13일에 열립니다.",
+      "note": "농심 레드포스는 11/26~27 가운틀렛에 출전합니다. 그룹 스테이지 11/29~30·12/2~3, 라스트 찬스 12/5~6, 결승 12/11~13입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -157,6 +157,10 @@
         {
           "label": "공식 개막 시각",
           "url": "https://x.com/EsportsPUBGM/status/2121819985580532174"
+        },
+        {
+          "label": "단계별 일정·출전팀 공식 발표",
+          "url": "https://press.levelinfinite.com/FINAL-PREPARATIONS-UNDERWAY-AS-2026-PUBG-MOBILE-GLOBAL-CHAMPIONSHIP-GE"
         }
       ]
     },
