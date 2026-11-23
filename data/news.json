@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "concerts": [
   {
    "artist": "악뮤",
@@ -25,6 +25,32 @@
    "general": "2026-09-14T17:00",
    "url": "https://m.ticket.yes24.com/Notice/18447",
    "checked": "2026-11-04",
+   "official": true
+  },
+  {
+   "artist": "블루노트 도쿄 올스타 재즈 오케스트라",
+   "genre": "JPOP",
+   "title": "Blue Note Tokyo All-Star Jazz Orchestra",
+   "venue": "세종예술의전당",
+   "date": "2026-11-26",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26012128",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "타히티 80",
+   "genre": "POP",
+   "title": "현대카드 Curated 109 Tahiti 80",
+   "venue": "서울 현대카드 언더스테이지",
+   "date": "2026-11-27",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26015105",
+   "checked": "2026-11-23",
    "official": true
   },
   {
@@ -301,6 +327,19 @@
    "official": true
   },
   {
+   "artist": "도미 앤 제이디 벡",
+   "genre": "POP",
+   "title": "WHO ASKED? TOUR DOMi & JD BECK LIVE IN SEOUL",
+   "venue": "서울 공감센터 공감홀",
+   "date": "2026-12-12",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26012221",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "안예은",
    "genre": "KPOP",
    "title": "안예은 단독공연 · 제10회 오타쿠리스마스",
@@ -327,6 +366,45 @@
    "official": true
   },
   {
+   "artist": "유키구니",
+   "genre": "JPOP",
+   "title": "雪国 One Man Tour claras in Seoul with Ghost Bookstore",
+   "venue": "서울 얼라이브홀",
+   "date": "2026-12-17",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214216",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "재규어 트윈",
+   "genre": "POP",
+   "title": "재규어 트윈 내한공연",
+   "venue": "서울 무신사 개러지",
+   "date": "2026-12-18",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.29cm.co.kr/catalog/4369985",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "NEE",
+   "genre": "JPOP",
+   "title": "NEE 1st Concert in KOREA: EXOTIC METTYA KANKOKU",
+   "venue": "서울 KT&G 상상마당 홍대 라이브홀",
+   "date": "2026-12-18",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=213863",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "악뮤",
    "genre": "KPOP",
    "title": "2026 악뮤 소문의 낙원 투어 · 부산",
@@ -350,6 +428,19 @@
    "general": "",
    "url": "https://ticket.yes24.com/Perf/59886",
    "checked": "2026-11-21",
+   "official": true
+  },
+  {
+   "artist": "LUCK LIFE",
+   "genre": "JPOP",
+   "title": "LUCK LIFE TOUR: Hanashi no Tsuzuki in Korea",
+   "venue": "서울 무신사 개러지",
+   "date": "2026-12-19",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12884",
+   "checked": "2026-11-23",
    "official": true
   },
   {
@@ -392,6 +483,45 @@
    "official": true
   },
   {
+   "artist": "LUCK LIFE",
+   "genre": "JPOP",
+   "title": "LUCK LIFE TOUR: Hanashi no Tsuzuki in Korea",
+   "venue": "서울 무신사 개러지",
+   "date": "2026-12-20",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12884",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "스이스이덕",
+   "genre": "JPOP",
+   "title": "sui sui duck Live in Seoul",
+   "venue": "서울 Vel.R 벨르",
+   "date": "2026-12-20",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214128",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "Rain Tree",
+   "genre": "JPOP",
+   "title": "Rain Tree 내한공연",
+   "venue": "서울 YES24 원더로크홀",
+   "date": "2026-12-20",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.yes24.com/Perf/59777",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "카즈미 타테이시 트리오",
    "genre": "JPOP",
    "title": "지브리, 재즈를 만나다 (서울)",
@@ -415,6 +545,19 @@
    "general": "2026-09-14T20:00",
    "url": "https://ticket.yes24.com/Perf/60021",
    "checked": "2026-11-04",
+   "official": true
+  },
+  {
+   "artist": "마츠오 코지",
+   "genre": "JPOP",
+   "title": "마츠오 코지 단독 콘서트 · ONE WAY STREET In KOREA",
+   "venue": "서울 스페이스 브릭",
+   "date": "2026-12-27",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214171",
+   "checked": "2026-11-23",
    "official": true
   },
   {
@@ -470,6 +613,19 @@
    "official": true
   },
   {
+   "artist": "쿠라야미사카",
+   "genre": "JPOP",
+   "title": "Aosaka: kurayamisaka & parannoul",
+   "venue": "서울 KT&G 상상마당 홍대 라이브홀",
+   "date": "2027-01-09",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.yes24.com/Perf/60147",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "러블리서머짱",
    "genre": "JPOP",
    "title": "Lovely Summer Chan 「LSC 10th Anniversary GIG tour」 Live in Seoul",
@@ -496,6 +652,19 @@
    "official": true
   },
   {
+   "artist": "나이틀리",
+   "genre": "POP",
+   "title": "나이틀리(NIGHTLY) 내한공연",
+   "venue": "서울 홍대 롤링홀",
+   "date": "2027-01-14",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26014989",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "요네즈 켄시",
    "genre": "JPOP",
    "title": "요네즈 켄시 GHOST 월드 투어",
@@ -519,6 +688,19 @@
    "general": "2026-11-26T18:00",
    "url": "https://nol.yanolja.com/ticket/products/26016869",
    "checked": "2026-11-22",
+   "official": true
+  },
+  {
+   "artist": "RUNIDRE",
+   "genre": "JPOP",
+   "title": "RUNIDRE 내한공연",
+   "venue": "큐브컨벤션센터(CCC)",
+   "date": "2027-01-16",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214040",
+   "checked": "2026-11-23",
    "official": true
   },
   {
@@ -600,6 +782,19 @@
    "official": true
   },
   {
+   "artist": "나나오아카리",
+   "genre": "JPOP",
+   "title": "NANAOAKARI, ALL EYES in Seoul",
+   "venue": "서울 YES24 라이브홀",
+   "date": "2027-01-30",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.yes24.com/Perf/60411",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "티파니 데이",
    "genre": "POP",
    "title": "티파니 데이 첫 내한공연 · HALO WORLD TOUR in Seoul",
@@ -626,6 +821,19 @@
    "official": true
   },
   {
+   "artist": "인디고 라 엔드",
+   "genre": "JPOP",
+   "title": "indigo la End ONEMAN LIVE in KOREA 「Blue Laundry」",
+   "venue": "서울 YES24 원더로크홀",
+   "date": "2027-02-13",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.yes24.com/Perf/60869",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
    "artist": "제프 버넷",
    "genre": "POP",
    "title": "Jeff Bernat Live: Luv Language Tour 2027 in Seoul",
@@ -649,6 +857,45 @@
    "general": "",
    "url": "https://nol.yanolja.com/ticket/products/26013626",
    "checked": "2026-11-22",
+   "official": true
+  },
+  {
+   "artist": "데미안 라이스",
+   "genre": "POP",
+   "title": "데미안 라이스 내한공연 · Damien Rice 'O' 25th Anniversary Tour",
+   "venue": "서울 GS아트센터",
+   "date": "2027-02-27",
+   "time": "19:00",
+   "presale": "2026-10-21T10:00",
+   "general": "2026-10-23T12:00",
+   "url": "https://nol.yanolja.com/ticket/products/26015096",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "코레사와",
+   "genre": "JPOP",
+   "title": "I AM KORESAWA vol.1",
+   "venue": "서울 YES24 원더로크홀",
+   "date": "2027-02-27",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214074",
+   "checked": "2026-11-23",
+   "official": true
+  },
+  {
+   "artist": "데미안 라이스",
+   "genre": "POP",
+   "title": "데미안 라이스 내한공연 · Damien Rice 'O' 25th Anniversary Tour",
+   "venue": "서울 GS아트센터",
+   "date": "2027-02-28",
+   "time": "14:30",
+   "presale": "2026-10-21T10:00",
+   "general": "2026-10-23T12:00",
+   "url": "https://nol.yanolja.com/ticket/products/26015096",
+   "checked": "2026-11-23",
    "official": true
   },
   {
@@ -1018,6 +1265,20 @@
    "date": "2026-12-02",
    "title": "내일의 민재",
    "note": "감독 박용재 · 이레",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "베헤모스!",
+   "note": "감독 토니 길로이 · 페드로 파스칼·올리비아 와일드",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "정가네",
+   "note": "감독 김지현 · 류승룡·박해준·옹성우",
    "theater": "",
    "kind": "개봉"
   },
