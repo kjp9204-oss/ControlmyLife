@@ -536,6 +536,29 @@
       }
     },
     {
+      "id": "endfield-anniv27-kr",
+      "categories": [
+        "festival"
+      ],
+      "title": "명일방주: 엔드필드 1주년 페스티벌",
+      "start": "2027-01-09",
+      "end": "2027-01-10",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 10A홀",
+      "note": "한국 오프라인 행사입니다. 2차 창작 판매 부스가 운영되며 일반 관람 예매는 확인 전입니다.",
+      "source": {
+        "label": "한국 개발사 공식 발표",
+        "url": "https://x.com/AKEndfieldKR/status/2107458351449657782"
+      },
+      "timing": "양일 판매 부스 10:00–17:00 KST",
+      "links": [
+        {
+          "label": "부스 모집·운영 안내",
+          "url": "https://sites.google.com/view/endfield-1st-festival2027"
+        }
+      ]
+    },
+    {
       "id": "vct-bangkok",
       "categories": [
         "valorant"
@@ -591,6 +614,33 @@
         {
           "label": "시즌 공식 개요",
           "url": "https://valorantesports.com/en-US/season/117246370678200773"
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-fanfest-seoul27",
+      "categories": [
+        "festival",
+        "other"
+      ],
+      "title": "파이널판타지14 팬페스티벌 2027 in 서울",
+      "start": "2027-03-13",
+      "end": "2027-03-14",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 9홀",
+      "note": "한국 공식 PvP 대회 CCRC 2027 Korea 결승은 3/14 현장에서 열립니다. 팬페스티벌 일반 관람 예매는 확인 전입니다.",
+      "source": {
+        "label": "파이널판타지14 공식 개최 안내",
+        "url": "https://www.youtube.com/watch?v=IFTIZAOqb7Y"
+      },
+      "links": [
+        {
+          "label": "액토즈소프트 공식 발표",
+          "url": "https://www.actoz.com/publicize/press/1135"
+        },
+        {
+          "label": "CCRC 공식 대회 일정",
+          "url": "https://www.ff14.co.kr/events/ccrc_Korea/summary/"
         }
       ]
     },
