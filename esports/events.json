@@ -1,5 +1,5 @@
 {
-  "checked": "2026.11.23",
+  "checked": "2026.11.24",
   "events": [
     {
       "id": "pubgm-asian-games",
@@ -114,6 +114,29 @@
         "url": "https://www.e-sports.or.kr/news/media_view?brd_id=3BYG5YO90001"
       },
       "timing": "11:00 KST"
+    },
+    {
+      "id": "pgl-major-singapore26",
+      "categories": [
+        "other"
+      ],
+      "title": "PGL CS2 싱가포르 메이저 2026",
+      "start": "2026-11-24",
+      "end": "2026-12-13",
+      "region": "global",
+      "location": "싱가포르 · 플레이오프는 싱가포르 인도어 스타디움",
+      "note": "스위스 스테이지 1은 11/24~27, 스테이지 2는 11/28~12/1, 스테이지 3은 12/2~6입니다. 현장 관람 플레이오프는 12/10~13입니다.",
+      "source": {
+        "label": "PGL 공식 경기 일정",
+        "url": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/"
+      },
+      "timing": "플레이오프 관람 회차 12/10~12 18:00 · 12/13 15:00 KST",
+      "links": [
+        {
+          "label": "12/10~13 플레이오프 예매 상품",
+          "url": "https://ticketmaster.sg/activity/detail/26sg_pglcs2major"
+        }
+      ]
     },
     {
       "id": "vq-open",
