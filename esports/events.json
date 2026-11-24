@@ -116,6 +116,28 @@
       "timing": "11:00 KST"
     },
     {
+      "id": "vq-jp-open",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 퍼시픽 킥오프 일본 오픈 예선",
+      "start": "2026-11-22",
+      "end": "2026-11-29",
+      "region": "online",
+      "location": "일본 예선 · 온라인",
+      "note": "11/22~23, 11/28~29 진행. 2일 차 기준 REJECT·FENNEL·MURASH GAMING·INSOMNIA·SCARZ·雨のち晴れ가 각 조 결승에 진출했습니다. 조별 우승 6팀이 플레이오프에 진출합니다. 공식 중계가 없는 예선입니다.",
+      "source": {
+        "label": "라이엇 일본 예선 공식 공지",
+        "url": "https://valorantesports.com/ja-JP/news/2027-vct-pacific-kickoff-japan-qualifier/"
+      },
+      "links": [
+        {
+          "label": "11/23 대진 결과 및 다음 경기일",
+          "url": "https://x.com/valesports_jp/status/2124804820968378691"
+        }
+      ]
+    },
+    {
       "id": "pgl-major-singapore26",
       "categories": [
         "other"
@@ -326,7 +348,9 @@
       "links": [
         {
           "label": "PC 결승 예매 상품",
-          "url": "https://www.biletix.com/etkinlik-grup/5669521108/TURKIYE/en/pubg-global-championship-2026"
+          "url": "https://www.biletix.com/etkinlik-grup/5669521108/TURKIYE/en/pubg-global-championship-2026",
+          "opensAt": "2026-11-16T20:00:00+09:00",
+          "saleState": "open"
         },
         {
           "label": "한국어 공식 경기 편성",
@@ -343,9 +367,39 @@
         {
           "label": "한국어 중계 · SOOP",
           "url": "https://www.sooplive.com/station/pubg"
+        },
+        {
+          "label": "크래프톤 결승 예매 공지",
+          "url": "https://pubgesports.com/ko/news/11319"
         }
       ],
       "timing": "경기 시작(KST) · 12/1 퀄리파잉 20:00 · 12/2~6 서바이벌 20:00 · 결승 12/11~12 20:00, 12/13 18:00"
+    },
+    {
+      "id": "vq-jp-playoffs",
+      "categories": [
+        "valorant"
+      ],
+      "title": "VCT 일본 예선 온라인 플레이오프",
+      "start": "2026-12-02",
+      "end": "2026-12-06",
+      "region": "online",
+      "location": "일본 예선 · 온라인",
+      "note": "DetonatioN FocusMe·QT DIG∞는 시드로 직행하고 오픈 예선 통과 6팀이 합류합니다. 상위 3팀이 오프라인 결선에 진출합니다. 전 경기 공식 중계 예정입니다.",
+      "source": {
+        "label": "주최사 일정 및 시청 안내",
+        "url": "https://vctjp-open.com/2027-kickoff-finals/"
+      },
+      "links": [
+        {
+          "label": "공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@VALORANTjp"
+        },
+        {
+          "label": "공식 중계 · Twitch",
+          "url": "https://www.twitch.tv/valorant_jpn"
+        }
+      ]
     },
     {
       "id": "vq-offline",
@@ -383,7 +437,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "고양 킨텍스 제1전시장 1~5홀",
-      "note": "일반 1일권 29,000원 · 3일권 65,000원(12/4 16:59까지 온라인 예매). 패스트 티켓 입장은 09:30부터입니다.",
+      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다.",
       "source": {
         "label": "AGF 공식 행사",
         "url": "https://www.agfkorea.com/event?idx=1"
@@ -551,6 +605,11 @@
         {
           "label": "12/12 결승 2일차 행사 안내",
           "url": "https://www.biletix.com/performance/5PGC2/001/TURKIYE/en"
+        },
+        {
+          "label": "12/11 모바일 결승 1일 차 예매 상품",
+          "url": "https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship/seans/304012",
+          "saleState": "open"
         }
       ]
     },
@@ -576,6 +635,14 @@
           "url": "https://l-tike.com/sports/mevent/?mid=799559",
           "opensAt": "2026-11-21T12:00:00+09:00",
           "saleState": "open"
+        },
+        {
+          "label": "공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@VALORANTjp"
+        },
+        {
+          "label": "공식 중계 · Twitch",
+          "url": "https://www.twitch.tv/valorant_jpn"
         }
       ]
     },
@@ -722,6 +789,28 @@
         {
           "label": "NOL 1일권 예매 상품",
           "url": "https://nol.yanolja.com/ticket/products/26014698"
+        }
+      ]
+    },
+    {
+      "id": "seven-knights-festival26",
+      "categories": [
+        "festival"
+      ],
+      "title": "2026 세븐나이츠 페스티벌: 성야의 연회",
+      "start": "2026-12-19",
+      "region": "kr",
+      "location": "서울 현대백화점 신촌점 유플렉스 12층",
+      "note": "세븐나이츠 리버스 무료 초청 행사입니다. 참가 신청은 11/22에 마감됐으며 12/3 이후 선정자에게 개별 안내합니다. 공식 온라인 생중계가 예정돼 있습니다.",
+      "source": {
+        "label": "넷마블 공식 개최 공지",
+        "url": "https://forum.netmarble.com/sena_rebirth/view/20/2193"
+      },
+      "timing": "12:00–18:00 KST",
+      "links": [
+        {
+          "label": "넷마블 뉴스룸 행사 안내",
+          "url": "https://ch.netmarble.com/Newsroom/PressRelease/Detail?bbs_code=1014&post_seq=7104"
         }
       ]
     },
