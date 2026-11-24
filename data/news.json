@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "concerts": [
   {
    "artist": "악뮤",
@@ -193,19 +193,6 @@
    "presale": "",
    "general": "",
    "url": "https://ticket.yes24.com/Perf/59553",
-   "checked": "2026-11-22",
-   "official": true
-  },
-  {
-   "artist": "칼리드",
-   "genre": "POP",
-   "title": "칼리드 내한공연 · It's Always Summer Somewhere Tour in Seoul",
-   "venue": "고양 킨텍스 제2전시장 10홀",
-   "date": "2026-12-05",
-   "time": "19:00",
-   "presale": "2026-07-13T12:00",
-   "general": "2026-07-16T12:00",
-   "url": "https://nol.yanolja.com/ticket/products/26009919",
    "checked": "2026-11-22",
    "official": true
   },
@@ -764,9 +751,9 @@
    "time": "",
    "presale": "",
    "general": "",
-   "url": "https://www.make2t.kr/2026/11/2027-toshiki-soejima-band-seoul-tickets.html",
-   "checked": "2026-11-22",
-   "official": false
+   "url": "https://nol.yanolja.com/ticket/products/26016824",
+   "checked": "2026-11-24",
+   "official": true
   },
   {
    "artist": "마룬5",
@@ -1106,6 +1093,13 @@
    "kind": "개봉"
   },
   {
+   "date": "2026-11-25",
+   "title": "펭구와 친구들: 얼음꽁꽁 어드벤처",
+   "note": "배급 팝엔터테인먼트",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
    "date": "2026-11",
    "title": "명탐정 코난: 하이웨이의 타천사",
    "note": "스크린X·4DX",
@@ -1130,7 +1124,7 @@
    "date": "2026-12-05",
    "title": "아기상어 크리스마스 스페셜: 산타 선발 대회",
    "note": "",
-   "theater": "",
+   "theater": "CGV 단독",
    "kind": "개봉"
   },
   {
@@ -1244,13 +1238,55 @@
    "date": "2026-11-25",
    "title": "고인아파트",
    "note": "감독 김태경 · 유선·이종혁",
-   "theater": "",
+   "theater": "메가박스 단독",
    "kind": "개봉"
   },
   {
    "date": "2026-11-25",
    "title": "눈 내리는 여름, 너에게",
    "note": "감독 김형협 · 정진운 판타지 로맨스",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "레이오버 호텔",
+   "note": "배급 마노엔터테인먼트",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "마른 잎",
+   "note": "배급 시네마토그래프",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "드골2: 자유의 시대",
+   "note": "배급 모비데이즈",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "포킴스: 네 남자의 이야기",
+   "note": "배급 라온컴퍼니플러스",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "라파엘",
+   "note": "배급 삼백상회",
+   "theater": "롯데시네마 단독",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "돼지지옥",
+   "note": "배급 영화사 빅",
    "theater": "",
    "kind": "개봉"
   },
@@ -1283,6 +1319,34 @@
    "kind": "개봉"
   },
   {
+   "date": "2026-12-02",
+   "title": "완벽한 초대",
+   "note": "배급 그린나래미디어·모비데이즈",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "머지않아, 이별입니다",
+   "note": "배급 NEW",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "페러렐 테일즈: 데칼로그",
+   "note": "배급 엠디에스스피어",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "러브 와이파이 궁",
+   "note": "배급 스튜디오디에이치엘",
+   "theater": "CGV 단독",
+   "kind": "개봉"
+  },
+  {
    "date": "2026-12-03",
    "title": "서울의 밤",
    "note": "",
@@ -1300,6 +1364,13 @@
    "date": "2026-12-09",
    "title": "청어",
    "note": "감독 이상훈 · 지승현·오지호",
+   "theater": "",
+   "kind": "개봉"
+  },
+  {
+   "date": "2026-12-09",
+   "title": "열정",
+   "note": "2008년작 · 국내 첫 개봉 · 배급 트리플픽쳐스",
    "theater": "",
    "kind": "개봉"
   },
@@ -1335,6 +1406,13 @@
    "date": "2026-12",
    "title": "듄: 파트 2",
    "note": "아이맥스 재개봉",
+   "theater": "",
+   "kind": "재개봉"
+  },
+  {
+   "date": "2026-12",
+   "title": "러브 액츄얼리",
+   "note": "크리스마스 로맨스 고전",
    "theater": "",
    "kind": "재개봉"
   },
