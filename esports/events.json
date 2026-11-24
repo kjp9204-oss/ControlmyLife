@@ -155,6 +155,32 @@
       }
     },
     {
+      "id": "lineage-festival26",
+      "categories": [
+        "festival"
+      ],
+      "title": "리니지 페스티벌: 아덴으로의 초대",
+      "start": "2026-11-25",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 7B홀·8홀",
+      "note": "리니지M·리니지 리마스터·리니지 클래식 오프라인 행사입니다. 주최사가 1부와 2부 티켓 매진을 공지했습니다.",
+      "source": {
+        "label": "엔씨소프트 공식 행사 안내",
+        "url": "https://lineagem.plaync.com/conts/261118_update"
+      },
+      "timing": "1부 10:00–16:00 · 2부 17:00–22:00 KST",
+      "links": [
+        {
+          "label": "주최사 1·2부 매진 공지",
+          "url": "https://lounge.plaync.com/feed/87447?country=KR&locale=ko-KR"
+        },
+        {
+          "label": "티켓링크 예매 안내",
+          "url": "https://facility.ticketlink.co.kr/help/notice/66498"
+        }
+      ]
+    },
+    {
       "id": "vq-open",
       "categories": [
         "valorant"
@@ -219,7 +245,7 @@
       "end": "2026-11-29",
       "region": "kr",
       "location": "청주 석우문화체육관",
-      "note": "발로란트·FC 온라인·이터널 리턴과 일러스타 행사가 열립니다. 발로란트 11/28 15:00 준결승, 11/29 09:00 결승. 같은 날 FC 온라인 결승 10:00, 이터널 리턴 결승 14:00입니다.",
+      "note": "발로란트·FC 온라인·이터널 리턴과 일러스타 행사가 열립니다. 발로란트 11/28 15:00 준결승, 11/29 09:00 결승. 같은 날 FC 온라인 결승 10:00, 이터널 리턴 결승 14:00입니다. 주최사 시간표에는 11/27 10:00 발로란트 A조와 11/29 세 종목 결승이 생중계로 표시됩니다. 발로란트 한국 대표팀은 Team Rio·Over peak·PUBAO입니다.",
       "source": {
         "label": "IEF 공식 일정",
         "url": "https://ief2026.org/"
@@ -292,7 +318,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "PC 배틀그라운드 세계대회입니다. 결승은 12월 11~13일입니다.",
+      "note": "PC 배틀그라운드 세계대회입니다. DN SOOPers는 그랜드 파이널 직행, T1은 서바이벌 첫날 직행, FN Pocheon은 퀄리파잉 스테이지부터 출전합니다.",
       "source": {
         "label": "PUBG Esports 공식 일정",
         "url": "https://pubgesports.com/en/news/11393"
@@ -301,8 +327,25 @@
         {
           "label": "PC 결승 예매 상품",
           "url": "https://www.biletix.com/etkinlik-grup/5669521108/TURKIYE/en/pubg-global-championship-2026"
+        },
+        {
+          "label": "한국어 공식 경기 편성",
+          "url": "https://pubgesports.com/ko/news/11316"
+        },
+        {
+          "label": "한국어 중계 · YouTube",
+          "url": "https://www.youtube.com/@pubgesportskr"
+        },
+        {
+          "label": "한국어 중계 · 치지직",
+          "url": "https://chzzk.naver.com/2d8731009f2bdf883e4826ac413f5502"
+        },
+        {
+          "label": "한국어 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/pubg"
         }
-      ]
+      ],
+      "timing": "경기 시작(KST) · 12/1 퀄리파잉 20:00 · 12/2~6 서바이벌 20:00 · 결승 12/11~12 20:00, 12/13 18:00"
     },
     {
       "id": "vq-offline",
