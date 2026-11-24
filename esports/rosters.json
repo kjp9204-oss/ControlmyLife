@@ -255,6 +255,41 @@
       ]
     },
     {
+      "id": "lol-kt-2027",
+      "game": "lol",
+      "name": "kt 롤스터",
+      "scope": "LCK 2027 · 구단 발표 선수 4명",
+      "players": [
+        "PerfecT",
+        "Raptor",
+        "Bdd",
+        "Kellin"
+      ],
+      "playerRoles": {
+        "PerfecT": "탑",
+        "Raptor": "정글",
+        "Bdd": "미드",
+        "Kellin": "서포터"
+      },
+      "pendingPositions": [
+        "원딜"
+      ],
+      "sources": [
+        {
+          "label": "PerfecT·Bdd 구단 재계약 발표",
+          "url": "https://www.facebook.com/ktesports/posts/pfbid0356qKAnw3rdbe9s8pvDtaV4fTxpnxNQpbjBkneM8rqAo9fUJoFCsCGpmUGE2ZzauEl"
+        },
+        {
+          "label": "Raptor 구단 영입 발표",
+          "url": "https://www.youtube.com/watch?v=NJeQk8VNq50"
+        },
+        {
+          "label": "Kellin 구단 영입 발표",
+          "url": "https://www.youtube.com/watch?v=JOfXEx6eUfc"
+        }
+      ]
+    },
+    {
       "id": "val-geng",
       "game": "valorant",
       "name": "Gen.G",
@@ -359,6 +394,52 @@
         {
           "label": "구단 공식 소식",
           "url": "https://pprx.team/news"
+        }
+      ]
+    },
+    {
+      "id": "val-dk-2027",
+      "game": "valorant",
+      "name": "디플러스 기아",
+      "scope": "국내 발로란트 2027 · 구단 발표 선수 5명",
+      "players": [
+        "Estrella",
+        "Hermes",
+        "Flora",
+        "Wolverine",
+        "Kally"
+      ],
+      "sources": [
+        {
+          "label": "Estrella·Hermes 구단 발표",
+          "url": "https://x.com/DplusKiaEsports/status/2123236168309641354"
+        },
+        {
+          "label": "Flora·Wolverine 구단 발표",
+          "url": "https://x.com/DplusKiaEsports/status/2123236471280906240"
+        },
+        {
+          "label": "Kally 구단 재계약 발표",
+          "url": "https://x.com/DplusKiaEsports/status/2123236318872494472"
+        }
+      ]
+    },
+    {
+      "id": "val-reject-2027",
+      "game": "valorant",
+      "name": "REJECT",
+      "scope": "2027 VCT 일본 오픈 예선 · 구단 발표 선수 5명",
+      "players": [
+        "Dep",
+        "BRIAN",
+        "Yoshiii",
+        "Jremy",
+        "Pkm"
+      ],
+      "sources": [
+        {
+          "label": "구단 선수 명단 발표",
+          "url": "https://x.com/RC_REJECT/status/2124337069808037929"
         }
       ]
     },
