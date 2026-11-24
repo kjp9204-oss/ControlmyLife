@@ -437,7 +437,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "고양 킨텍스 제1전시장 1~5홀",
-      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다.",
+      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다. 카제나 부스(제1전시장 1홀 A11)는 12/4 성우 라이브 더빙·마술쇼, 12/5 미츠키요(Mitsukiyo) DJ, 12/5~6 OST 밴드 공연을 진행합니다.",
       "source": {
         "label": "AGF 공식 행사",
         "url": "https://www.agfkorea.com/event?idx=1"
@@ -459,6 +459,10 @@
         {
           "label": "3일권 예매",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213887"
+        },
+        {
+          "label": "스마일게이트 AGF 현장 프로그램",
+          "url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=news&wr_id=2411"
         }
       ]
     },
