@@ -5,7 +5,7 @@
       "id": "lol-bnk-fearx-2027",
       "game": "lol",
       "name": "BNK FEARX",
-      "scope": "2027 시즌 · 선수 3명·코칭스태프 2명",
+      "scope": "2027 시즌 · 선수 3명·코칭스태프 3명",
       "players": [
         "Vincenzo",
         "VicLa",
@@ -28,6 +28,10 @@
         {
           "handle": "Edo",
           "role": "2·3군 총괄"
+        },
+        {
+          "handle": "Lira",
+          "role": "코치"
         }
       ],
       "sources": [
@@ -50,6 +54,10 @@
         {
           "label": "Edo 발표",
           "url": "https://x.com/BNKFEARXLoL/status/2121875851620823265"
+        },
+        {
+          "label": "Lira 재계약 구단 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2121876355273134542"
         }
       ]
     },
