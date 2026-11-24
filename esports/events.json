@@ -592,7 +592,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불 · Turkcell Basketbol Gelişim Merkezi",
-      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. 판매처 안내상 12/12 결승 2일차 얼리버드 1등급 티켓의 추가 상품입니다.",
+      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. WOW PARTY 입장 조건은 예매 상품에서 확인하세요.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -603,13 +603,41 @@
           "url": "https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship"
         },
         {
-          "label": "12/12 결승 2일차 행사 안내",
-          "url": "https://www.biletix.com/performance/5PGC2/001/TURKIYE/en"
+          "label": "12/12 모바일 결승 2일 차 예매 상품",
+          "url": "https://www.biletix.com/performance/5PGC2/001/TURKIYE/tr",
+          "saleState": "open"
         },
         {
           "label": "12/11 모바일 결승 1일 차 예매 상품",
           "url": "https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship/seans/304012",
           "saleState": "open"
+        },
+        {
+          "label": "12/13 모바일 결승 3일 차 예매 상품",
+          "url": "https://www.biletix.com/performance/5PGC3/001/TURKIYE/tr",
+          "saleState": "open"
+        }
+      ]
+    },
+    {
+      "id": "blackdesert-calpheon26",
+      "categories": [
+        "festival"
+      ],
+      "title": "2026 검은사막 칼페온 연회",
+      "start": "2026-12-12",
+      "region": "kr",
+      "location": "수원메쎄",
+      "note": "현장 초청 행사입니다. 3차 초청 당첨자 100명은 11/27 발표 예정이며, 15:00부터 검은사막 공식 채널에서 온라인 생중계합니다.",
+      "source": {
+        "label": "펄어비스 공식 개최 공지",
+        "url": "https://www.kr.playblackdesert.com/ko-kr/News/Detail?countryType=ko-kr&groupContentNo=16410"
+      },
+      "timing": "현장 11:00 · 생중계 15:00 KST",
+      "links": [
+        {
+          "label": "현장 초청 당첨 안내",
+          "url": "https://www.kr.playblackdesert.com/ko-KR/News/Detail?groupContentNo=16479"
         }
       ]
     },
@@ -789,6 +817,31 @@
         {
           "label": "NOL 1일권 예매 상품",
           "url": "https://nol.yanolja.com/ticket/products/26014698"
+        }
+      ]
+    },
+    {
+      "id": "loaon-winter26",
+      "categories": [
+        "festival"
+      ],
+      "title": "2026 로스트아크 윈터 쇼케이스 (로아온 윈터)",
+      "start": "2026-12-19",
+      "region": "kr",
+      "location": "고양 킨텍스 제2전시장 9홀",
+      "note": "겨울 업데이트를 소개하는 오프라인 초청 행사입니다. 참가 신청 방법은 12/2 로스트아크 공식 홈페이지에서 안내할 예정입니다.",
+      "source": {
+        "label": "스마일게이트 뉴스룸 행사 안내",
+        "url": "https://newsroom.smilegate.com/inpr/1794554163"
+      },
+      "links": [
+        {
+          "label": "로스트아크 공식 발표 방송",
+          "url": "https://www.youtube.com/watch?v=G5Yd4BfblEI"
+        },
+        {
+          "label": "로스트아크 공식 홈페이지",
+          "url": "https://lostark.game.onstove.com/"
         }
       ]
     },
