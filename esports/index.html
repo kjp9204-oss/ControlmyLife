@@ -9,223 +9,213 @@
 <link rel="canonical" href="https://kjp9204-oss.github.io/ControlmyLife/esports/">
 <title>e스포츠 전광판 · Control My Life</title>
 <style>
-@font-face {
-  font-family: Pretendard;
-  src: url("../assets/fonts/PretendardVariable.woff2") format("woff2");
-  font-weight: 100 900;
-  font-display: swap;
-}
-@font-face {
-  font-family: Anton;
-  src: url("../assets/fonts/Anton-Regular.ttf") format("truetype");
-  font-display: swap;
-}
 :root {
   color-scheme: dark;
-  --bg: #0b0b0d;
-  --surface: #151518;
-  --ink: #f7f7f5;
-  --muted: #bfbfc6;
-  --red: #ec171d;
-  --accent: #ff858b;
-  --line: #77777b;
-  --rule: #3c3c42;
+  --bg: #111;
+  --surface: #191919;
+  --ink: #f5f5f3;
+  --muted: #adada8;
+  --line: #383838;
+  --accent: #fa4a43;
+  --link: #ff9084;
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font: 15px/1.5 Pretendard, "Malgun Gothic", system-ui, sans-serif;
+  font: 15px/1.65 "Malgun Gothic", system-ui, sans-serif;
 }
 h1, h2, h3, p { margin: 0; }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-:focus-visible { outline: 2px solid #ffa0a2; outline-offset: 3px; }
-button, select, input { font: inherit; color: inherit; }
+a { color: var(--link); }
+:focus-visible { outline: 3px solid #faaa8e; outline-offset: 3px; }
+button, select, input { font: inherit; color: inherit; min-height: 42px; border-radius: 3px; }
 button, select { cursor: pointer; }
-.wrap { width: min(1320px, 100% - 4rem); margin-inline: auto; }
-.utility {
+button { padding: 8px 15px; border: 1px solid var(--line); background: var(--surface); }
+button:hover, .site-home:hover { border-color: #999; }
+input, select { padding: 9px 11px; border: 1px solid #4a4a4a; background: #1c1c1c; }
+.wrap { max-width: 1440px; padding: 28px 32px 50px; margin-inline: auto; }
+.strip {
+  border-bottom: 1px solid var(--line);
+  padding: 7px 24px;
+  color: #bfbfb9;
+  background: #1b1b1b;
+  text-align: center;
+  font-size: 12px;
+}
+.mast {
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
-  align-items: center;
-  gap: .35rem 1rem;
-  flex-wrap: wrap;
-  padding: .65rem 0;
-  min-height: 42px;
+  gap: 20px;
   border-bottom: 2px solid var(--ink);
-  font-size: .84rem;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
 }
-.utility nav { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem .75rem; }
-.utility nav a { color: var(--ink); font-weight: 650; }
-.asof { color: var(--muted); font-variant-numeric: tabular-nums; }
-.masthead {
-  display: flex;
+.mast > div { min-width: 0; }
+.brand { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+h1 { font-size: 40px; letter-spacing: -1px; line-height: 1.3; margin: 8px 0; }
+h2 { font-size: 18px; }
+.muted, .asof, .lede { color: var(--muted); }
+.asof { margin-top: 4px; font-size: 12px; font-variant-numeric: tabular-nums; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.site-home {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1.65rem 2rem;
-  padding: 1.55rem 0 1.3rem;
-  border-bottom: 3px solid var(--ink);
-}
-.wordmark {
-  position: relative;
-  display: inline-block;
-  padding: 0 .25rem .4rem 0;
+  min-height: 42px;
+  padding: 8px 12px;
   color: var(--ink);
-  font: italic clamp(40px, 7vw, 97px)/1 Anton, Impact, sans-serif;
-  letter-spacing: -.035em;
-  white-space: nowrap;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  text-decoration: none;
 }
-.wordmark span:last-of-type { color: var(--red); }
-.wordmark img {
-  position: absolute;
-  left: 0;
-  bottom: -.42rem;
-  width: 57%;
-  height: clamp(12px, 2vw, 22px);
-  object-fit: fill;
-  pointer-events: none;
-}
-.page-heading { min-width: 0; }
-h1 { font-size: clamp(2.15rem, 4.45vw, 4.15rem); font-weight: 900; line-height: 1.02; letter-spacing: -.06em; }
-.lede { margin-top: .45rem; color: var(--muted); }
-main { padding-top: 1.6rem; }
 .section-title {
   display: flex;
   justify-content: space-between;
-  gap: .15rem 1rem;
   align-items: baseline;
+  gap: 5px 15px;
   flex-wrap: wrap;
-  padding-bottom: .45rem;
-  margin-bottom: .65rem;
-  border-bottom: 2px solid var(--red);
+  padding: 12px 0;
+  margin-bottom: 12px;
+  border-block: 1px solid var(--line);
 }
-h2 { font-size: clamp(1.35rem, 2.35vw, 1.85rem); font-weight: 900; line-height: 1.1; letter-spacing: -.04em; }
-.muted, footer { color: var(--muted); }
-.section-title p { font-size: .84rem; }
-.next-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; }
+.section-title p { font-size: 12px; }
+.next-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .next-card {
   display: block;
-  padding: .7rem .85rem;
+  min-width: 0;
+  padding: 13px 15px;
   background: var(--surface);
-  border: 1px solid var(--rule);
-  border-left: 3px solid var(--red);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
   color: var(--ink);
+  text-decoration: none;
   overflow-wrap: anywhere;
 }
-.next-card:hover { background: #231719; border-color: var(--accent); text-decoration: none; }
-.next-date { display: block; color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 800; font-size: .86rem; }
-.next-card strong { display: block; line-height: 1.28; font-size: 1.13rem; letter-spacing: -.025em; margin: .2rem 0; }
-.next-card small { display: block; color: var(--muted); font-size: .85rem; }
-.filters { display: grid; gap: .7rem; margin: 1.65rem 0 .55rem; }
-.filters .section-title { margin-bottom: 0; }
-.filter-row { display: flex; gap: .55rem .95rem; align-items: center; flex-wrap: wrap; }
-.pills { display: flex; gap: .38rem; flex-wrap: wrap; min-width: 0; }
-button, select, input { border: 1px solid var(--line); border-radius: 0; background: var(--surface); min-height: 42px; }
-button { padding: .47rem .72rem; white-space: nowrap; font-weight: 650; }
-button:hover { background: #232328; }
-button[aria-pressed="true"] { background: #341a1e; border-color: var(--accent); color: #ffe0e1; }
-select, input { padding: .55rem .65rem; }
-.filter-label { display: flex; gap: .52rem; align-items: center; color: var(--muted); font-size: .89rem; }
-.filter-label select, .search input { color: var(--ink); }
-.search { flex: 1; margin-left: auto; justify-content: flex-end; min-width: 210px; }
-.search input { width: min(100%, 260px); min-width: 0; }
-.result { font-size: .86rem; color: var(--muted); margin: .62rem 0 .4rem; }
-.active-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; min-width: 0; }
-.active-filters:empty { display: none; }
-.filter-chip { max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: left; }
-.filter-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
-.filter-feedback { color: var(--muted); font-size: .84rem; overflow-wrap: anywhere; }
-.data-status { margin-block: .4rem .8rem; font-size: .84rem; color: var(--muted); }
-.schedule { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.next-card:hover { background: #222; border-color: var(--accent); }
+.next-date { display: block; color: var(--link); font-variant-numeric: tabular-nums; font-weight: 700; font-size: 13px; }
+.next-card strong { display: block; margin: 3px 0; font-size: 17px; line-height: 1.45; }
+.next-card small { display: block; color: var(--muted); font-size: 12px; }
+.filters { display: grid; gap: 12px; margin: 26px 0 12px; }
+.quarter-heading { display: flex; align-items: end; justify-content: space-between; gap: 14px; }
+.quarter-heading h2 { font-size: 1.3rem; }
+.quarter-heading label { display: grid; min-width: 105px; gap: 4px; color: #ccc; font-size: 13px; }
+.quarters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.quarter-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-height: 100px;
+  padding: 14px;
+  border-radius: 12px;
+  text-align: left;
+}
+.quarter-button strong { font-size: 1.3rem; }
+.quarter-button span { color: var(--muted); font-size: .9rem; }
+.quarter-button[aria-pressed="true"] { background: #2a1b1b; border-color: var(--accent); }
+.quarter-button[aria-pressed="true"] strong { color: #ff8d88; }
+.quarter-options { grid-column: 1 / -1; }
+.filter-row { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; }
+.pills { display: flex; flex-wrap: wrap; gap: 4px; min-width: 0; }
+.pills button { color: var(--muted); font-weight: 700; }
+.pills button[aria-pressed="true"] { color: #111; background: #f4f4f0; border-color: #f4f4f0; }
+.filter-label { display: grid; gap: 5px; color: #ccc; font-size: 13px; }
+.filter-label select { min-width: 140px; }
+.search { flex: 1; min-width: 200px; }
+.search input { width: 100%; min-width: 0; }
+.active-filters { display: flex; flex-wrap: wrap; gap: 7px; min-width: 0; }
+.active-filters:empty, #filter-feedback:empty { display: none; }
+.filter-chip { max-width: 100%; min-height: 36px; padding: 5px 10px; font-size: 13px; overflow-wrap: anywhere; text-align: left; }
+.filter-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.filter-actions button, .filter-feedback, .result { font-size: 13px; }
+.filter-feedback, .result { color: var(--muted); }
+.data-status {
+  margin: 15px 0;
+  padding: 13px 15px;
+  background: #202020;
+  border-left: 3px solid #888;
+  color: #bdbdb8;
+  font-size: 12px;
+}
+.result { margin: 12px 0 6px; }
+.schedule { border-top: 1px solid var(--line); }
 .schedule-title, .event {
   display: grid;
-  grid-template-columns: minmax(112px, .92fr) minmax(0, 2.15fr) minmax(0, 1.1fr) minmax(0, 1.02fr);
-  gap: .85rem;
-  padding: .75rem .95rem;
+  grid-template-columns: minmax(100px, .85fr) minmax(0, 2.2fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
 }
-.schedule-title { background: var(--surface); color: var(--muted); font-size: .8rem; font-weight: 750; }
-.event { border-top: 1px solid var(--rule); align-items: start; overflow-wrap: anywhere; }
-.event h3 { font-size: 1.12rem; font-weight: 850; line-height: 1.34; letter-spacing: -.029em; margin: .15rem 0 .22rem; }
-.date-line { font-weight: 820; font-variant-numeric: tabular-nums; }
-.date-detail, .location-detail, .note { color: var(--muted); font-size: .86rem; }
-.stage, .type { display: inline-block; font-size: .79rem; font-weight: 750; }
-.stage, .type { color: var(--accent); }
-.stage.planned, .ticket-detail { color: #f5ca91; }
+.schedule-title { padding: 12px 6px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.event { padding: 19px 6px; border-bottom: 1px solid var(--line); align-items: start; overflow-wrap: anywhere; }
+.event:hover, .event:focus-within { background: #222; }
+.event > div { min-width: 0; }
+.event h3 { margin-top: 5px; font-size: 17px; line-height: 1.55; }
+.event .note { margin-top: 5px; }
+.date-line { font-size: 19px; line-height: 1.5; font-weight: 700; font-variant-numeric: tabular-nums; }
+.date-detail, .location-detail, .note { color: var(--muted); font-size: 13px; }
+.stage { display: block; color: var(--link); font-size: 12px; font-weight: 700; }
+.stage.planned, .ticket-detail { color: #ffb29f; }
 .stage.past { color: var(--muted); }
-.links { display: grid; gap: .38rem; justify-items: start; font-size: .85rem; }
-.links a { text-decoration: underline; text-underline-offset: .19em; text-decoration-color: #915157; }
-.links a:hover { text-decoration-color: currentColor; }
-.ticket-detail { display: block; font-size: .77rem; line-height: 1.4; margin-top: .1rem; }
-.empty { padding: .92rem; background: var(--surface); color: var(--muted); }
-.reference { display: flex; flex-wrap: wrap; gap: .38rem .95rem; font-size: .89rem; }
-footer { padding: 1.35rem 0 1.8rem; font-size: .83rem; }
-footer p { margin-bottom: .5rem; }
-@media (max-width: 760px) {
-  .wrap { width: calc(100% - 2rem); }
-  .masthead { justify-content: flex-start; }
-  .schedule-title, .event { gap: .6rem; padding-inline: .7rem; }
+.type { display: inline-block; color: #ccc; border: 1px solid #444; padding: 1px 6px; font-size: 11px; }
+.links { display: grid; gap: 5px; justify-items: start; font-size: 13px; }
+.links a { text-underline-offset: .19em; }
+.ticket-detail { display: block; margin-top: 2px; font-size: 12px; }
+.empty { padding: 24px 15px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.roster { margin-top: 35px; scroll-margin-top: 1rem; }
+.roster .pills { margin-bottom: 12px; }
+.roster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr)); gap: 10px; }
+.roster-card { min-width: 0; padding: 14px; border: 1px solid var(--line); border-radius: 3px; background: var(--surface); }
+.roster-card h3 { margin: 4px 0; font-size: 17px; }
+.roster-players { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 10px 0; }
+.roster-players li { max-width: 100%; overflow-wrap: anywhere; border: 1px solid var(--line); border-radius: 3px; padding: 2px 7px; }
+.roster-players small { margin-right: 5px; color: var(--muted); font-size: 12px; }
+.roster-card .roster-pending { margin: 4px 0 8px; }
+.roster-sources, .reference { display: flex; flex-wrap: wrap; gap: 6px 12px; overflow-wrap: anywhere; }
+.roster-card a, .roster-card .muted { font-size: 13px; }
+.foot { margin-top: 35px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.foot p { margin-bottom: 8px; }
+@media (max-width: 850px) {
+  .wrap { padding: 22px 18px 40px; }
+  .strip { text-align: left; padding: 8px 16px; }
+  .mast { align-items: start; }
+  h1 { font-size: 31px; }
+  .schedule-title, .event { gap: 12px; }
 }
 @media (max-width: 620px) {
-  .wrap { width: calc(100% - 1.65rem); }
-  .utility { font-size: .76rem; }
-  .masthead { display: grid; gap: 1.1rem; padding: 1rem 0 .8rem; }
-  .wordmark { justify-self: start; }
-  h1 { font-size: 2.2rem; }
-  .lede { font-size: .86rem; }
-  main { padding-top: 1.1rem; }
-  .next-grid { grid-template-columns: minmax(0, 1fr); gap: .38rem; }
-  .next-card { padding: .46rem .65rem; }
-  .next-card strong { font-size: 1.03rem; }
-  .filters { margin-top: 1.2rem; }
-  .pills { gap: .33rem; }
-  button { padding: .37rem .59rem; font-size: .87rem; min-height: 40px; }
-  .search { flex: 0 0 100%; min-width: 0; justify-content: flex-start; }
-  .search input { width: 100%; flex: 1; }
+  .mast { flex-direction: column; align-items: stretch; gap: 14px; }
+  .mast h1 { word-break: keep-all; }
+  .mast .actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mast .actions > * { justify-content: center; min-width: 0; padding-inline: 6px; text-align: center; overflow-wrap: anywhere; }
+  .next-grid { grid-template-columns: 1fr; gap: 8px; }
+  .next-card { padding: 9px 12px; }
+  .quarters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .quarter-button { min-height: 88px; padding: 11px; }
+  .search { flex-basis: 100%; min-width: 0; }
   .schedule-title { display: none; }
-  .event { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .5rem .65rem; padding: .74rem .45rem; }
-  .event:first-child { border-top: 0; }
-  .event .subject { grid-column: 1 / -1; grid-row: 1; }
-  .event .links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .38rem .7rem; }
+  .event { grid-template-columns: minmax(72px, 1fr) minmax(0, 2fr); gap: 8px 12px; }
+  .event .subject { grid-row: 1 / span 2; grid-column: 2; }
+  .event .links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px 12px; }
+  .date-line { font-size: 16px; }
 }
-
-.roster { margin-block: 2.3rem; scroll-margin-top: 1rem; }
-.roster .pills { margin-block: .8rem; }
-.roster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr)); gap: .75rem; }
-.roster-card { min-width: 0; padding: .8rem; border: 1px solid var(--rule); background: var(--surface); }
-.roster-card h3 { margin-block: .25rem; font-size: 1.05rem; }
-.roster-players { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: .65rem 0; }
-.roster-players li { max-width: 100%; overflow-wrap: anywhere; border: 1px solid var(--rule); padding: .16rem .44rem; }
-.roster-players small { margin-right: .35rem; color: var(--muted); font-size: .78rem; }
-.roster-card .roster-pending { margin: .2rem 0 .55rem; }
-.roster-sources { display: flex; flex-wrap: wrap; gap: .35rem .7rem; }
-.roster-card a, .roster-card .muted { font-size: .9rem; }
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <div class="utility">
-      <nav aria-label="ControlMyLife 페이지">
-        <a href="../">← 소식판</a>
-        <span aria-hidden="true">/</span>
-        <a href="../concerts/">공연 전광판</a>
-        <span aria-hidden="true">/</span>
-        <a href="#roster">선수 목록</a>
-      </nav>
+<div class="strip">공식 공지에서 확인한 대회·예매 일정 · 한국 시간(KST)</div>
+<main class="wrap">
+  <header class="mast">
+    <div>
+      <p class="brand">CONTROL MYLIFE / ESPORTS</p>
+      <h1>e스포츠 전광판</h1>
+      <p class="lede">LoL·발로란트·PUBG MOBILE 대회와 게임 페스티벌 일정</p>
       <p class="asof" id="checked"></p>
     </div>
-    <div class="masthead">
-      <p class="wordmark" aria-hidden="true"><span>CONTROL</span> <span>MYLIFE</span><img src="../assets/brush-underline.png" width="300" height="26" alt=""></p>
-      <div class="page-heading">
-        <h1>e스포츠 전광판</h1>
-        <p class="lede">LoL·발로란트·PUBG MOBILE 대회와 게임 페스티벌 일정</p>
-      </div>
-    </div>
-  </div>
-</header>
-<main class="wrap">
+    <nav class="actions" aria-label="Control My Life 페이지">
+      <a class="site-home" href="../">Control Mylife 홈</a>
+      <a class="site-home" href="../concerts/">공연 전광판</a>
+      <a class="site-home" href="#roster">선수 목록</a>
+    </nav>
+  </header>
   <section aria-labelledby="next-heading">
     <div class="section-title">
       <h2 id="next-heading">가까운 확정 일정</h2>
@@ -234,13 +224,11 @@ footer p { margin-bottom: .5rem; }
     <div class="next-grid" id="next"></div>
   </section>
   <section aria-labelledby="schedule-heading" class="filters">
-    <div class="section-title">
+    <div class="quarter-heading">
       <h2 id="schedule-heading">분기별 일정</h2>
+      <label>연도 <select id="year"></select></label>
     </div>
-    <div class="filter-row">
-      <label class="filter-label">연도 <select id="year"></select></label>
-      <div id="quarters" class="pills" role="group" aria-label="분기"></div>
-    </div>
+    <div id="quarters" class="quarters" role="group" aria-label="분기"></div>
     <div class="pills" id="categories" role="group" aria-label="종목"></div>
     <div class="filter-row">
       <label class="filter-label">개최지
@@ -272,8 +260,7 @@ footer p { margin-bottom: .5rem; }
     <div class="pills" id="roster-filters" role="group" aria-label="선수 목록 종목"></div>
     <div class="roster-grid" id="roster-teams"></div>
   </section>
-</main>
-<footer class="wrap">
+<footer class="foot">
   <p>공개된 공식 일정을 수록했습니다. 해외 행사 기간은 개최지 날짜를 따르고, 확인된 시작 시각은 KST로 표시합니다.</p>
   <nav class="reference" aria-label="공식 일정 모아보기">
     <a href="https://lolesports.com/ko-KR/news/" target="_blank" rel="noopener noreferrer">LoL Esports 공지 ↗</a>
@@ -281,6 +268,7 @@ footer p { margin-bottom: .5rem; }
     <a href="https://esports.pubgmobile.kr/ko/schedule" target="_blank" rel="noopener noreferrer">PUBG MOBILE 한국 일정 ↗</a>
   </nav>
 </footer>
+</main>
 <script id="event-data" type="application/json">{"checked":"2026.11.24","events":[{"id":"pubgm-asian-games","categories":["pubgm"],"title":"PUBG MOBILE 아시안게임 버전","start":"2026-09-28","end":"2026-09-29","region":"global","location":"일본 도코나메 · 아이치 스카이 엑스포","note":"아이치·나고야 아시안게임 e스포츠 종목입니다.","source":{"label":"퍼블리셔 종목 발표","url":"https://press.levelinfinite.com/THE-COUNTDOWN-IS-ON-AS-NATIONS-PREPARE-FOR-THE-2026-ASIAN-GAMES-ESPORT"}},{"id":"pmps-s2","categories":["pubgm"],"title":"PMPS 2026 시즌 2 결승","start":"2026-10-17","end":"2026-10-18","region":"kr","location":"대한민국","note":"PUBG MOBILE 프로 시리즈 국내 시즌 결승입니다.","source":{"label":"공식 경기 일정","url":"https://esports.pubgmobile.kr/ko/schedule"},"timing":"매일 15:00 KST","links":[{"label":"시즌 공지","url":"https://esports.pubgmobile.kr/ko/news/208"}]},{"id":"gstar26","categories":["festival"],"title":"지스타 2026","start":"2026-11-19","end":"2026-11-22","region":"kr","location":"부산 벡스코","note":"일반 관람은 11월 19일 11:00부터, 20~22일 10:00부터입니다.","source":{"label":"공식 전시 개요","url":"https://www.gstar.or.kr/part/gstar_part_info.do"},"timing":"매일 18:00 종료 KST","links":[{"label":"부산시 운영 안내","url":"https://www.busan.go.kr/bige/daily-busan/view?bbsNo=10&dataNo=73566&srchCl=Daily+Busan"}]},{"id":"brawl26","categories":["other"],"title":"브롤스타즈 월드 파이널 2026","start":"2026-11-20","end":"2026-11-22","region":"global","location":"일본 도쿄 · 도쿄체육관","note":"브롤스타즈 시즌 최종 대회입니다.","source":{"label":"슈퍼셀 대회 안내","url":"https://supercell.com/brawlstars/en/blog/esports/your-guide-to-the-biggest-brawl-stars-world-finals-ever-/"},"timing":"매일 12:00 KST"},{"id":"predator-kr-finals27","categories":["lol","valorant"],"title":"프레데터 리그 2027 한국 대표 선발전 결선","start":"2026-11-21","end":"2026-11-22","region":"kr","location":"서울 상암 · SOOP 콜로세움","note":"11/21 LoL, 11/22 발로란트 한국 대표 결정전입니다.","source":{"label":"에이서 공식 대회 안내","url":"https://www.newswire.co.kr/newsRead.php?no=1047479"},"timing":"양일 15:00 KST"},{"id":"school-online","categories":["lol","valorant"],"title":"전국중고교이스포츠대회 전국본선","start":"2026-11-22","region":"online","location":"온라인","note":"LoL과 발로란트 본선 일정입니다. 21일에는 PC 배틀그라운드 종목을 진행합니다.","source":{"label":"KeSPA 공식 일정","url":"https://www.e-sports.or.kr/news/media_view?brd_id=3BYG5YO90001"},"timing":"11:00 KST"},{"id":"pgl-major-singapore26","categories":["other"],"title":"PGL CS2 싱가포르 메이저 2026","start":"2026-11-24","end":"2026-12-13","region":"global","location":"싱가포르 · 플레이오프는 싱가포르 인도어 스타디움","note":"스위스 스테이지 1은 11/24~27, 스테이지 2는 11/28~12/1, 스테이지 3은 12/2~6입니다. 현장 관람 플레이오프는 12/10~13입니다.","source":{"label":"PGL 공식 경기 일정","url":"https://www.pglesports.com/cs2/pgl-major-singapore-2026/"},"timing":"플레이오프 관람 회차 12/10~12 18:00 · 12/13 15:00 KST","links":[{"label":"12/10~13 플레이오프 예매 상품","url":"https://ticketmaster.sg/activity/detail/26sg_pglcs2major"}]},{"id":"vq-open","categories":["valorant"],"title":"VCT 퍼시픽 킥오프 한국 오픈 예선","start":"2026-11-25","end":"2026-11-26","region":"online","location":"온라인","note":"비방송 예선입니다. 세부 경기 시각은 공지에서 확인하세요.","source":{"label":"라이엇 공식 일정","url":"https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"},"links":[{"label":"한국 예선 운영 안내","url":"https://vctkrqualifier.com/"}]},{"id":"pmgc26","categories":["pubgm"],"title":"PUBG MOBILE 글로벌 챔피언십 2026","start":"2026-11-26","end":"2026-12-13","region":"global","location":"튀르키예 이스탄불","note":"농심 레드포스는 11/26~27 가운틀렛에 출전합니다. 그룹 스테이지 11/29~30·12/2~3, 라스트 찬스 12/5~6, 결승 12/11~13입니다.","source":{"label":"PUBG UNITED 공식 일정","url":"https://www.pubg.com/en/events/pubgunited2026"},"timing":"개막 11/26 21:00 KST","links":[{"label":"공식 개막 시각","url":"https://x.com/EsportsPUBGM/status/2121819985580532174"},{"label":"단계별 일정·출전팀 공식 발표","url":"https://press.levelinfinite.com/FINAL-PREPARATIONS-UNDERWAY-AS-2026-PUBG-MOBILE-GLOBAL-CHAMPIONSHIP-GE"}]},{"id":"ief26","categories":["valorant","festival","other"],"title":"청주국제e스포츠페스티벌 IEF 2026","start":"2026-11-27","end":"2026-11-29","region":"kr","location":"청주 석우문화체육관","note":"발로란트·FC 온라인·이터널 리턴 경기와 일러스타 행사가 열립니다.","source":{"label":"IEF 공식 일정","url":"https://ief2026.org/"}},{"id":"uni26","categories":["lol","valorant","other"],"title":"2026 이스포츠 대학리그 전국결선","start":"2026-11-28","end":"2026-11-29","region":"kr","location":"부산이스포츠경기장","note":"경기장 일정표에 표시된 결선 경기일입니다.","source":{"label":"경기장 공식 일정","url":"https://brena.or.kr/brena/index.do"},"links":[{"label":"결선 공지","url":"https://brena.or.kr/brena/notice.do?articleNo=3202&mode=view"}]},{"id":"vq-online","categories":["valorant"],"title":"VCT 한국 예선 온라인 플레이오프","start":"2026-11-30","end":"2026-12-03","region":"online","location":"온라인","note":"한국 예선 플레이오프의 온라인 경기 기간입니다.","source":{"label":"라이엇 공식 일정","url":"https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"},"links":[{"label":"한국 예선 운영 안내","url":"https://vctkrqualifier.com/"}]},{"id":"pgc26","categories":["other"],"title":"PC 배틀그라운드 글로벌 챔피언십 2026","start":"2026-12-01","end":"2026-12-13","region":"global","location":"튀르키예 이스탄불","note":"PC 배틀그라운드 세계대회입니다. 결승은 12월 11~13일입니다.","source":{"label":"PUBG Esports 공식 일정","url":"https://pubgesports.com/en/news/11393"},"links":[{"label":"PC 결승 예매 상품","url":"https://www.biletix.com/etkinlik-grup/5669521108/TURKIYE/en/pubg-global-championship-2026"}]},{"id":"vq-offline","categories":["valorant"],"title":"VCT 한국 예선 오프라인 플레이오프","start":"2026-12-04","end":"2026-12-06","region":"kr","location":"서울 · WDG 스튜디오 홍대","note":"경기별 시작 시각과 관람 안내는 공개되는 대회 공지를 확인하세요.","source":{"label":"라이엇 공식 일정","url":"https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"},"links":[{"label":"한국 예선 운영 안내","url":"https://vctkrqualifier.com/"}]},{"id":"agf26","categories":["festival"],"title":"AGF Korea 2026","start":"2026-12-04","end":"2026-12-06","region":"kr","location":"고양 킨텍스 제1전시장 1~5홀","note":"일반 1일권 29,000원 · 3일권 65,000원(12/4 16:59까지 온라인 예매). 패스트 티켓 입장은 09:30부터입니다.","source":{"label":"AGF 공식 행사","url":"https://www.agfkorea.com/event?idx=1"},"timing":"일반 입장 10:00–18:00 KST","links":[{"label":"12/4 1일권 예매","url":"https://ticket.melon.com/performance/index.htm?prodId=213888"},{"label":"12/5 1일권 예매","url":"https://ticket.melon.com/performance/index.htm?prodId=213889"},{"label":"12/6 1일권 예매","url":"https://ticket.melon.com/performance/index.htm?prodId=213890"},{"label":"3일권 예매","url":"https://ticket.melon.com/performance/index.htm?prodId=213887"}]},{"id":"league-own26","categories":["lol"],"title":"Red Bull League of Its Own 2026","start":"2026-12-05","region":"global","location":"스페인 바달로나 · 올림픽 아레나","note":"T1·G2·Karmine Corp·Movistar KOI가 참가하는 LoL 쇼매치입니다.","source":{"label":"Red Bull 공식 행사","url":"https://www.redbull.com/gb-en/events/red-bull-league-of-its-own"},"timing":"23:00 KST"},{"id":"school-final","categories":["lol","valorant"],"title":"전국중고교이스포츠대회 전국결선","start":"2026-12-05","end":"2026-12-06","region":"kr","location":"부산이스포츠경기장","note":"전국결선 전체 기간입니다. 종목별 시각은 세부 공지를 확인하세요.","source":{"label":"KeSPA 공식 일정","url":"https://www.e-sports.or.kr/news/media_view?brd_id=3BYG5YO90001"}},{"id":"home-ground26","categories":["valorant"],"title":"Red Bull Home Ground 월드 파이널","start":"2026-12-10","end":"2026-12-13","region":"global","location":"미국 로스앤젤레스","note":"T1 출전. 그룹 12/10~11 WePlay Studios, 파이널 12/12~13 Shrine Auditorium입니다.","source":{"label":"Red Bull 공식 행사","url":"https://www.redbull.com/int-en/events/red-bull-home-ground"},"links":[{"label":"파이널 예매 상품","url":"https://www.axs.com/series/34394/red-bull-home-ground-world-finals-2026-tickets?skin=shrinela"}]},{"id":"pmgc-final26","categories":["pubgm"],"title":"PUBG MOBILE 글로벌 챔피언십 결승","start":"2026-12-11","end":"2026-12-13","region":"global","location":"튀르키예 이스탄불 · Turkcell Basketbol Gelişim Merkezi","note":"결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. 판매처 안내상 12/12 결승 2일차 얼리버드 1등급 티켓의 추가 상품입니다.","source":{"label":"PUBG UNITED 공식 일정","url":"https://www.pubg.com/en/events/pubgunited2026"},"links":[{"label":"모바일 결승 예매 상품","url":"https://www.bubilet.com.tr/istanbul/etkinlik/2026-pubg-mobile-global-championship"},{"label":"12/12 결승 2일차 행사 안내","url":"https://www.biletix.com/performance/5PGC2/001/TURKIYE/en"}]},{"id":"vq-jp-finals","categories":["valorant"],"title":"VCT 퍼시픽 킥오프 일본 예선 파이널","start":"2026-12-11","end":"2026-12-12","region":"global","location":"일본 도쿄 · 도쿄돔시티 시어터 G롯소","note":"우승 팀이 VCT 퍼시픽 킥오프로 진출합니다. 12/11 승자·패자조 결승, 12/12 그랜드 파이널입니다.","source":{"label":"공식 경기 일정","url":"https://vctjp-open.com/2027-kickoff-finals/"},"timing":"경기 예정 12/11 13:00·17:00, 12/12 14:00 KST","links":[{"label":"로손티켓 양일 예매 상품","url":"https://l-tike.com/sports/mevent/?mid=799559","opensAt":"2026-11-21T12:00:00+09:00","saleState":"open"}]},{"id":"maplestory-selection26","categories":["festival"],"title":"메이플스토리 2026 윈터 쇼케이스 SELECTION","start":"2026-12-12","region":"kr","location":"고양 킨텍스 제2전시장 9A홀","note":"현장 관람 예매에는 쇼케이스 멤버십 코드가 필요합니다.","source":{"label":"넥슨 공식 쇼케이스 안내","url":"https://maplestory.nexon.com/promotion/event/2026/20261112/event01"},"links":[{"label":"티켓링크 예매 상품","url":"https://www.ticketlink.co.kr/product/66925","opensAt":"2026-12-02T20:00:00+09:00"}]},{"id":"iesf-wec26","categories":["pubgm","other"],"title":"IESF 월드 e스포츠 챔피언십 2026","start":"2026-12-15","end":"2026-12-20","region":"global","location":"인도네시아 반텐 · ICE BSD City","note":"대회 전체 개최 기간입니다. PUBG MOBILE 국가대표 16개국이 결선에 참가합니다. 종목별 경기 시간은 확인 전입니다.","source":{"label":"IESF 공식 대회 안내","url":"https://wec.iesf.org/ko/editions/wec-2026"},"links":[{"label":"개최지·종목 공식 발표","url":"https://wec.iesf.org/editions/wec-2026/news/banten-wec26-host-city"},{"label":"경기장 행사 안내","url":"https://ice-indonesia.com/en/event/event_list/world-esports-championship-2026"}]},{"id":"df26","categories":["festival"],"title":"2026 던파 페스티벌","start":"2026-12-18","end":"2026-12-20","region":"kr","location":"고양 킨텍스 제2전시장 10홀","note":"12월 18일 업데이트 발표, 19~20일 현장 체험 행사입니다. 모험단 코드 사전 등록은 11/25 10:00 KST부터입니다.","source":{"label":"넥슨 공식 행사","url":"https://df.nexon.com/pr/dnffestival26"},"timing":"12/18 발표 20:00 KST","links":[{"label":"12/18 예매 상품","url":"https://www.ticketlink.co.kr/product/67174","opensAt":"2026-11-26T19:00:00+09:00"},{"label":"12/19 예매 상품","url":"https://www.ticketlink.co.kr/product/67175","opensAt":"2026-11-26T20:00:00+09:00"},{"label":"12/20 예매 상품","url":"https://www.ticketlink.co.kr/product/67176","opensAt":"2026-11-26T21:00:00+09:00"},{"label":"넥슨 예매 시간 안내","url":"https://df.nexon.com/customer/faq?cat1=70&cat2=1010"}]},{"id":"beaver-rocks26","categories":["festival"],"title":"비버롹스 2026 인디게임·컬처 페스티벌","start":"2026-12-18","end":"2026-12-20","region":"kr","location":"서울 SETEC 제1·2전시장","note":"전시장 1일권은 12/17까지 얼리버드 기간입니다. STOVE 온라인 전시는 12/1~31 예정입니다.","source":{"label":"주최사 행사·티켓 안내","url":"https://beaverrocks.com/visitor/ticket"},"timing":"매일 10:00–18:00 KST · 입장 마감 17:00","links":[{"label":"NOL 1일권 예매 상품","url":"https://nol.yanolja.com/ticket/products/26014698"}]},{"id":"predator-apac27","categories":["lol","valorant"],"title":"아시아·태평양 프레데터 리그 2027 본선","start":"2027-01","region":"global","location":"베트남 호찌민","note":"LoL·발로란트 지역 대표 본선입니다. 공식 세부 일자는 발표 대기입니다.","source":{"label":"주최사 공식 본선 안내","url":"https://www.predator-league.com/about?region=en"}},{"id":"endfield-anniv27-kr","categories":["festival"],"title":"명일방주: 엔드필드 1주년 페스티벌","start":"2027-01-09","end":"2027-01-10","region":"kr","location":"고양 킨텍스 제2전시장 10A홀","note":"한국 오프라인 행사입니다. 2차 창작 판매 부스가 운영되며 일반 관람 예매는 확인 전입니다.","source":{"label":"한국 개발사 공식 발표","url":"https://x.com/AKEndfieldKR/status/2107458351449657782"},"timing":"양일 판매 부스 10:00–17:00 KST","links":[{"label":"부스 모집·운영 안내","url":"https://sites.google.com/view/endfield-1st-festival2027"}]},{"id":"vct-bangkok","categories":["valorant"],"title":"VCT 퍼시픽 킥오프","start":"2027-01-11","end":"2027-01-31","region":"global","location":"태국 방콕","note":"퍼시픽 시즌 개막 대회입니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"lec27","categories":["lol"],"title":"LEC 2027 윈터 개막","start":"2027-01-15","region":"global","location":"유럽 · 경기별 장소 공지 대기","note":"개막일입니다. 경기별 시작 시각과 라인업은 일정표를 확인하세요.","source":{"label":"Riot 공식 리그 안내","url":"https://lolesports.com/en-GB/news/2027-lec-a-look-at-the-year-ahead"}},{"id":"masters-seoul","categories":["valorant"],"title":"VCT 마스터스 서울","start":"2027-02-20","end":"2027-03-07","region":"kr","location":"서울 · 경기장 공지 대기","note":"VCT 퍼시픽 정정 발표에 따라 종료일을 3월 7일로 반영했습니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"ffxiv-fanfest-seoul27","categories":["festival","other"],"title":"파이널판타지14 팬페스티벌 2027 in 서울","start":"2027-03-13","end":"2027-03-14","region":"kr","location":"고양 킨텍스 제2전시장 9홀","note":"한국 공식 PvP 대회 CCRC 2027 Korea 결승은 3/14 현장에서 열립니다. 팬페스티벌 일반 관람 예매는 확인 전입니다.","source":{"label":"파이널판타지14 공식 개최 안내","url":"https://www.youtube.com/watch?v=IFTIZAOqb7Y"},"links":[{"label":"액토즈소프트 공식 발표","url":"https://www.actoz.com/publicize/press/1135"},{"label":"CCRC 공식 대회 일정","url":"https://www.ff14.co.kr/events/ccrc_Korea/summary/"}]},{"id":"vct-cup1","categories":["valorant"],"title":"VCT 퍼시픽 컵 1","start":"2027-05-06","end":"2027-05-23","region":"global","location":"필리핀 마닐라","note":"퍼시픽 지역 대회입니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"masters-valencia","categories":["valorant"],"title":"VCT 마스터스 발렌시아","start":"2027-06-05","end":"2027-06-20","region":"global","location":"스페인 발렌시아","note":"마스터스 국제 대회입니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"road-msi","categories":["lol"],"title":"LCK Road to MSI 2027","start":"2027-06-16","end":"2027-06-20","region":"kr","location":"대한민국 · 개최 도시 공지 대기","note":"한국e스포츠협회 개최지 공모에 나온 대회 기간안입니다.","source":{"label":"KeSPA 개최지 공모","url":"https://www.e-sports.or.kr/news/notice_view?brd_id=3BWXDZ8J0001"},"planned":true},{"id":"msi27","categories":["lol"],"title":"LoL 미드 시즌 인비테이셔널 2027","start":"2027-06","region":"global","location":"스페인 발렌시아 · Feria de Valencia","note":"KeSPA 공고상 6월 말 예정입니다. 라이엇 세부 날짜는 발표 대기입니다.","source":{"label":"라이엇 개최지 발표","url":"https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"},"links":[{"label":"KeSPA 일정 공고","url":"https://www.e-sports.or.kr/news/notice_view?brd_id=3BWXDZ8J0001"}],"planned":true},{"id":"ewc27","categories":["lol","other"],"title":"Esports World Cup 2027","start":"2027-07","end":"2027-08","region":"global","location":"사우디아라비아 리야드","note":"대회 전체 개최 월입니다. LoL 참가 종목은 확정됐으며 종목별 날짜를 발표할 예정입니다.","source":{"label":"EWC LoL 종목 발표","url":"https://ewc-web.prod.esf-systems.com/en/press-releases/league-of-legends-returns-to-ewc2027"},"links":[{"label":"EWC 전체 일정 발표","url":"https://ewc-web.prod.esf-systems.com/en/press-releases/ewc-opens-new-global-pathways-to-ewc-2027"}]},{"id":"vct-cup2","categories":["valorant"],"title":"VCT 퍼시픽 컵 2","start":"2027-08-12","end":"2027-08-29","region":"global","location":"일본 도쿄","note":"퍼시픽 지역 대회입니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"vct-champs","categories":["valorant"],"title":"VCT 챔피언스 오스틴","start":"2027-09-16","end":"2027-10-10","region":"global","location":"미국 오스틴","note":"시즌 최종 대회입니다. 개최 기간이 3·4분기에 걸칩니다.","source":{"label":"공식 정정 발표","url":"https://x.com/vctpacific/status/2115726818649190850"},"links":[{"label":"시즌 공식 개요","url":"https://valorantesports.com/en-US/season/117246370678200773"}]},{"id":"enc27","categories":["other"],"title":"Esports Nations Cup 2027","start":"2027-11","region":"global","location":"사우디아라비아 리야드","note":"국가대표 e스포츠 대회입니다. 최신 주최사 발표에 따른 개최 월이며 종목별 일정은 공지 대기입니다.","source":{"label":"ENC 공식 로드맵","url":"https://www.esportsnationscup.com/en/press-releases/road-to-esports-nations-cup-2027"},"planned":true},{"id":"worlds27-seoul","categories":["lol"],"title":"LoL 월드 챔피언십 2027 서울 결승","start":"2027-11-13","region":"kr","location":"서울아레나","note":"서울시 발표의 결승 예정일입니다. 팬 페스타는 11월 10~13일 예정입니다.","source":{"label":"서울시 개최 안내","url":"https://news.seoul.go.kr/economy/archives/575236"},"links":[{"label":"라이엇 개최지 발표","url":"https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"}],"planned":true},{"id":"gstar27","categories":["festival"],"title":"지스타 2027","start":"2027-11-18","end":"2027-11-21","region":"kr","location":"대한민국 · 행사 세부 공지 대기","note":"주최사가 공지한 전시 일정입니다. 세부 관람 안내는 후속 공지에서 확인하세요.","source":{"label":"지스타 주최사 공지","url":"https://www.gstar.or.kr/board/board_user_view.do?bd_idx=1192&bmt_idx=1"}},{"id":"first-stand27","categories":["lol"],"title":"LoL 퍼스트 스탠드 2027","start":"2027","region":"global","location":"중국 · 개최 도시 공지 대기","note":"라이엇이 개최국을 발표했습니다. 도시와 대회 기간은 후속 공지에서 확인하세요.","source":{"label":"라이엇 개최국 발표","url":"https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"}},{"id":"worlds27-swiss","categories":["lol"],"title":"LoL 월드 챔피언십 2027 스위스 스테이지","start":"2027","region":"global","location":"일본 나고야","note":"라이엇이 발표한 스위스 스테이지 개최 도시입니다. 경기 일자는 공지 대기입니다.","source":{"label":"라이엇 개최지 발표","url":"https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"}},{"id":"worlds27-suwon","categories":["lol"],"title":"LoL 월드 챔피언십 2027 8강·4강","start":"2027-11-02","end":"2027-11-07","region":"kr","location":"수원컨벤션센터","note":"라이엇이 발표한 8강·4강 경기장입니다. 기간은 개최지 공모에 나온 일정안입니다.","source":{"label":"라이엇 개최지 발표","url":"https://lolesports.com/ko-KR/lolesports/news/lol-esports-2027-and-beyond"},"links":[{"label":"개최지 공모","url":"https://www.a-esc.com/user2/board/view/board_cd/notice/wr_no/36"}],"planned":true}]}</script>
 <script>
 "use strict";
@@ -452,7 +440,7 @@ function buttons(container, labels, active, choose) {
     button.setAttribute("aria-pressed", String(active === value));
     button.addEventListener("click", () => {
       choose(value);
-      for (const item of container.children) item.setAttribute("aria-pressed", String(item.dataset.value === value));
+      for (const item of container.querySelectorAll("button[data-value]")) item.setAttribute("aria-pressed", String(item.dataset.value === value));
       commitFilters("push");
     });
     return button;
@@ -524,7 +512,22 @@ function renderNext() {
   $("next").replaceChildren(...cards);
 }
 function quarterButtons() {
-  buttons($("quarters"), quarterLabels, quarter, value => {quarter = value;});
+  const container = $("quarters");
+  const {all, tba, ...seasons} = quarterLabels;
+  const periods = {q1: "1–3월", q2: "4–6월", q3: "7–9월", q4: "10–12월"};
+  buttons(container, {...seasons, all, tba}, quarter, value => {quarter = value;});
+  const options = make("div", "pills quarter-options");
+  for (const button of Array.from(container.children)) {
+    const value = button.dataset.value;
+    if (value === "all" || value === "tba") {
+      options.append(button);
+      continue;
+    }
+    const count = rows.filter(event => inQuarter(event, year.value, value)).length;
+    button.className = "quarter-button";
+    button.replaceChildren(make("strong", "", seasons[value]), make("span", "", periods[value]), make("span", "", count + "건"));
+  }
+  container.append(options);
 }
 
 function loadRosters(data) {
