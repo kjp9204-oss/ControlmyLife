@@ -1,5 +1,5 @@
 {
-  "checked": "2026.11.24",
+  "checked": "2026.11.25",
   "events": [
     {
       "id": "pubgm-asian-games",
@@ -225,6 +225,32 @@
       ]
     },
     {
+      "id": "t1-announcement27",
+      "categories": [
+        "lol"
+      ],
+      "title": "2027 T1 Announcement",
+      "start": "2026-11-25",
+      "region": "kr",
+      "location": "서울 · T1 BASE CAMP 강남",
+      "note": "T1 리그 오브 레전드 팀 공식 발표 행사입니다. 현장 상황에 따라 입장이 제한될 수 있습니다. SOOP 생중계는 기자회견을 제외한 행사 프로그램입니다.",
+      "timing": "19:00 KST",
+      "source": {
+        "label": "T1 공식 행사 공지",
+        "url": "https://t1.fan/story/feed/6b05609de21ec70f13ac5835"
+      },
+      "links": [
+        {
+          "label": "SOOP T1 공식 중계 채널",
+          "url": "https://www.sooplive.com/station/t1esports"
+        },
+        {
+          "label": "T1 공식 행사 포스터",
+          "url": "https://www.instagram.com/p/DgHsM4gDzd8/?img_index=1"
+        }
+      ]
+    },
+    {
       "id": "pmgc26",
       "categories": [
         "pubgm"
@@ -267,7 +293,7 @@
       "end": "2026-11-29",
       "region": "kr",
       "location": "청주 석우문화체육관",
-      "note": "발로란트·FC 온라인·이터널 리턴과 일러스타 행사가 열립니다. 발로란트 11/28 15:00 준결승, 11/29 09:00 결승. 같은 날 FC 온라인 결승 10:00, 이터널 리턴 결승 14:00입니다. 주최사 시간표에는 11/27 10:00 발로란트 A조와 11/29 세 종목 결승이 생중계로 표시됩니다. 발로란트 한국 대표팀은 Team Rio·Over peak·PUBAO입니다.",
+      "note": "발로란트·FC 온라인·이터널 리턴과 일러스타 행사가 열립니다. 발로란트 11/28 15:00 준결승, 11/29 09:00 결승. 같은 날 FC 온라인 결승 10:00, 이터널 리턴 결승 14:00입니다. 주최사 시간표에는 11/27 10:00 발로란트 A조와 11/29 세 종목 결승이 생중계로 표시됩니다. 발로란트 한국 대표팀은 Team Rio·Over peak·PUBAO입니다. 11/27~29 선착순 무료 입장입니다.",
       "source": {
         "label": "IEF 공식 일정",
         "url": "https://ief2026.org/"
@@ -277,6 +303,10 @@
         {
           "label": "종목별 공식 경기 시간표",
           "url": "https://ief2026.org/#schedule"
+        },
+        {
+          "label": "IEF 선착순 무료 입장 안내",
+          "url": "https://www.jbnu.ac.kr/web/Board/219950/detailView.do"
         }
       ]
     },
@@ -437,7 +467,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "고양 킨텍스 제1전시장 1~5홀",
-      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다. 카제나 부스(제1전시장 1홀 A11)는 12/4 성우 라이브 더빙·마술쇼, 12/5 미츠키요(Mitsukiyo) DJ, 12/5~6 OST 밴드 공연을 진행합니다.",
+      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다. 카제나 부스(제1전시장 1홀 A11)는 12/4 성우 라이브 더빙·마술쇼, 12/5 미츠키요(Mitsukiyo) DJ, 12/5~6 OST 밴드 공연을 진행합니다. 엔씨 아스트라에 오라티오의 시연·퀴즈 프로그램과 넥슨 파레이돌리아의 한국어 첫 시연(3홀 A14)이 열립니다.",
       "source": {
         "label": "AGF 공식 행사",
         "url": "https://www.agfkorea.com/event?idx=1"
@@ -463,6 +493,14 @@
         {
           "label": "스마일게이트 AGF 현장 프로그램",
           "url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=news&wr_id=2411"
+        },
+        {
+          "label": "엔씨 아스트라에 오라티오 AGF 특설",
+          "url": "https://astraeoratio.plaync.com/ko-kr/conts/agf2026"
+        },
+        {
+          "label": "넥슨 파레이돌리아 AGF 부스 공지",
+          "url": "https://x.com/Fareidolia_KR/status/2125454462986981517"
         }
       ]
     },
