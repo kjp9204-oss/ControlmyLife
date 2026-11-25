@@ -1,5 +1,5 @@
 {
-  "checked": "2026.11.25",
+  "checked": "2026.11.26",
   "events": [
     {
       "id": "pubgm-asian-games",
@@ -261,6 +261,33 @@
       ]
     },
     {
+      "id": "whiff-lol-myeolmang-s2-26",
+      "categories": [
+        "lol"
+      ],
+      "title": "Whiff 2026 LoL 멸망전 시즌 2",
+      "start": "2026-11-25",
+      "end": "2026-12-05",
+      "region": "kr",
+      "location": "온라인 · 결승 서울 상암 SOOP 콜로세움",
+      "note": "SOOP 스트리머 대회입니다. 11/26 2차 예선 뒤 18:00 예선 최종전을 공식 중계하며, 조지명식은 최종전 종료 후 진행됩니다. 본선 11/27~12/1과 4강 12/2~3은 매일 19:00, 현장 결승은 12/5 17:00입니다.",
+      "timing": "11/26 2차 예선 14:00 · 예선 최종전 18:00 KST",
+      "source": {
+        "label": "SOOP 공식 대회 일정",
+        "url": "https://www.sooplive.com/station/lolbjmatch/post/213136161"
+      },
+      "links": [
+        {
+          "label": "2차 예선·조지명식 안내",
+          "url": "https://www.sooplive.com/station/lolbjmatch/post/213514793"
+        },
+        {
+          "label": "SOOP 공식 중계 채널",
+          "url": "https://www.sooplive.com/station/lolbjmatch"
+        }
+      ]
+    },
+    {
       "id": "pmgc26",
       "categories": [
         "pubgm"
@@ -333,6 +360,41 @@
         {
           "label": "IEF 선착순 무료 입장 안내",
           "url": "https://www.jbnu.ac.kr/web/Board/219950/detailView.do"
+        }
+      ]
+    },
+    {
+      "id": "the-finals-grand-major26",
+      "categories": [
+        "other"
+      ],
+      "title": "더 파이널스 더 그랜드 메이저 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "region": "global",
+      "location": "스웨덴 스톡홀름 · 드림핵 스톡홀름",
+      "note": "THE FINALS 세계대회에 16개 팀이 출전합니다. 아시아·태평양 대표는 Kingzero·Moon Theory·Ape Squad입니다. 11/27~28 승격전을 통과한 5개 팀이 11/29 왕좌전에 진출합니다.",
+      "timing": "한국어 방송 시작 · 11/27~28 20:00 · 11/29 18:30 KST",
+      "source": {
+        "label": "넥슨 공식 대회 안내",
+        "url": "https://thefinals.nexon.com/esports/2026tgm"
+      },
+      "links": [
+        {
+          "label": "넥슨 일자별 공식 중계 안내",
+          "url": "https://thefinals.nexon.com/news/3584367/tgm26-the-grand-major-2026-%EB%B3%B8%EC%84%A0-%EC%83%9D%EC%A4%91%EA%B3%84-%EC%95%88%EB%82%B4"
+        },
+        {
+          "label": "한국어 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/sooptknl"
+        },
+        {
+          "label": "한국어 공식 중계 · 치지직",
+          "url": "https://chzzk.naver.com/0d9b6d106c9cbcd34719a3c619d2179f"
+        },
+        {
+          "label": "드림핵 공식 행사 안내",
+          "url": "https://dreamhack.com/stockholm/the-finals/"
         }
       ]
     },
