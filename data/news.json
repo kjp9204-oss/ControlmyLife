@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "concerts": [
   {
    "artist": "악뮤",
@@ -431,6 +431,19 @@
    "official": true
   },
   {
+   "artist": "카즈미 타테이시 트리오",
+   "genre": "JPOP",
+   "title": "지브리, 재즈를 만나다 (광주)",
+   "venue": "광주 국립아시아문화전당 예술극장 극장2",
+   "date": "2026-12-19",
+   "time": "17:00",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26010847",
+   "checked": "2026-11-25",
+   "official": true
+  },
+  {
    "artist": "악뮤",
    "genre": "KPOP",
    "title": "2026 악뮤 소문의 낙원 투어 · 부산",
@@ -511,6 +524,19 @@
   {
    "artist": "카즈미 타테이시 트리오",
    "genre": "JPOP",
+   "title": "크리스마스, 재즈를 만나다 (성남)",
+   "venue": "성남아트센터 콘서트홀",
+   "date": "2026-12-20",
+   "time": "15:00",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26009563",
+   "checked": "2026-11-25",
+   "official": true
+  },
+  {
+   "artist": "카즈미 타테이시 트리오",
+   "genre": "JPOP",
    "title": "지브리, 재즈를 만나다 (서울)",
    "venue": "서울 영등포아트홀",
    "date": "2026-12-22",
@@ -519,6 +545,19 @@
    "general": "",
    "url": "https://nol.yanolja.com/ticket/products/26010060",
    "checked": "2026-11-21",
+   "official": true
+  },
+  {
+   "artist": "카즈미 타테이시 트리오",
+   "genre": "JPOP",
+   "title": "크리스마스, 재즈를 만나다 (서울)",
+   "venue": "서울 강동아트센터 대극장 한강",
+   "date": "2026-12-24",
+   "time": "19:30",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26010350",
+   "checked": "2026-11-25",
    "official": true
   },
   {
@@ -532,6 +571,32 @@
    "general": "2026-09-14T20:00",
    "url": "https://ticket.yes24.com/Perf/60021",
    "checked": "2026-11-04",
+   "official": true
+  },
+  {
+   "artist": "카즈미 타테이시 트리오",
+   "genre": "JPOP",
+   "title": "지브리, 재즈를 만나다 (대구)",
+   "venue": "대구 대덕문화전당 드림홀",
+   "date": "2026-12-25",
+   "time": "17:00",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26011212",
+   "checked": "2026-11-25",
+   "official": true
+  },
+  {
+   "artist": "카즈미 타테이시 트리오",
+   "genre": "JPOP",
+   "title": "지브리, 재즈를 만나다 (부산)",
+   "venue": "부산 금정문화회관 금빛누리홀",
+   "date": "2026-12-26",
+   "time": "17:00",
+   "presale": "",
+   "general": "",
+   "url": "https://nol.yanolja.com/ticket/products/26011629",
+   "checked": "2026-11-25",
    "official": true
   },
   {
@@ -925,6 +990,19 @@
    "official": true
   },
   {
+   "artist": "디 오랄 시가렛츠",
+   "genre": "JPOP",
+   "title": "THE ORAL CIGARETTES 첫 단독 내한공연 · WHAT'S GOOD, ASIA? In Seoul",
+   "venue": "서울 YES24 라이브홀",
+   "date": "2027-04-03",
+   "time": "18:00",
+   "presale": "",
+   "general": "",
+   "url": "https://kstyle.com/article.ksn?articleNo=2286755",
+   "checked": "2026-11-25",
+   "official": false
+  },
+  {
    "artist": "요아소비",
    "genre": "JPOP",
    "title": "YOASOBI 11-CITY ASIA-OCEANIA TOUR 2026–2027 “超惑星”",
@@ -975,6 +1053,19 @@
    "url": "https://nol.yanolja.com/ticket/products/26012591",
    "checked": "2026-11-12",
    "official": true
+  },
+  {
+   "artist": "아시안 쿵푸 제너레이션",
+   "genre": "JPOP",
+   "title": "ASIAN KUNG-FU GENERATION 30th Anniversary Extra Show in Korea",
+   "venue": "고양 킨텍스 10홀",
+   "date": "2027-05-22",
+   "time": "18:00",
+   "presale": "",
+   "general": "",
+   "url": "https://news.jkn.co.kr/post/1103977",
+   "checked": "2026-11-25",
+   "official": false
   },
   {
    "artist": "브루노 마스",
@@ -1415,6 +1506,13 @@
    "note": "크리스마스 로맨스 고전",
    "theater": "",
    "kind": "재개봉"
+  },
+  {
+   "date": "2026-12",
+   "title": "지우러 가는 길",
+   "note": "감독 유재인 · 심수빈·이지원 · 12월 말 개봉 · 배급 트리플픽쳐스",
+   "theater": "",
+   "kind": "개봉"
   },
   {
    "date": "2027-01",
