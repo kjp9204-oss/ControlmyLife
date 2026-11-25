@@ -91,12 +91,18 @@
       "end": "2026-11-22",
       "region": "kr",
       "location": "서울 상암 · SOOP 콜로세움",
-      "note": "11/21 LoL, 11/22 발로란트 한국 대표 결정전입니다.",
+      "note": "11/21 LoL, 11/22 발로란트 한국 대표 결정전입니다. LoL 지인짜강함과 발로란트 SHERPA가 각각 우승해 한국 대표로 그랜드 파이널에 진출했습니다.",
       "source": {
         "label": "에이서 공식 대회 안내",
         "url": "https://www.newswire.co.kr/newsRead.php?no=1047479"
       },
-      "timing": "양일 15:00 KST"
+      "timing": "양일 15:00 KST",
+      "links": [
+        {
+          "label": "에이서 한국 대표 선발전 결과",
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1047966"
+        }
+      ]
     },
     {
       "id": "school-online",
@@ -942,12 +948,22 @@
       "title": "아시아·태평양 프레데터 리그 2027 본선",
       "start": "2027-01",
       "region": "global",
-      "location": "베트남 호찌민",
-      "note": "LoL·발로란트 지역 대표 본선입니다. 공식 세부 일자는 발표 대기입니다.",
+      "location": "베트남 호찌민 · 푸토(PHUTHO) 스타디움",
+      "note": "한국 대표로 LoL 지인짜강함과 발로란트 SHERPA가 출전합니다. 에이서가 안내한 1/4~11은 선수단 이동을 포함한 기간으로, 종목별 경기일은 발표 대기입니다.",
       "source": {
         "label": "주최사 공식 본선 안내",
         "url": "https://www.predator-league.com/about?region=en"
-      }
+      },
+      "links": [
+        {
+          "label": "에이서 한국 대표·본선 개최지 발표",
+          "url": "https://www.newswire.co.kr/newsRead.php?no=1047966"
+        },
+        {
+          "label": "에이서 일본 본선 기간 안내",
+          "url": "https://www.acer.com/jp-ja/about/news/20261102"
+        }
+      ]
     },
     {
       "id": "ljl27-open",
