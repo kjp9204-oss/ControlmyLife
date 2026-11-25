@@ -266,12 +266,12 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "농심 레드포스는 11/26~27 가운틀렛에 출전합니다. 그룹 스테이지 11/29~30·12/2~3, 라스트 찬스 12/5~6, 결승 12/11~13입니다. 한국어 치지직 중계는 각 경기일 20:00 KST에 편성되어 있습니다.",
+      "note": "한국 팀은 농심 레드포스가 11/26~27 가운틀렛, KRX가 11/29~30 그룹 그린, DK가 12/2~3 그룹 레드에 출전합니다. 라스트 찬스는 12/5~6, 결승은 12/11~13입니다. 한국어 치지직 편성은 각 경기일 20:00 KST입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
       },
-      "timing": "개막 11/26 21:00 KST",
+      "timing": "가운틀렛·그룹 스테이지·라스트 찬스 경기 시작 21:00 KST",
       "links": [
         {
           "label": "공식 개막 시각",
@@ -284,6 +284,22 @@
         {
           "label": "공식 한국어 중계·편성",
           "url": "https://chzzk.naver.com/live/de445eefe5915a0d7e9cbf98da6c9041"
+        },
+        {
+          "label": "크래프톤 한국 공식 대회 일정·참가팀",
+          "url": "https://esports.pubgmobile.kr/ko/news/209"
+        },
+        {
+          "label": "한국어 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/channel/UCCvEN8bTeF8Z2jcN513T1Gg"
+        },
+        {
+          "label": "한국어 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/pubgm"
+        },
+        {
+          "label": "한국어 공식 중계 · TikTok",
+          "url": "https://www.tiktok.com/@pubgm.kr.official"
         }
       ]
     },
