@@ -1,23 +1,24 @@
 {
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "teams": [
     {
       "id": "lol-bnk-fearx-2027",
       "game": "lol",
       "name": "BNK FEARX",
-      "scope": "2027 시즌 · 선수 3명·코칭스태프 3명",
+      "scope": "2027 시즌 · 선수 4명·코칭스태프 3명",
       "players": [
+        "Thanatos",
         "Vincenzo",
         "VicLa",
         "Noah"
       ],
       "playerRoles": {
+        "Thanatos": "탑",
         "Vincenzo": "정글",
         "VicLa": "미드 · 주장",
         "Noah": "원딜"
       },
       "pendingPositions": [
-        "탑",
         "서포터"
       ],
       "staff": [
@@ -58,6 +59,10 @@
         {
           "label": "Lira 재계약 구단 발표",
           "url": "https://x.com/BNKFEARXLoL/status/2121876355273134542"
+        },
+        {
+          "label": "Thanatos 영입 구단 발표",
+          "url": "https://x.com/BNKFEARXLoL/status/2125499742805266442"
         }
       ]
     },
@@ -65,7 +70,7 @@
       "id": "lol-t1",
       "game": "lol",
       "name": "T1",
-      "scope": "구단 공개 선수 4명 · Doran 결별 반영",
+      "scope": "구단 공개 선수 4명 · 2027 코칭스태프 3명",
       "players": [
         "Oner",
         "Faker",
@@ -84,6 +89,18 @@
         {
           "label": "Keria 잔류 구단 발표",
           "url": "https://www.youtube.com/watch?v=Tz0WpJdvLMA"
+        },
+        {
+          "label": "Roach 감독 부임 발표",
+          "url": "https://x.com/T1LoL/status/2125124759822233626"
+        },
+        {
+          "label": "Easyhoon 코치 재계약 발표",
+          "url": "https://x.com/T1LoL/status/2125123501870944296"
+        },
+        {
+          "label": "UmTi 코치 영입 발표",
+          "url": "https://x.com/T1LoL/status/2125122251808977083"
         }
       ],
       "playerRoles": {
@@ -94,6 +111,20 @@
       },
       "pendingPositions": [
         "탑"
+      ],
+      "staff": [
+        {
+          "handle": "Roach",
+          "role": "감독"
+        },
+        {
+          "handle": "Easyhoon",
+          "role": "코치"
+        },
+        {
+          "handle": "UmTi",
+          "role": "코치"
+        }
       ]
     },
     {
