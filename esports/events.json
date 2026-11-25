@@ -144,6 +144,33 @@
       ]
     },
     {
+      "id": "chzzk-cup26",
+      "categories": [
+        "lol"
+      ],
+      "title": "2026 치지직컵",
+      "start": "2026-11-22",
+      "end": "2026-12-06",
+      "region": "kr",
+      "location": "온라인 · 서울 치지직 롤파크(플레이오프)",
+      "note": "6팀이 참가하는 LoL 스트리머 대회입니다. 11/22~26 풀리그, 11/28~29 그룹배틀, 12/1 플레이오프 진출전, 12/5~6 치지직 롤파크 플레이오프가 열립니다. 현장 관람권 선예매는 네이버 멤버십·치지직 치트키 이용자 대상 11/26 12:00~11/27 18:00, 일반 예매는 12/2 12:00~12/4 23:59입니다(한국시간).",
+      "source": {
+        "label": "치지직 공식 대회·관람권 안내",
+        "url": "https://chzzk.naver.com/event/chzzkcup2026"
+      },
+      "timing": "11/26 풀리그 최종일 17:00 KST · 12/5~6 현장 플레이오프",
+      "links": [
+        {
+          "label": "네이버 e스포츠 플레이오프 대진표",
+          "url": "https://game.naver.com/esports/League_of_Legends/schedule/chzzkcup?date=2026-12"
+        },
+        {
+          "label": "치지직 게임 공식 중계",
+          "url": "https://chzzk.naver.com/live/04b9076004dfe8cb119835eb28dcc747"
+        }
+      ]
+    },
+    {
       "id": "pgl-major-singapore26",
       "categories": [
         "other"
