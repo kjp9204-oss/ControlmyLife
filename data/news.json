@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "concerts": [
   {
    "artist": "악뮤",
@@ -1062,10 +1062,10 @@
    "date": "2027-05-22",
    "time": "18:00",
    "presale": "",
-   "general": "",
-   "url": "https://news.jkn.co.kr/post/1103977",
-   "checked": "2026-11-25",
-   "official": false
+   "general": "2026-11-27T20:00",
+   "url": "https://ticket.melon.com/performance/index.htm?prodId=214339",
+   "checked": "2026-11-26",
+   "official": true
   },
   {
    "artist": "브루노 마스",
@@ -1203,6 +1203,13 @@
    "note": "곤 사토시 · 탄생 25주년 4K 리마스터링",
    "theater": "메가박스 단독",
    "kind": "재개봉"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "레이 건",
+   "note": "브래드 버드 감독 · 12월 18일 넷플릭스 공개",
+   "theater": "",
+   "kind": "개봉"
   },
   {
    "date": "2026-12-03",
