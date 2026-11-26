@@ -298,7 +298,7 @@
       "region": "kr",
       "location": "온라인 · 결승 서울 상암 SOOP 콜로세움",
       "note": "SOOP 스트리머 대회입니다. 11/26 2차 예선 뒤 18:00 예선 최종전을 공식 중계하며, 조지명식은 최종전 종료 후 진행됩니다. 본선 11/27~12/1과 4강 12/2~3은 매일 19:00, 현장 결승은 12/5 17:00입니다.",
-      "timing": "11/26 2차 예선 14:00 · 예선 최종전 18:00 KST",
+      "timing": "11/26 2차 예선 14:00·16:00 · 예선 최종전 중계 18:00 KST",
       "source": {
         "label": "SOOP 공식 대회 일정",
         "url": "https://www.sooplive.com/station/lolbjmatch/post/213136161"
@@ -311,6 +311,14 @@
         {
           "label": "SOOP 공식 중계 채널",
           "url": "https://www.sooplive.com/station/lolbjmatch"
+        },
+        {
+          "label": "11/26 2차 예선 확정 공지",
+          "url": "https://www.sooplive.com/station/lolbjmatch/post/213589015"
+        },
+        {
+          "label": "2차 예선 경기별 대진·결과",
+          "url": "https://your.gg/ko/kr/tournament/185"
         }
       ]
     },
@@ -945,6 +953,59 @@
         {
           "label": "PUBG MOBILE 국가별 등록 선수",
           "url": "https://wec.iesf.org/editions/wec-2026/teams?title=5"
+        }
+      ]
+    },
+    {
+      "id": "lck-awards26",
+      "categories": [
+        "lol"
+      ],
+      "title": "2026 LCK 어워드",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "region": "kr",
+      "location": "서울 종로구 · 치지직 롤파크",
+      "note": "2026 LCK 올해의 선수와 포지션별 올해의 선수 등 시즌 시상식입니다. 시작 시각과 현장 초청 세부 사항은 공식 안내를 확인하세요.",
+      "source": {
+        "label": "LCK 공식 시상식 포스터",
+        "url": "https://pbs.twimg.com/media/HWVP_nWacAAMMls.jpg?name=orig"
+      }
+    },
+    {
+      "id": "high1-esports-awards26",
+      "categories": [
+        "lol",
+        "pubgm",
+        "other"
+      ],
+      "title": "2026 하이원 e스포츠 대상",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "region": "kr",
+      "location": "서울 마포구 · 큐브 컨벤션 센터",
+      "note": "한국e스포츠협회와 스포츠서울 공동 개최. LoL·배틀그라운드·배틀그라운드 모바일·FC 온라인을 시상합니다. 신인상·인기상 본선 팬 투표는 12/4 23:59 KST까지입니다.",
+      "timing": "시상식·생중계 15:00 KST",
+      "source": {
+        "label": "KeSPA 공식 시상식·투표 안내",
+        "url": "https://www.e-sports.or.kr/news/media_view?brd_id=3BYA95SR0001"
+      },
+      "links": [
+        {
+          "label": "KeSPA 공식 중계 · 치지직",
+          "url": "https://chzzk.naver.com/edcac79ba0e6488c571298e285406fe5"
+        },
+        {
+          "label": "KeSPA 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/kespa"
+        },
+        {
+          "label": "KeSPA 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@KeSPA"
+        },
+        {
+          "label": "스포츠서울 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@sportsseoul21"
         }
       ]
     },
