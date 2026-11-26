@@ -332,7 +332,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "한국 팀은 농심 레드포스가 11/26~27 가운틀렛, KRX가 11/29~30 그룹 그린, DK가 12/2~3 그룹 레드에 출전합니다. 라스트 찬스는 12/5~6, 결승은 12/11~13입니다. 한국어 치지직 편성은 각 경기일 20:00 KST입니다.",
+      "note": "한국 팀은 농심 레드포스가 11/26~27 가운틀렛, KRX가 11/29~30 그룹 그린, DK가 12/2~3 그룹 레드에 출전합니다. 라스트 찬스는 12/5~6, 결승은 12/11~13입니다. 한국어 치지직 편성은 각 경기일 20:00 KST입니다. 가운틀렛 1·2일 차의 한국어 유튜브 예약은 양일 21:00 KST입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -366,6 +366,14 @@
         {
           "label": "한국어 공식 중계 · TikTok",
           "url": "https://www.tiktok.com/@pubgm.kr.official"
+        },
+        {
+          "label": "11/26 가운틀렛 1일 차 · 한국어 YouTube",
+          "url": "https://www.youtube.com/watch?v=99XR0uzlRHE"
+        },
+        {
+          "label": "11/27 가운틀렛 2일 차 · 한국어 YouTube",
+          "url": "https://www.youtube.com/watch?v=fMKXK7l0xrc"
         }
       ]
     },
@@ -445,7 +453,7 @@
       "end": "2026-11-29",
       "region": "kr",
       "location": "부산이스포츠경기장",
-      "note": "경기장 일정표에 표시된 결선 경기일입니다.",
+      "note": "11/28 PC 배틀그라운드(PUSC) 결선에는 16팀이 출전합니다. 11/29 발로란트 결승은 오산대–신구대, LoL 캠퍼스 결승은 경희대–전북대, LoL 엘리트 결승은 신구대–울산대입니다. 현장 무료 관람과 공식 채널 생중계가 안내됐습니다.",
       "source": {
         "label": "경기장 공식 일정",
         "url": "https://brena.or.kr/brena/index.do"
@@ -454,6 +462,78 @@
         {
           "label": "결선 공지",
           "url": "https://brena.or.kr/brena/notice.do?articleNo=3202&mode=view"
+        },
+        {
+          "label": "KeSPA 제공 결선 시간표·대진",
+          "url": "https://images.khan.co.kr/article/2026/11/26/news-p.v1.20261126.065d97d430ac48d4a1790e94cc037fa1_P1.png"
+        },
+        {
+          "label": "대학리그 공식 중계 · 치지직",
+          "url": "https://chzzk.naver.com/live/9662f123e936c4c3a40b4f81f4404f20"
+        },
+        {
+          "label": "대학리그 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/unikespa"
+        },
+        {
+          "label": "대학리그 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/channel/UCvxUjIDPpFivXNjVXniopGw"
+        }
+      ],
+      "timing": "11/28 PC 배틀그라운드 12:00 · 11/29 발로란트 11:15, LoL 캠퍼스 14:15, LoL 엘리트 16:45 KST"
+    },
+    {
+      "id": "epic-seven-world-championship-finals26",
+      "categories": [
+        "other"
+      ],
+      "title": "에픽세븐 월드 챔피언십 2026 결승",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "region": "kr",
+      "location": "서울 잠실 · 롯데시네마 월드타워",
+      "note": "수퍼플렉스관에서 결승을 진행하고 일반관에서도 스크린 중계합니다. 선예매는 11/16 20:00 계정 레벨 70 인증자 대상, 일반 예매 공지 시각은 11/17 20:00 KST입니다. 잔여석은 판매처에서 확인하세요.",
+      "timing": "결승 시작 12:00 KST",
+      "source": {
+        "label": "스마일게이트 결승·관람권 공식 안내",
+        "url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=news&wr_id=2408"
+      },
+      "links": [
+        {
+          "label": "현장 결승 일반예매 상품",
+          "url": "https://www.ticketlink.co.kr/product/66988",
+          "opensAt": "2026-11-17T20:00:00+09:00"
+        },
+        {
+          "label": "공식 대회 일정·대진·중계",
+          "url": "https://epic7.onstove.com/ko/esports/e7wc/2026"
+        },
+        {
+          "label": "한국어 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@EpicSevenKR"
+        }
+      ]
+    },
+    {
+      "id": "ymir-cup-world-championship-s3-26",
+      "categories": [
+        "other"
+      ],
+      "title": "이미르컵 월드 챔피언십 시즌 3",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "region": "kr",
+      "location": "서울 잠실 · DN 콜로세움",
+      "note": "11/28 첫 준결승은 11:20, 11/29 월드 챔피언십 결승은 11:20, 한국 대표가 참가하는 레전드 매치는 13:20 KST 예정입니다. 3대3 콜로세움 토너먼트도 열립니다.",
+      "timing": "11/28·29 양일 공식 생중계 10:30 KST",
+      "source": {
+        "label": "위메이드 공식 개최 안내",
+        "url": "https://www.wemade.com/kr/news/위메이드-글로벌-e스포츠-토너먼트-이미르컵-월드-챔피언십-시즌3-11월-28일-개막-21dca078"
+      },
+      "links": [
+        {
+          "label": "공식 대진·생중계 편성",
+          "url": "https://www.legendofymir.com/th/news/notice/763153?page=2"
         }
       ]
     },
