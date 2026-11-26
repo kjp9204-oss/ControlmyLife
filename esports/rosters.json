@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "teams": [
     {
       "id": "lol-bnk-fearx-2027",
@@ -70,8 +70,9 @@
       "id": "lol-t1",
       "game": "lol",
       "name": "T1",
-      "scope": "구단 공개 선수 4명 · 2027 코칭스태프 3명",
+      "scope": "구단 공개 선수 5명 · 2027 코칭스태프 3명",
       "players": [
+        "Zeus",
         "Oner",
         "Faker",
         "Peyz",
@@ -101,17 +102,20 @@
         {
           "label": "UmTi 코치 영입 발표",
           "url": "https://x.com/T1LoL/status/2125122251808977083"
+        },
+        {
+          "label": "Zeus 복귀 구단 발표",
+          "url": "https://x.com/T1LoL/status/2125533615476150694"
         }
       ],
       "playerRoles": {
+        "Zeus": "탑",
         "Oner": "정글",
         "Faker": "미드",
         "Peyz": "원딜",
         "Keria": "서포터"
       },
-      "pendingPositions": [
-        "탑"
-      ],
+      "pendingPositions": [],
       "staff": [
         {
           "handle": "Roach",
@@ -289,22 +293,22 @@
       "id": "lol-kt-2027",
       "game": "lol",
       "name": "kt 롤스터",
-      "scope": "LCK 2027 · 구단 발표 선수 4명",
+      "scope": "LCK 2027 · 구단 발표 선수 5명",
       "players": [
         "PerfecT",
         "Raptor",
         "Bdd",
+        "Taeyoon",
         "Kellin"
       ],
       "playerRoles": {
         "PerfecT": "탑",
         "Raptor": "정글",
         "Bdd": "미드",
+        "Taeyoon": "원딜",
         "Kellin": "서포터"
       },
-      "pendingPositions": [
-        "원딜"
-      ],
+      "pendingPositions": [],
       "sources": [
         {
           "label": "PerfecT·Bdd 구단 재계약 발표",
@@ -317,6 +321,10 @@
         {
           "label": "Kellin 구단 영입 발표",
           "url": "https://www.youtube.com/watch?v=JOfXEx6eUfc"
+        },
+        {
+          "label": "Taeyoon 영입 구단 발표",
+          "url": "https://www.instagram.com/p/DgKNHeBTpSZ/"
         }
       ]
     },
