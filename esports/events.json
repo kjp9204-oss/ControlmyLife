@@ -1662,6 +1662,74 @@
         "label": "BLAST·슈퍼셀 개최지 발표",
         "url": "https://blast.tv/gaming/news/brawl-esports-2027-heads-to-korea-and-paris"
       }
+    },
+    {
+      "id": "gwangju-bukgu-amateur-esports26",
+      "categories": [
+        "lol",
+        "valorant",
+        "other"
+      ],
+      "title": "제4회 전남광주 북구청장배 전국 아마추어 e스포츠 대회",
+      "start": "2026-12-05",
+      "end": "2026-12-12",
+      "region": "kr",
+      "location": "온라인 예선 · 결선 광주비엔날레전시관 5관",
+      "note": "LoL·발로란트 온라인 예선은 12/5, 스타크래프트 예선은 12/6입니다. 12/12 현장에서는 PC 3종목 결선과 브롤스타즈·포켓몬 카드 게임 포켓 경기가 열립니다. 북구 공지 기준 사전 접수는 11/27까지이며, 모바일 종목은 정원이 남을 경우 현장에서도 접수합니다.",
+      "timing": "12/12 현장 행사 10:00–17:00 KST",
+      "source": {
+        "label": "전남광주 북구 공식 대회 공지",
+        "url": "https://bukgu.gwangju.kr/board.es?act=view&bid=0315&list_no=1242&mid=a10201110000"
+      },
+      "links": [
+        {
+          "label": "종목별 일정·결선 장소",
+          "url": "https://www.a-esc.com/user2/board/view/board_cd/domestic/wr_no/362"
+        },
+        {
+          "label": "북구 결선·부대행사 안내",
+          "url": "https://m.blog.naver.com/gjbukgu/224484464030"
+        },
+        {
+          "label": "북구 시행문 · 현장 운영 시간",
+          "url": "https://www.factlog.kr/wp-content/uploads/2026/10/4_____________________e.pdf"
+        },
+        {
+          "label": "레디온 참가 접수처",
+          "url": "https://www.readyon.kr/"
+        }
+      ]
+    },
+    {
+      "id": "sudden-attack-championship-s2-26",
+      "categories": [
+        "other"
+      ],
+      "title": "2026 서든어택 챔피언십 시즌 2",
+      "start": "2026-10-24",
+      "end": "2026-12-19",
+      "region": "kr",
+      "location": "서울 프릭업 스튜디오 · 결승 잠실 DN 콜로세움",
+      "note": "11/28 5회차 입장권은 서울 프릭업 스튜디오에서 16:00부터 선착순 150명에게 배부합니다. 12/19 결승은 잠실 DN 콜로세움에서 열립니다.",
+      "timing": "11/28 5회차 생방송 16:40 · 경기 17:00 KST",
+      "source": {
+        "label": "넥슨 5회차 경기·현장 관람 공지",
+        "url": "https://sa.nexon.com/news/notice/view.aspx?ArticleSN=150464"
+      },
+      "links": [
+        {
+          "label": "시즌 전체 경기 안내",
+          "url": "https://sa.nexon.com/news/notice/view.aspx?ArticleSN=150323"
+        },
+        {
+          "label": "서든어택 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/afgame04"
+        },
+        {
+          "label": "서든어택 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@SuddenAttack_Official"
+        }
+      ]
     }
   ]
 }
