@@ -562,6 +562,22 @@
       ]
     },
     {
+      "id": "ulsan-brawl-challenge26",
+      "categories": [
+        "other"
+      ],
+      "title": "울산글로벌게임센터 브롤스타즈 최강자전",
+      "start": "2026-11-28",
+      "region": "kr",
+      "location": "울산전시컨벤션센터(UECO)",
+      "note": "울산글로벌게임센터가 여는 브롤스타즈 대회입니다. 사전 참가 접수는 11/25 18:00에 마감됐으며 주최사가 현장 추가 모집 가능성을 안내했습니다.",
+      "timing": "13:00~17:00 KST · 16강 13:00 · 결승 16:30",
+      "source": {
+        "label": "울산정보산업진흥원 공식 일정",
+        "url": "https://www.ucepc.or.kr/front/notice/eduInfoView?edu_no=100"
+      }
+    },
+    {
       "id": "riftbound-t1-gangnam-qualifier26",
       "categories": [
         "other"
@@ -696,6 +712,49 @@
         {
           "label": "공식 중계 · Twitch",
           "url": "https://www.twitch.tv/valorant_jpn"
+        }
+      ]
+    },
+    {
+      "id": "owcs-world-finals26",
+      "categories": [
+        "other"
+      ],
+      "title": "오버워치 챔피언스 시리즈(OWCS) 월드 파이널 2026",
+      "start": "2026-12-02",
+      "end": "2026-12-06",
+      "region": "global",
+      "location": "중국 광저우 · 12/4~6 광저우 체육관 1호관",
+      "note": "12팀이 참가하며 12/2~3은 스튜디오 경기, 12/4~6은 현장 관람 경기입니다. 12/2 크레이지 라쿤–VARREL은 14:15, All Gamers–ZETA DIVISION은 16:45입니다. 12/3 T1은 팀 리퀴드–TSM(구 1234)전 승자와 경기합니다. 공식 중계 일정표 기준 방송은 매일 12:30 KST에 시작합니다. 현장 관람권의 현재 판매 상태는 확인 대기입니다.",
+      "timing": "12/2 첫 경기 13:00 · 12/3 T1 18:15 · 12/6 결승 19:00 KST",
+      "source": {
+        "label": "블리자드 공식 관전 안내",
+        "url": "https://esports.overwatch.com/en-us/news/owcs-2026-world-finals-viewers-guide"
+      },
+      "links": [
+        {
+          "label": "블리자드 공식 대진표·경기 시각",
+          "url": "https://pbs.twimg.com/media/HX5-rxNaQAAiHlg.jpg"
+        },
+        {
+          "label": "12/2~3 공식 대진",
+          "url": "https://www.sina.cn/news/detail/5369086989310021.html"
+        },
+        {
+          "label": "한국어 공식 중계 · SOOP",
+          "url": "https://www.sooplive.com/station/owesports"
+        },
+        {
+          "label": "국제 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/c/ow_esports"
+        },
+        {
+          "label": "12/4~6 주최사 UUTIX 관람 안내",
+          "url": "https://www.uutix.com/detail?pId=4023"
+        },
+        {
+          "label": "중국 공식 현장 관람권 안내",
+          "url": "https://ow.blizzard.cn/news/20261111/41365_1319400.html"
         }
       ]
     },
