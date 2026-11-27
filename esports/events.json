@@ -348,7 +348,7 @@
       "end": "2026-12-05",
       "region": "kr",
       "location": "온라인 · 결승 서울 상암 SOOP 콜로세움",
-      "note": "11/26 2차 예선을 통과한 팀은 담 온 게이밍·다를까?·후엠아이·별점박쌀(본선 표기 SSALBLG)입니다. 11/27 A조는 19:00 쿼드라킥–담 온 게이밍, 21:00 GGEN.G–후엠아이입니다. 11/28 B조는 19:00 다르다–코코아맛나, 21:00 SSALBLG–다를까?입니다. 4강은 12/2~3 매일 19:00, 결승은 12/5 17:00 상암 SOOP 콜로세움입니다.",
+      "note": "11/26 2차 예선을 통과한 팀은 담 온 게이밍·다를까?·후엠아이·별점박쌀(본선 표기 SSALBLG)입니다. 11/27 A조는 19:00 쿼드라킥–담 온 게이밍, 21:00 GGEN.G–후엠아이입니다. 11/28 B조는 19:00 다르다–코코아맛나, 21:00 SSALBLG–다를까?입니다. 4강은 12/2~3 매일 19:00, 결승은 12/5 17:00 상암 SOOP 콜로세움입니다. 후속 경기 편성은 11/29 A조 승자전·패자전, 11/30 B조 승자전·패자전, 12/1 A·B조 최종전입니다. 세 날짜 모두 19:00 KST 편성입니다.",
       "timing": "11/27~28 본선 첫 경기 19:00 · 둘째 경기 21:00 KST",
       "source": {
         "label": "SOOP 공식 대회 일정",
@@ -378,6 +378,10 @@
         {
           "label": "본선 8강 공식 협력 대진표",
           "url": "https://your.gg/ko/kr/tournament/185?stage=13"
+        },
+        {
+          "label": "11/29~12/1 SOOP 공식 경기 편성",
+          "url": "https://www.sooplive.com/station/lolbjmatch/post/213666969"
         }
       ]
     },
@@ -930,7 +934,7 @@
       "start": "2026-12-05",
       "region": "global",
       "location": "스페인 바달로나 · 올림픽 아레나",
-      "note": "T1·G2·Karmine Corp·Movistar KOI가 참가하는 LoL 쇼매치입니다.",
+      "note": "T1·G2·Karmine Corp·Movistar KOI가 참가하는 LoL 쇼매치입니다. 11/27 판매처 확인 기준 카테고리 1 블랙프라이데이 좌석은 29유로에 판매 중이며, 플로어 비지정석은 매진으로 표시됩니다.",
       "source": {
         "label": "Red Bull 공식 행사",
         "url": "https://www.redbull.com/gb-en/events/red-bull-league-of-its-own"
@@ -939,7 +943,8 @@
       "links": [
         {
           "label": "12/5 현장 관람 예매 상품",
-          "url": "https://www.entradas.com/event/red-bull-league-of-its-own-olimpic-arena-badalona-barcelona-22131733/"
+          "url": "https://www.entradas.com/event/red-bull-league-of-its-own-olimpic-arena-badalona-barcelona-22131733/",
+          "saleState": "open"
         },
         {
           "label": "경기장 현장 일정",
@@ -998,7 +1003,7 @@
       "end": "2026-12-12",
       "region": "global",
       "location": "중국 샤먼 · 바이샹 컨벤션·전시센터",
-      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다.",
+      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다. 빌리빌리 개별 예매 상품 공개를 확인했습니다. 행사 상품에는 12/6 All Gamers·Leviatán–Trace Esports·Team Vitality, 12/7 JD Gaming·Gen.G–All Gamers·Leviatán, 12/8 Trace Esports·Team Vitality–JD Gaming·Gen.G가 표시됩니다.",
       "source": {
         "label": "VCT 중국 공식 대회 공지",
         "url": "https://www.sina.cn/news/detail/5367359143151301.html"
@@ -1011,6 +1016,11 @@
         {
           "label": "11/26 공식 조 추첨 다시보기 · 31분 46초",
           "url": "https://www.huya.com/video/play/1134510680.html"
+        },
+        {
+          "label": "샤먼 초청전 빌리빌리 예매 상품",
+          "url": "https://mall.bilibili.com/neul-next/ticket-renovation/detail.html?id=1008011",
+          "opensAt": "2026-11-27T15:00:00+09:00"
         }
       ]
     },
@@ -1044,6 +1054,48 @@
         }
       ],
       "timing": "파이널 관람 12/13 06:30 · 12/14 08:00 KST"
+    },
+    {
+      "id": "game-awards26",
+      "categories": [
+        "other"
+      ],
+      "title": "더 게임 어워드 2026",
+      "start": "2026-12-10",
+      "region": "global",
+      "location": "미국 로스앤젤레스 · 피콕 시어터",
+      "note": "e스포츠 선수 부문에 쵸비(Chovy), 팀 부문에 Gen.G가 후보로 올랐습니다. 팬 투표는 12/10 11:00 KST까지이며, 시상식 오프닝 방송은 12/11에 시작합니다.",
+      "timing": "12/11 오프닝 방송 09:30 KST",
+      "source": {
+        "label": "더 게임 어워드 공식 시청 안내",
+        "url": "https://thegameawards.com/watch"
+      },
+      "links": [
+        {
+          "label": "공연장 공식 일정",
+          "url": "https://www.peacocktheater.com/events/detail/the-game-awards-121026"
+        },
+        {
+          "label": "공식 중계 · YouTube",
+          "url": "https://www.youtube.com/channel/UCqDS7KWjAPKv-7ZSlro9OiQ"
+        },
+        {
+          "label": "e스포츠 선수 후보 · Chovy",
+          "url": "https://thegameawards.com/categories/best-esports-athlete"
+        },
+        {
+          "label": "e스포츠 팀 후보 · Gen.G",
+          "url": "https://thegameawards.com/categories/best-esports-team"
+        },
+        {
+          "label": "공식 팬 투표 마감 안내",
+          "url": "https://thegameawards.com/faq"
+        },
+        {
+          "label": "피콕 시어터 AXS 현장 예매 상품",
+          "url": "https://www.axs.com/events/1554271/the-game-awards-tickets"
+        }
+      ]
     },
     {
       "id": "pmgc-final26",
