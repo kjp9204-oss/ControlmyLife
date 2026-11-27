@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "teams": [
     {
       "id": "lol-bnk-fearx-2027",
@@ -570,8 +570,8 @@
       ],
       "sources": [
         {
-          "label": "크래프톤 공식 팀 명단",
-          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/1"
+          "label": "크래프톤 공식 팀·선수 목록",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers"
         }
       ]
     },
@@ -627,8 +627,8 @@
       ],
       "sources": [
         {
-          "label": "크래프톤 공식 팀 명단",
-          "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/13"
+          "label": "크래프톤 공식 팀·선수 목록",
+          "url": "https://esports.pubgmobile.kr/ko/teamsplayers"
         }
       ]
     },
@@ -778,6 +778,104 @@
         {
           "label": "크래프톤 공식 팀 명단",
           "url": "https://esports.pubgmobile.kr/ko/teamsplayers/teams/92"
+        }
+      ]
+    },
+    {
+      "id": "lol-geng-2027",
+      "game": "lol",
+      "name": "Gen.G",
+      "scope": "LCK 2027 · 구단 영입 발표 선수 3명",
+      "players": [
+        "Siwoo",
+        "Sharvel",
+        "Cloud"
+      ],
+      "sources": [
+        {
+          "label": "Siwoo 영입 구단 발표",
+          "url": "https://x.com/GenG/status/2125167546345439402"
+        },
+        {
+          "label": "Sharvel 영입 구단 발표",
+          "url": "https://x.com/GenG/status/2125167793427394789"
+        },
+        {
+          "label": "Cloud 영입 구단 발표",
+          "url": "https://x.com/GenG/status/2125168045203333318"
+        }
+      ]
+    },
+    {
+      "id": "lol-hle-2027",
+      "game": "lol",
+      "name": "한화생명e스포츠",
+      "scope": "LCK 2027 · 구단 영입 발표 선수 2명",
+      "players": [
+        "Kiin",
+        "Canyon"
+      ],
+      "sources": [
+        {
+          "label": "Kiin 영입 구단 발표",
+          "url": "https://x.com/HLEofficial/status/2125877587075588343"
+        },
+        {
+          "label": "Canyon 영입 구단 발표",
+          "url": "https://x.com/HLEofficial/status/2125153445934219775"
+        }
+      ]
+    },
+    {
+      "id": "val-full-sense-2027",
+      "game": "valorant",
+      "name": "FULL SENSE",
+      "scope": "VCT 퍼시픽 2027 · 구단 재계약 발표 선수 4명",
+      "players": [
+        "Killua",
+        "Seph1roth",
+        "JitboyS",
+        "LEVIATHAN"
+      ],
+      "sources": [
+        {
+          "label": "Killua 재계약 구단 발표",
+          "url": "https://x.com/fullsense_gg/status/2125152451892498543"
+        },
+        {
+          "label": "Seph1roth 재계약 구단 발표",
+          "url": "https://x.com/fullsense_gg/status/2125182661895323834"
+        },
+        {
+          "label": "JitboyS 재계약 구단 발표",
+          "url": "https://x.com/fullsense_gg/status/2125514847769018512"
+        },
+        {
+          "label": "LEVIATHAN 재계약 구단 발표",
+          "url": "https://x.com/fullsense_gg/status/2125545038285566185"
+        }
+      ]
+    },
+    {
+      "id": "val-fennel-2027",
+      "game": "valorant",
+      "name": "FENNEL",
+      "scope": "2027 VCT 일본 오픈 예선 · 구단 발표 선수 5명",
+      "players": [
+        "Hals",
+        "JoxJo",
+        "Magnyi",
+        "muto",
+        "yutaro"
+      ],
+      "sources": [
+        {
+          "label": "FENNEL 선수 명단 구단 발표",
+          "url": "https://x.com/FENNEL_official/status/2123733097204035794"
+        },
+        {
+          "label": "FENNEL 공식 팀 페이지",
+          "url": "https://fennel-esports.com/members/"
         }
       ]
     }
