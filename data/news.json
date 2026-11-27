@@ -41,6 +41,32 @@
    "official": true
   },
   {
+   "artist": "블루노트 도쿄 올스타 재즈 오케스트라",
+   "genre": "JPOP",
+   "title": "Blue Note Tokyo All-Star Jazz Orchestra with Lisa Ono",
+   "venue": "서산시문화회관 대공연장",
+   "date": "2026-11-27",
+   "time": "19:30",
+   "presale": "",
+   "general": "",
+   "url": "https://www.seosan.go.kr/culture/selectBbsNttView.do?bbsNo=36&key=818&nttNo=340758",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
+   "artist": "블루노트 도쿄 올스타 재즈 오케스트라",
+   "genre": "JPOP",
+   "title": "Blue Note Tokyo All-Star Jazz Orchestra & Lisa Ono",
+   "venue": "익산예술의전당 대공연장",
+   "date": "2026-11-28",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://www.ticketlink.co.kr/product/65425",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
    "artist": "타히티 80",
    "genre": "POP",
    "title": "현대카드 Curated 109 Tahiti 80",
@@ -90,6 +116,32 @@
    "general": "",
    "url": "https://ticket.yes24.com/Perf/59771",
    "checked": "2026-11-22",
+   "official": true
+  },
+  {
+   "artist": "닛타 에미",
+   "genre": "JPOP",
+   "title": "Nitta Emi Fan Event 2026 in Seoul",
+   "venue": "서울 성수 Aube Studio 3층",
+   "date": "2026-11-28",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://www.ticketlink.co.kr/product/66508",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
+   "artist": "닛타 에미",
+   "genre": "JPOP",
+   "title": "Nitta Emi Fan Event 2026 in Seoul",
+   "venue": "서울 성수 Aube Studio 3층",
+   "date": "2026-11-29",
+   "time": "",
+   "presale": "",
+   "general": "",
+   "url": "https://www.ticketlink.co.kr/product/66508",
+   "checked": "2026-11-27",
    "official": true
   },
   {
@@ -847,6 +899,58 @@
    "official": true
   },
   {
+   "artist": "짙은",
+   "genre": "KPOP",
+   "title": "2027 짙은 겨울 콘서트 〈겨울이 짙어질 때〉 · 서울",
+   "venue": "서울 구름아래소극장",
+   "date": "2027-01-30",
+   "time": "17:00",
+   "presale": "",
+   "general": "2026-11-27T17:00",
+   "url": "https://nol.yanolja.com/ticket/products/26017054",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
+   "artist": "짙은",
+   "genre": "KPOP",
+   "title": "2027 짙은 겨울 콘서트 〈겨울이 짙어질 때〉 · 서울",
+   "venue": "서울 구름아래소극장",
+   "date": "2027-01-31",
+   "time": "16:00",
+   "presale": "",
+   "general": "2026-11-27T17:00",
+   "url": "https://nol.yanolja.com/ticket/products/26017054",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
+   "artist": "짙은",
+   "genre": "KPOP",
+   "title": "2027 짙은 겨울 콘서트 〈겨울이 짙어질 때〉 · 부산",
+   "venue": "부산 KT&G 상상마당 부산 라이브홀",
+   "date": "2027-02-13",
+   "time": "17:00",
+   "presale": "",
+   "general": "2026-11-27T18:00",
+   "url": "https://nol.yanolja.com/ticket/products/26017057",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
+   "artist": "짙은",
+   "genre": "KPOP",
+   "title": "2027 짙은 겨울 콘서트 〈겨울이 짙어질 때〉 · 부산",
+   "venue": "부산 KT&G 상상마당 부산 라이브홀",
+   "date": "2027-02-14",
+   "time": "16:00",
+   "presale": "",
+   "general": "2026-11-27T18:00",
+   "url": "https://nol.yanolja.com/ticket/products/26017057",
+   "checked": "2026-11-27",
+   "official": true
+  },
+  {
    "artist": "티파니 데이",
    "genre": "POP",
    "title": "티파니 데이 첫 내한공연 · HALO WORLD TOUR in Seoul",
@@ -1191,11 +1295,18 @@
    "kind": "개봉"
   },
   {
-   "date": "2026-11",
+   "date": "2026-11-26",
    "title": "명탐정 코난: 하이웨이의 타천사",
-   "note": "스크린X·4DX",
-   "theater": "",
+   "note": "CGV 특별관 · 스크린X·4DX·ULTRA 4DX",
+   "theater": "CGV",
    "kind": "재개봉"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "풀 나이트",
+   "note": "선라이즈×샤프트 · 넷플릭스 전편 공개",
+   "theater": "넷플릭스",
+   "kind": "OTT 공개"
   },
   {
    "date": "2026-12-02",
@@ -1210,6 +1321,13 @@
    "note": "브래드 버드 감독 · 12월 18일 넷플릭스 공개",
    "theater": "",
    "kind": "개봉"
+  },
+  {
+   "date": "2026-12-09",
+   "title": "크리스마스에 기적을 만날 확률",
+   "note": "곤 사토시 감독 · 4K 리마스터링",
+   "theater": "",
+   "kind": "재개봉"
   },
   {
    "date": "2026-12-03",
@@ -1326,10 +1444,10 @@
    "kind": "개봉"
   },
   {
-   "date": "2026-11-25",
+   "date": "2026-12-09",
    "title": "클리프 부스의 더 뻔뻔한 모험",
-   "note": "브래드 피트",
-   "theater": "",
+   "note": "브래드 피트 · 국내 아이맥스 단독 · 12월 23일 넷플릭스 공개",
+   "theater": "아이맥스",
    "kind": "개봉"
   },
   {
@@ -1487,17 +1605,17 @@
    "kind": "개봉"
   },
   {
-   "date": "2026-12-09",
-   "title": "듄: 파트 2",
-   "note": "아이맥스 재개봉",
-   "theater": "CGV 단독",
+   "date": "2026-12-02",
+   "title": "듄: 파트 2 특별판",
+   "note": "CGV IMAX 12/2~15 · 용산아이파크몰 포함 · 지점별 상영 시간표 확인",
+   "theater": "CGV",
    "kind": "재개봉"
   },
   {
    "date": "2026-12-09",
-   "title": "크리스마스에 기적을 만날 확률",
-   "note": "4K 리마스터링",
-   "theater": "",
+   "title": "듄: 파트 2",
+   "note": "롯데시네마 광음시네마 릴레이 상영 12/9~15",
+   "theater": "롯데시네마",
    "kind": "재개봉"
   },
   {
