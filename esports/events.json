@@ -1003,7 +1003,7 @@
       "end": "2026-12-12",
       "region": "global",
       "location": "중국 샤먼 · 바이샹 컨벤션·전시센터",
-      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다. 빌리빌리 개별 예매 상품 공개를 확인했습니다. 행사 상품에는 12/6 All Gamers·Leviatán–Trace Esports·Team Vitality, 12/7 JD Gaming·Gen.G–All Gamers·Leviatán, 12/8 Trace Esports·Team Vitality–JD Gaming·Gen.G가 표시됩니다.",
+      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반예매는 11/27 15:00 KST에 열렸습니다. 빌리빌리 15:02 KST 확인 기준 12/6·7·8·10·11·12 여섯 회차 모두 일부 좌석이 판매 중이며, 12/6·7·8·12의 일부 구역은 매진으로 표시됐습니다. 행사 상품에는 12/6 All Gamers·Leviatán–Trace Esports·Team Vitality, 12/7 JD Gaming·Gen.G–All Gamers·Leviatán, 12/8 Trace Esports·Team Vitality–JD Gaming·Gen.G가 표시됩니다.",
       "source": {
         "label": "VCT 중국 공식 대회 공지",
         "url": "https://www.sina.cn/news/detail/5367359143151301.html"
@@ -1020,7 +1020,8 @@
         {
           "label": "샤먼 초청전 빌리빌리 예매 상품",
           "url": "https://mall.bilibili.com/neul-next/ticket-renovation/detail.html?id=1008011",
-          "opensAt": "2026-11-27T15:00:00+09:00"
+          "opensAt": "2026-11-27T15:00:00+09:00",
+          "saleState": "open"
         },
         {
           "label": "VCT 중국 공식 일자별 경기 시간표",
