@@ -1021,8 +1021,13 @@
           "label": "샤먼 초청전 빌리빌리 예매 상품",
           "url": "https://mall.bilibili.com/neul-next/ticket-renovation/detail.html?id=1008011",
           "opensAt": "2026-11-27T15:00:00+09:00"
+        },
+        {
+          "label": "VCT 중국 공식 일자별 경기 시간표",
+          "url": "https://wx4.sinaimg.cn/large/008f7SYOgy1ij8ja971gij312w0lvjvr.jpg"
         }
-      ]
+      ],
+      "timing": "경기 시작 · 조별리그 12/6~8 17:00 · 토너먼트 12/10~12 18:00 KST"
     },
     {
       "id": "home-ground26",
