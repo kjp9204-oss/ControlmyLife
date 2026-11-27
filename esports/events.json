@@ -912,7 +912,7 @@
       "end": "2026-12-12",
       "region": "global",
       "location": "중국 샤먼 · 바이샹 컨벤션·전시센터",
-      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다.",
+      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반 예매는 같은 날 15:00 KST 예정입니다.",
       "source": {
         "label": "VCT 중국 공식 대회 공지",
         "url": "https://www.sina.cn/news/detail/5367359143151301.html"
@@ -921,6 +921,10 @@
         {
           "label": "공식 예매 공지",
           "url": "https://www.weibo.com/ttarticle/p/show?id=2309405367359144853539"
+        },
+        {
+          "label": "11/26 공식 조 추첨 다시보기 · 31분 46초",
+          "url": "https://www.huya.com/video/play/1134510680.html"
         }
       ]
     },
