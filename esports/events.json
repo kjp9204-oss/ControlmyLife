@@ -884,7 +884,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "고양 킨텍스 제1전시장 1~5홀",
-      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다. 카제나 부스(제1전시장 1홀 A11)는 12/4 성우 라이브 더빙·마술쇼, 12/5 미츠키요(Mitsukiyo) DJ, 12/5~6 OST 밴드 공연을 진행합니다. 엔씨 아스트라에 오라티오의 시연·퀴즈 프로그램과 넥슨 파레이돌리아의 한국어 첫 시연(3홀 A14)이 열립니다. 고양이와 스프(A09)는 게임 시연과 무료 인형뽑기를 운영합니다. 브라운더스트2(A12)는 12/5 개발진과의 만남을 진행하며, 시작 시각은 아직 공개되지 않았습니다. 12/5~6 킨텍스 5B홀 RED STAGE는 멜론티켓에서 해당 관람일 AGF 입장권을 구매한 경우 별도 무료 예약이 필요합니다. 예약은 11/20 18:00 KST 시작으로 공지됐습니다. 12/6 6회차는 별도 예약 없이 현장 선착순 스탠딩 1,000명입니다.",
+      "note": "일반 1일권 29,000원 · 3일권 65,000원. 멜론티켓 1일권은 선택한 관람일 16:59 KST까지, 3일권은 12/4 16:59 KST까지입니다. 패스트 티켓 입장은 09:30부터입니다. 카제나 부스(제1전시장 1홀 A11)는 12/4 성우 라이브 더빙·마술쇼, 12/5 미츠키요(Mitsukiyo) DJ, 12/5~6 OST 밴드 공연을 진행합니다. 엔씨 아스트라에 오라티오의 시연·퀴즈 프로그램과 넥슨 파레이돌리아의 한국어 첫 시연(3홀 A14)이 열립니다. 고양이와 스프(A09)는 게임 시연과 무료 인형뽑기를 운영합니다. 브라운더스트2(A12)는 12/5 개발진과의 만남을 진행하며, 시작 시각은 아직 공개되지 않았습니다. 12/5~6 킨텍스 5B홀 RED STAGE는 멜론티켓에서 해당 관람일 AGF 입장권을 구매한 경우 별도 무료 예약이 필요합니다. 예약은 11/20 18:00 KST 시작으로 공지됐습니다. 12/6 6회차 DJ Kazu 클로징 파티는 17:00~17:45 KST이며, 별도 예약 없이 현장 선착순 스탠딩 1,000명입니다.",
       "source": {
         "label": "AGF 공식 행사",
         "url": "https://www.agfkorea.com/event?idx=1"
@@ -936,6 +936,10 @@
         {
           "label": "AGF 공식 RED STAGE 관람 안내",
           "url": "https://www.agfkorea.com/stage?idx=3"
+        },
+        {
+          "label": "AGF 공식 RED STAGE 시간표",
+          "url": "https://www.agfkorea.com/stage?idx=1"
         }
       ]
     },
@@ -1017,7 +1021,7 @@
       "end": "2026-12-12",
       "region": "global",
       "location": "중국 샤먼 · 바이샹 컨벤션·전시센터",
-      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반예매는 11/27 15:00 KST에 열렸습니다. 빌리빌리 15:02 KST 확인 기준 12/6·7·8·10·11·12 여섯 회차 모두 일부 좌석이 판매 중이며, 12/6·7·8·12의 일부 구역은 매진으로 표시됐습니다. 행사 상품에는 12/6 All Gamers·Leviatán–Trace Esports·Team Vitality, 12/7 JD Gaming·Gen.G–All Gamers·Leviatán, 12/8 Trace Esports·Team Vitality–JD Gaming·Gen.G가 표시됩니다.",
+      "note": "Gen.G·All Gamers·JD Gaming·Trace Esports·Leviatán·Team Vitality가 출전합니다. 조별리그 12/6~8, 토너먼트 12/10~12. 11/26 공식 조 추첨의 세 연합은 All Gamers–Leviatán, JD Gaming–Gen.G, Trace Esports–Team Vitality입니다. 멤버십 선예매는 11/27 11:00~13:00, 일반예매는 11/27 15:00 KST에 열렸습니다. 빌리빌리 16:09 KST 확인 기준 12/6 개막 회차는 전 구역 매진입니다. 12/7·8·10·11·12 다섯 회차는 일부 좌석 판매 중입니다. 행사 상품에는 12/6 All Gamers·Leviatán–Trace Esports·Team Vitality, 12/7 JD Gaming·Gen.G–All Gamers·Leviatán, 12/8 Trace Esports·Team Vitality–JD Gaming·Gen.G가 표시됩니다.",
       "source": {
         "label": "VCT 중국 공식 대회 공지",
         "url": "https://www.sina.cn/news/detail/5367359143151301.html"
