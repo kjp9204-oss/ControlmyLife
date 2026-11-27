@@ -153,7 +153,7 @@
       "end": "2026-12-06",
       "region": "kr",
       "location": "온라인 · 서울 치지직 롤파크(플레이오프)",
-      "note": "6팀이 참가하는 LoL 스트리머 대회입니다. 11/22~26 풀리그, 11/28~29 그룹배틀, 12/1 플레이오프 진출전, 12/5~6 치지직 롤파크 플레이오프가 열립니다. 현장 관람권 선예매는 네이버 멤버십·치지직 치트키 이용자 대상 11/26 12:00~11/27 18:00, 일반 예매는 12/2 12:00~12/4 23:59입니다(한국시간).",
+      "note": "6팀이 참가하는 LoL 스트리머 대회입니다. 11/22~26 풀리그, 11/28~29 그룹배틀, 12/1 플레이오프 진출전, 12/5~6 치지직 롤파크 플레이오프가 열립니다. 현장 관람권 선예매는 네이버 멤버십·치지직 치트키 이용자 대상 11/26 12:00~11/27 18:00, 일반 예매는 12/2 12:00~12/4 23:59입니다(한국시간). 그룹배틀 대진(KST)은 11/28 17:00 코리안 룰렛–뚱치즈, 19:00 코리안 룰렛–뱅가드, 21:00 뚱치즈–뱅가드입니다. 11/29 17:00 트래시 토크 게이밍–Say My Name, 19:00 트래시 토크 게이밍–호종 블레이즈, 21:00 Say My Name–호종 블레이즈입니다. 12/1 온라인 진출전은 17:00·20:00, 12/5 롤파크 플레이오프는 13:00·16:00, 12/6 결승 진출전은 13:00, 결승은 16:00입니다.",
       "source": {
         "label": "치지직 공식 대회·관람권 안내",
         "url": "https://chzzk.naver.com/event/chzzkcup2026"
@@ -171,6 +171,53 @@
         {
           "label": "11/28~29 그룹배틀 공식 편성",
           "url": "https://chzzk.naver.com/?tracking_code=naver_search_site"
+        },
+        {
+          "label": "네이버 e스포츠 공식 그룹배틀 대진",
+          "url": "https://game.naver.com/esports/League_of_Legends/schedule/chzzkcup?date=2026-11"
+        }
+      ]
+    },
+    {
+      "id": "marvel-rivals-ignite-finals26",
+      "categories": [
+        "other"
+      ],
+      "title": "마블 라이벌즈 이그나이트 2026 그랜드 파이널",
+      "start": "2026-11-23",
+      "end": "2026-11-29",
+      "region": "global",
+      "location": "스웨덴 스톡홀름 · 스톡홀름메산",
+      "note": "12팀이 출전합니다. 조별리그는 11/23~25, 드림핵 현장 플레이오프는 11/27~29입니다. Gen.G는 승자조 1라운드에서 Liquid Citadel과 맞붙습니다. 현장 관람에는 드림핵 입장권이 필요합니다.",
+      "timing": "11/27 현장 플레이오프 첫 경기 20:00 KST",
+      "source": {
+        "label": "마블 라이벌즈 공식 관전 안내",
+        "url": "https://www.marvelrivalsesports.com/20261109/42828_1319108.html"
+      },
+      "links": [
+        {
+          "label": "드림핵 공식 현장 안내",
+          "url": "https://dreamhack.com/stockholm/marvel-rivals-ignite/"
+        },
+        {
+          "label": "드림핵 공식 경기 편성",
+          "url": "https://dreamhack.com/stockholm/schedule/"
+        },
+        {
+          "label": "참가팀 NAVI 공개 플레이오프 대진표",
+          "url": "https://navi.gg/en/tournaments/mr-ignite-2026-gf/playoff"
+        },
+        {
+          "label": "공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@MarvelRivalsEsportsIgnite"
+        },
+        {
+          "label": "공식 중계 · Twitch",
+          "url": "https://www.twitch.tv/marvelrivals"
+        },
+        {
+          "label": "드림핵 스톡홀름 입장권 예매 상품",
+          "url": "https://www.tixr.com/groups/dreamhacksweden/events/dreamhack-stockholm-2026-191278"
         }
       ]
     },
@@ -462,6 +509,45 @@
         {
           "label": "드림핵 공식 행사 안내",
           "url": "https://dreamhack.com/stockholm/the-finals/"
+        }
+      ]
+    },
+    {
+      "id": "snk-world-championship-finals26",
+      "categories": [
+        "other"
+      ],
+      "title": "SNK 월드 챔피언십 2026 파이널",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "region": "global",
+      "location": "스웨덴 스톡홀름 · 드림핵 스톡홀름 특설 무대",
+      "note": "아랑전설 City of the Wolves, 더 킹 오브 파이터즈 XV·’98, 사무라이 쇼다운, 용호의 권 외전(Art of Fighting 3)이 진행됩니다. 11/27 아랑전설 지역 리그 월드 파이널 개막식과 사무라이 쇼다운 최종 예선은 같은 시각에 시작합니다. 현장 관람에 드림핵 입장권이 필요합니다.",
+      "timing": "11/27 개막식·사무라이 쇼다운 최종 예선 20:30 KST",
+      "source": {
+        "label": "드림핵 공식 SNK 대회 안내",
+        "url": "https://dreamhack.com/stockholm/snk/"
+      },
+      "links": [
+        {
+          "label": "SNK 공식 일정·중계 안내",
+          "url": "https://www.snk-corp.co.jp/us/press/2026/swc-2026-finals-schedule-and-event-details-released-the-action-kicks-off-in-sweden-on-november-27-total-prize-pool-of-4-2-million-at-stake/"
+        },
+        {
+          "label": "드림핵 공식 경기 편성",
+          "url": "https://dreamhack.com/stockholm/schedule/"
+        },
+        {
+          "label": "공식 중계 · YouTube",
+          "url": "https://www.youtube.com/user/snkplaymoreGame"
+        },
+        {
+          "label": "공식 1번 무대 중계 · Twitch",
+          "url": "https://www.twitch.tv/snkofficial"
+        },
+        {
+          "label": "드림핵 스톡홀름 입장권 예매 상품",
+          "url": "https://www.tixr.com/groups/dreamhacksweden/events/dreamhack-stockholm-2026-191278"
         }
       ]
     },
@@ -969,7 +1055,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불 · Turkcell Basketbol Gelişim Merkezi",
-      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. WOW PARTY 입장 조건은 예매 상품에서 확인하세요.",
+      "note": "결승 현장 관람 상품입니다. 경기별 시작 시각은 공식 일정에서 확인하세요. 12/12 이스탄불 현지 20:00–22:00(12/13 02:00–04:00 KST)에 Victory Zone에서 앨런 워커 WOW PARTY가 열립니다. WOW PARTY 입장 조건은 예매 상품에서 확인하세요. 공식 현장 공연은 12/12 Lvbel C5, 12/13 OneRepublic 오프닝·Motive 하프타임입니다. 공연별 시작 시각은 확인 전입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -993,6 +1079,14 @@
           "label": "12/13 모바일 결승 3일 차 예매 상품",
           "url": "https://www.biletix.com/performance/5PGC3/001/TURKIYE/tr",
           "saleState": "open"
+        },
+        {
+          "label": "12/12 Lvbel C5 주최사 발표",
+          "url": "https://x.com/EsportsPUBGM/status/2123799527253778904"
+        },
+        {
+          "label": "12/13 OneRepublic 주최사 발표",
+          "url": "https://x.com/EsportsPUBGM/status/2122993275900756375"
         }
       ]
     },
