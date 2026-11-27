@@ -158,7 +158,7 @@
         "label": "치지직 공식 대회·관람권 안내",
         "url": "https://chzzk.naver.com/event/chzzkcup2026"
       },
-      "timing": "11/26 풀리그 최종일 17:00 KST · 12/5~6 현장 플레이오프",
+      "timing": "11/26 풀리그 최종일 17:00 · 11/28~29 그룹배틀 공식 생중계 17:00 KST · 12/5~6 현장 플레이오프",
       "links": [
         {
           "label": "네이버 e스포츠 플레이오프 대진표",
@@ -167,6 +167,10 @@
         {
           "label": "치지직 게임 공식 중계",
           "url": "https://chzzk.naver.com/live/04b9076004dfe8cb119835eb28dcc747"
+        },
+        {
+          "label": "11/28~29 그룹배틀 공식 편성",
+          "url": "https://chzzk.naver.com/?tracking_code=naver_search_site"
         }
       ]
     },
@@ -599,7 +603,7 @@
       "end": "2026-12-03",
       "region": "online",
       "location": "온라인",
-      "note": "시드 팀 키움 DRX·농심 레드포스·VARREL·ONSIDE GAMING과 오픈 예선 통과 4팀이 플레이오프에서 맞붙습니다.",
+      "note": "시드 팀 키움 DRX·농심 레드포스·VARREL·ToBe SCHRÖ(구 ONSIDE GAMING)와 오픈 예선 통과 4팀이 참가합니다. 라이엇 공식 페이지에서 오픈 예선 통과 팀 중 30 Attack(서른어택)·Not Outdone Anywhere를 확인했습니다. 나머지 2팀과 경기별 대진, 중계 편성은 공식 확인 대기입니다.",
       "source": {
         "label": "라이엇 공식 일정",
         "url": "https://valorantesports.com/ko-KR/news/2027-vct-pacific-kickoff-korea-qualifier-registration-info/"
@@ -612,8 +616,17 @@
         {
           "label": "라이엇 한국 예선 일정·결과",
           "url": "https://valorantesports.com/ko-KR/season/117246370678200773/kickoff-oq/korea"
+        },
+        {
+          "label": "라이엇 공식 플레이오프 이벤트",
+          "url": "https://valorantesports.com/ko-KR/event/117438590217346078"
+        },
+        {
+          "label": "ToBe SCHRÖ 팀명 변경 공식 발표",
+          "url": "https://www.soundcat.co.kr/new/?bmode=view&idx=175920330"
         }
-      ]
+      ],
+      "timing": "11/30 17:00 KST · 공식 온라인 플레이오프 일정 시작"
     },
     {
       "id": "pgc26",
@@ -1057,8 +1070,17 @@
         {
           "label": "PUBG MOBILE 국가별 등록 선수",
           "url": "https://wec.iesf.org/editions/wec-2026/teams?title=5"
+        },
+        {
+          "label": "PUBG MOBILE 공식 중계 · Twitch",
+          "url": "https://www.twitch.tv/iesf_pubgm"
+        },
+        {
+          "label": "IESF 공식 중계 · YouTube",
+          "url": "https://www.youtube.com/@iesf_official"
         }
-      ]
+      ],
+      "timing": "12/15 개막식 22:00 · 12/20 폐막식 22:00 KST"
     },
     {
       "id": "lck-awards26",
