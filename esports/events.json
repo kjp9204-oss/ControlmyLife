@@ -646,7 +646,7 @@
       "end": "2026-11-28",
       "region": "kr",
       "location": "서울 잠실 · 롯데시네마 월드타워",
-      "note": "수퍼플렉스관에서 결승을 진행하고 일반관에서도 스크린 중계합니다. 선예매는 11/16 20:00 계정 레벨 70 인증자 대상, 일반 예매 공지 시각은 11/17 20:00 KST입니다. 잔여석은 판매처에서 확인하세요.",
+      "note": "수퍼플렉스관에서 결승을 진행하고 일반관에서도 스크린 중계합니다. 선예매는 11/16 20:00 계정 레벨 70 인증자 대상, 일반 예매 공지 시각은 11/17 20:00 KST입니다. 잔여석은 판매처에서 확인하세요. 11/28 최종 결승에서 키스(Keith)가 오메가(OMEGA)를 4–3으로 꺾고 우승했습니다.",
       "timing": "결승 시작 12:00 KST",
       "source": {
         "label": "스마일게이트 결승·관람권 공식 안내",
@@ -667,7 +667,7 @@
           "url": "https://www.youtube.com/@EpicSevenKR"
         },
         {
-          "label": "11/28 그랜드 파이널 공식 방송 · YouTube",
+          "label": "11/28 그랜드 파이널 공식 다시보기 · YouTube",
           "url": "https://www.youtube.com/watch?v=lwW_Cohj54Y"
         }
       ]
@@ -2116,7 +2116,7 @@
       "region": "global",
       "location": "스웨덴 스톡홀름 · 스톡홀름메산",
       "note": "드림핵 스톡홀름에서 6개 지역 12개 팀이 출전합니다. 한국 대표는 농심 레드포스입니다. 그랜드 파이널은 11/29 20:00 KST에 시작합니다.",
-      "timing": "11/29 그랜드 파이널 20:00 KST",
+      "timing": "11/28 DAY 2 한국어 방송 17:05 · 11/29 그랜드 파이널 20:00 KST",
       "source": {
         "label": "드림핵 공식 대회 안내",
         "url": "https://dreamhack.com/stockholm/delta-force/"
@@ -2133,6 +2133,10 @@
         {
           "label": "한국어 공식 중계 채널 · 치지직",
           "url": "https://chzzk.naver.com/c96e3eda7fe0960db3abd8adcf708e12"
+        },
+        {
+          "label": "11/28 DAY 2 한국어 공식 생중계 · SOOP",
+          "url": "https://play.sooplive.com/deltaforcekr/298924321"
         }
       ]
     }
