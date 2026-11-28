@@ -1,5 +1,5 @@
 {
-  "checked": "2026.11.27",
+  "checked": "2026.11.28",
   "events": [
     {
       "id": "pubgm-asian-games",
@@ -348,7 +348,7 @@
       "end": "2026-12-05",
       "region": "kr",
       "location": "온라인 · 결승 서울 상암 SOOP 콜로세움",
-      "note": "11/26 2차 예선을 통과한 팀은 담 온 게이밍·다를까?·후엠아이·별점박쌀(본선 표기 SSALBLG)입니다. 11/27 A조는 19:00 쿼드라킥–담 온 게이밍, 21:00 GGEN.G–후엠아이입니다. 11/28 B조는 19:00 다르다–코코아맛나, 21:00 SSALBLG–다를까?입니다. 4강은 12/2~3 매일 19:00, 결승은 12/5 17:00 상암 SOOP 콜로세움입니다. 후속 경기 편성은 11/29 A조 승자전·패자전, 11/30 B조 승자전·패자전, 12/1 A·B조 최종전입니다. 세 날짜 모두 19:00 KST 편성입니다.",
+      "note": "11/26 2차 예선 통과 팀은 담 온 게이밍·다를까?·후엠아이·별점박쌀(본선 표기 SSALBLG)입니다. 11/27 A조 개막 두 경기의 다시보기가 공개됐습니다. 11/28 B조는 19:00 다르다–고장난시계, 21:00 SSALBLG–다를까?입니다. 11/29 A조 승자전은 19:00 쿼드라킥–GGEN.G, 패자전은 21:00 담 온 게이밍–후엠아이입니다. 11/30 B조 승자전·패자전과 12/1 A·B조 최종전 방송은 각각 19:00에 시작합니다. 4강은 12/2~3 매일 19:00, 결승은 12/5 17:00 상암 SOOP 콜로세움입니다. 모든 시각은 한국 기준입니다.",
       "timing": "11/27~28 본선 첫 경기 19:00 · 둘째 경기 21:00 KST",
       "source": {
         "label": "SOOP 공식 대회 일정",
@@ -382,6 +382,14 @@
         {
           "label": "11/29~12/1 SOOP 공식 경기 편성",
           "url": "https://www.sooplive.com/station/lolbjmatch/post/213666969"
+        },
+        {
+          "label": "11/27 A조 1경기 다시보기 · 쿼드라킥–담 온 게이밍",
+          "url": "https://vod.sooplive.co.kr/player/213747487"
+        },
+        {
+          "label": "11/27 A조 2경기 다시보기 · GGEN.G–후엠아이",
+          "url": "https://vod.sooplive.co.kr/player/213765223"
         }
       ]
     },
@@ -395,7 +403,7 @@
       "end": "2026-12-13",
       "region": "global",
       "location": "튀르키예 이스탄불",
-      "note": "한국 팀은 농심 레드포스가 11/26~27 가운틀렛, KRX가 11/29~30 그룹 그린, DK가 12/2~3 그룹 레드에 출전합니다. 라스트 찬스는 12/5~6, 결승은 12/11~13입니다. 한국어 치지직 편성은 각 경기일 20:00 KST입니다. 가운틀렛 1·2일 차의 한국어 유튜브 예약은 양일 21:00 KST입니다. 11/26 가운틀렛 1일 차 농심 레드포스는 51점(34킬)으로 중간 4위입니다. 11/27 21:00 KST 2일 차까지 합산 상위 6팀이 결승에 직행합니다.",
+      "note": "농심 레드포스는 11/26~27 가운틀렛을 합산 82점으로 7위에 마쳤습니다. 상위 6팀은 결승에 직행했고, 농심은 KRX와 함께 11/29~30 그룹 그린에 출전합니다. DK는 12/2~3 그룹 레드에 출전합니다. 각 그룹 상위 3팀은 결승에 진출합니다. 라스트 찬스는 12/5~6, 결승은 12/11~13입니다. 한국어 치지직 편성은 각 경기일 20:00 KST입니다.",
       "source": {
         "label": "PUBG UNITED 공식 일정",
         "url": "https://www.pubg.com/en/events/pubgunited2026"
@@ -441,6 +449,14 @@
         {
           "label": "가운틀렛 1일 차 공식 순위표",
           "url": "https://x.com/EsportsPUBGM/status/2126007956965572725"
+        },
+        {
+          "label": "가운틀렛 최종 순위 공식 발표",
+          "url": "https://x.com/EsportsPUBGM/status/2126358808574493131"
+        },
+        {
+          "label": "가운틀렛 종료 후 공식 그룹 편성표",
+          "url": "https://pbs.twimg.com/media/HYKASWgWMAAG2Qc.jpg"
         }
       ]
     },
@@ -596,6 +612,14 @@
         {
           "label": "대학리그 공식 중계 · YouTube",
           "url": "https://www.youtube.com/channel/UCvxUjIDPpFivXNjVXniopGw"
+        },
+        {
+          "label": "11/28 PUBG 대학결선 공식 방송 · YouTube",
+          "url": "https://www.youtube.com/watch?v=gH8gpOOzU-E"
+        },
+        {
+          "label": "11/28 PUBG 대학결선 공식 방송 · SOOP",
+          "url": "https://play.sooplive.com/unikespa/298917211"
         }
       ],
       "timing": "11/28 PC 배틀그라운드 12:00 · 11/29 발로란트 11:15, LoL 캠퍼스 14:15, LoL 엘리트 16:45 KST"
@@ -629,6 +653,10 @@
         {
           "label": "한국어 공식 중계 · YouTube",
           "url": "https://www.youtube.com/@EpicSevenKR"
+        },
+        {
+          "label": "11/28 그랜드 파이널 공식 방송 · YouTube",
+          "url": "https://www.youtube.com/watch?v=lwW_Cohj54Y"
         }
       ]
     },
@@ -652,6 +680,10 @@
         {
           "label": "공식 대진·생중계 편성",
           "url": "https://www.legendofymir.com/th/news/notice/763153?page=2"
+        },
+        {
+          "label": "11/28 DAY 1 공식 방송 · SOOP",
+          "url": "https://play.sooplive.com/ymircup/298917091"
         }
       ]
     },
