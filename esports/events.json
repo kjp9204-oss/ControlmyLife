@@ -192,7 +192,7 @@
       "end": "2026-11-29",
       "region": "global",
       "location": "스웨덴 스톡홀름 · 스톡홀름메산",
-      "note": "12팀이 출전합니다. 조별리그는 11/23~25, 드림핵 현장 플레이오프는 11/27~29입니다. Gen.G는 승자조 1라운드에서 Liquid Citadel과 맞붙습니다. 현장 관람에는 드림핵 입장권이 필요합니다.",
+      "note": "12팀이 출전합니다. 조별리그는 11/23~25, 드림핵 현장 플레이오프는 11/27~29입니다. Gen.G는 11/27 현장 플레이오프에서 Liquid Citadel에 0–2, 패자조에서 100 Thieves에 1–3으로 패해 대회를 마쳤습니다. 현장 관람에는 드림핵 입장권이 필요합니다.",
       "timing": "11/27 현장 플레이오프 첫 경기 20:00 KST",
       "source": {
         "label": "마블 라이벌즈 공식 관전 안내",
@@ -591,7 +591,7 @@
       "end": "2026-11-29",
       "region": "kr",
       "location": "부산이스포츠경기장",
-      "note": "11/28 PC 배틀그라운드(PUSC) 결선에는 16팀이 출전합니다. 11/29 발로란트 결승은 오산대–신구대, LoL 캠퍼스 결승은 경희대–전북대, LoL 엘리트 결승은 신구대–울산대입니다. 현장 무료 관람과 공식 채널 생중계가 안내됐습니다.",
+      "note": "11/28 PC 배틀그라운드(PUSC) 결선에는 16팀이 출전합니다. 11/29 발로란트 결승은 오산대–신구대, LoL 캠퍼스 결승은 경희대–전북대, LoL 엘리트 결승은 신구대–울산대입니다. 11/29 공식 YouTube 방송은 10:00 KST에 시작하며 발로란트 결승 첫 경기는 11:15 KST입니다. 현장 무료 관람이 안내됐습니다.",
       "source": {
         "label": "경기장 공식 일정",
         "url": "https://brena.or.kr/brena/index.do"
@@ -624,9 +624,13 @@
         {
           "label": "11/28 PUBG 대학결선 공식 방송 · SOOP",
           "url": "https://play.sooplive.com/unikespa/298917211"
+        },
+        {
+          "label": "11/29 발로란트·LoL 대학결선 공식 방송 · YouTube",
+          "url": "https://www.youtube.com/watch?v=Maxp2NVY14g"
         }
       ],
-      "timing": "11/28 PC 배틀그라운드 12:00 · 11/29 발로란트 11:15, LoL 캠퍼스 14:15, LoL 엘리트 16:45 KST"
+      "timing": "11/28 PC 배틀그라운드 12:00 · 11/29 방송 10:00 · 경기 발로란트 11:15, LoL 캠퍼스 14:15, LoL 엘리트 16:45 KST"
     },
     {
       "id": "epic-seven-world-championship-finals26",
@@ -2094,6 +2098,33 @@
         {
           "label": "서든어택 공식 중계 · YouTube",
           "url": "https://www.youtube.com/@SuddenAttack_Official"
+        }
+      ]
+    },
+    {
+      "id": "delta-force-invitational26",
+      "categories": [
+        "other"
+      ],
+      "title": "델타포스 인비테이셔널 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "region": "global",
+      "location": "스웨덴 스톡홀름 · 스톡홀름메산",
+      "note": "드림핵 스톡홀름에서 6개 지역 12개 팀이 출전합니다. 한국 대표는 농심 레드포스입니다. 그랜드 파이널은 11/29 20:00 KST에 시작합니다.",
+      "timing": "11/29 그랜드 파이널 20:00 KST",
+      "source": {
+        "label": "드림핵 공식 대회 안내",
+        "url": "https://dreamhack.com/stockholm/delta-force/"
+      },
+      "links": [
+        {
+          "label": "퍼블리셔 공식 출전팀·결승 안내",
+          "url": "https://prtimes.jp/main/html/rd/p/000000056.000150971.html"
+        },
+        {
+          "label": "한국어 공식 중계 채널 · SOOP",
+          "url": "https://www.sooplive.com/station/deltaforcekr"
         }
       ]
     }
