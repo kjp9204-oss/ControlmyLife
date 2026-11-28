@@ -516,7 +516,7 @@
       "region": "global",
       "location": "스웨덴 스톡홀름 · 드림핵 스톡홀름",
       "note": "THE FINALS 세계대회에 16개 팀이 출전합니다. 아시아·태평양 대표는 Kingzero·Moon Theory·Ape Squad입니다. 11/27~28 승격전을 통과한 5개 팀이 11/29 왕좌전에 진출합니다.",
-      "timing": "한국어 방송 시작 · 11/27~28 20:00 · 11/29 18:30 KST",
+      "timing": "11/27~28 한국어 방송 19:30 · 첫 경기 20:00 | 11/29 방송 18:00 · 첫 경기 18:45 KST",
       "source": {
         "label": "넥슨 공식 대회 안내",
         "url": "https://thefinals.nexon.com/esports/2026tgm"
@@ -537,6 +537,10 @@
         {
           "label": "드림핵 공식 행사 안내",
           "url": "https://dreamhack.com/stockholm/the-finals/"
+        },
+        {
+          "label": "넥슨 공식 방송·첫 경기 시각",
+          "url": "https://thefinals.nexon.com/news/3586229/tgm26-%EC%8B%9C%EB%93%9C-%EB%B0%B0%EC%A0%95-%EA%B3%B5%EA%B0%9C"
         }
       ]
     },
@@ -2125,6 +2129,10 @@
         {
           "label": "한국어 공식 중계 채널 · SOOP",
           "url": "https://www.sooplive.com/station/deltaforcekr"
+        },
+        {
+          "label": "한국어 공식 중계 채널 · 치지직",
+          "url": "https://chzzk.naver.com/c96e3eda7fe0960db3abd8adcf708e12"
         }
       ]
     }
